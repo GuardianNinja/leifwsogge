@@ -1,0 +1,6 @@
+# GUI-only dependencies
+# This file contains packages required only for the GUI demo (demo_toolbox.py).
+# Prefer installing PyQt via conda for reliable prebuilt binaries:
+#   conda install -c conda-forge pyqt=5.15.6
+
+pyqt5==5.15.6
