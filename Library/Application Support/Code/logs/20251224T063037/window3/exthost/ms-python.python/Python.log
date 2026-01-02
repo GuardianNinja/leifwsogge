@@ -1,0 +1,51 @@
+2025-12-27 08:56:25.723 [info] Experiment 'pythonSurveyNotification' is active
+2025-12-27 08:56:26.288 [info] Native locator: Refresh started
+2025-12-27 08:56:26.289 [info] Native locator: Refresh started
+2025-12-27 08:56:26.556 [info] > conda info --json
+2025-12-27 08:56:28.541 [info] Active interpreter [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/simulate_lambda_prototype]:  /usr/bin/python3
+2025-12-27 08:56:28.543 [info] Native locator: Refresh finished in 2260 ms
+2025-12-27 08:56:28.548 [info] > pyenv which python
+2025-12-27 08:56:28.548 [info] cwd: ~/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/simulate_lambda_prototype
+2025-12-27 08:56:37.717 [info] Starting Pylance language server.
+2025-12-27 08:57:27.942 [info] Running installed packages checker:  {
+  id: '/usr/bin/python3',
+  displayName: 'Python 3.9.6',
+  detailedDisplayName: 'Python 3.9.6',
+  envType: 'System',
+  envPath: '/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9',
+  type: undefined,
+  path: '/usr/bin/python3',
+  version: {
+    raw: '3.9.6.final.0',
+    major: 3,
+    minor: 9,
+    patch: 6,
+    build: [],
+    prerelease: []
+  },
+  sysVersion: '3.9.6.final.0',
+  architecture: 3,
+  sysPrefix: '/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9'
+} /Users/leifwsogge/.vscode/extensions/ms-python.python-2025.20.1-darwin-x64/python_files/installed_check.py /Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/simulate_lambda_prototype/requirements.txt
+2025-12-27 08:57:27.942 [info] > /usr/bin/python3 ~/.vscode/extensions/ms-python.python-2025.20.1-darwin-x64/python_files/installed_check.py "~/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/simulate_lambda_prototype/requirements.txt"
+2025-12-27 08:57:36.202 [info] Running installed packages checker:  {
+  id: '/usr/bin/python3',
+  displayName: 'Python 3.9.6',
+  detailedDisplayName: 'Python 3.9.6',
+  envType: 'System',
+  envPath: '/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9',
+  type: undefined,
+  path: '/usr/bin/python3',
+  version: {
+    raw: '3.9.6.final.0',
+    major: 3,
+    minor: 9,
+    patch: 6,
+    build: [],
+    prerelease: []
+  },
+  sysVersion: '3.9.6.final.0',
+  architecture: 3,
+  sysPrefix: '/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9'
+} /Users/leifwsogge/.vscode/extensions/ms-python.python-2025.20.1-darwin-x64/python_files/installed_check.py /Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/simulate_lambda_prototype/requirements.txt
+2025-12-27 08:57:36.202 [info] > /usr/bin/python3 ~/.vscode/extensions/ms-python.python-2025.20.1-darwin-x64/python_files/installed_check.py "~/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/simulate_lambda_prototype/requirements.txt"

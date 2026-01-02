@@ -1,0 +1,5 @@
+2025-12-30 09:07:22.091 [info] Starting server pylance mcp server
+2025-12-30 09:07:22.092 [info] Connection state: Starting
+2025-12-30 09:07:22.106 [info] Starting server from LocalProcess extension host
+2025-12-30 09:07:22.297 [info] Connection state: Running
+2025-12-30 09:07:23.291 [info] Connection state: Error Error sending message to http://localhost:5159/stream: TypeError: fetch failed

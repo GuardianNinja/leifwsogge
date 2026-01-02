@@ -1,0 +1,242 @@
+12/31/2025, 9:08:45 AM 277 AutomaticUpdateCheck
+Checking for updates after 300000. Last Update Date: 1970-01-01T00:00:00.000Z. Current Date: 2025-12-31T14:08:45.190Z
+
+12/31/2025, 9:08:45 AM 279 AutomaticUpdateCheck
+Commencing updates at 1767190125279 in 300000 ms.
+
+12/31/2025, 9:08:45 AM 285 DotnetVSCodeExtensionFound
+true
+Checking extension vscode.csharp for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension vscode.dotenv for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension vscode.mermaid-chat-features for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension vscode.prompt for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension christian-kohler.npm-intellisense for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension Dadroit.dadroit-json-generator for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension DavidAnson.vscode-markdownlint for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension dbaeumer.vscode-eslint for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension donjayamanne.githistory for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension eamodio.gitlens for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension EricSia.pythonsnippets3 for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension EricSia.pythonsnippets3pro for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension firefox-devtools.vscode-firefox-debug for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension github.vscode-github-actions for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension hendiaome.json-viewer-for-debug for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension Ionide.Ionide-fsharp for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension ms-azuretools.vscode-containers for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension ms-codeoptimizations.code-optimizations-preview for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension ms-dotnettools.csdevkit for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension ms-dotnettools.csharp for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension ms-dotnettools.dotnet-interactive-vscode for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension ms-dotnettools.vscode-dotnet-pack for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension ms-dotnettools.vscode-dotnet-runtime for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension ms-dynamics-smb.al for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension ms-edgedevtools.vscode-edge-devtools for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension ms-kubernetes-tools.vscode-kubernetes-tools for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension ms-playwright.playwright for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension ms-python.vscode-python-envs for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension ms-toolsai.datawrangler for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension ms-toolsai.vscode-jupyter-cell-tags for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension ms-toolsai.vscode-jupyter-slideshow for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension ms-vscode.azure-account for .NET installation requests
+
+12/31/2025, 9:08:45 AM 286 DotnetVSCodeExtensionFound
+true
+Checking extension ms-vscode.cmake-tools for .NET installation requests
+
+12/31/2025, 9:08:45 AM 287 DotnetVSCodeExtensionFound
+true
+Checking extension ms-vscode.extension-test-runner for .NET installation requests
+
+12/31/2025, 9:08:45 AM 287 DotnetVSCodeExtensionFound
+true
+Checking extension ms-vscode.js-debug-nightly for .NET installation requests
+
+12/31/2025, 9:08:45 AM 287 DotnetVSCodeExtensionFound
+true
+Checking extension ms-vscode.makefile-tools for .NET installation requests
+
+12/31/2025, 9:08:45 AM 287 DotnetVSCodeExtensionFound
+true
+Checking extension ms-vscode.vscode-serial-monitor for .NET installation requests
+
+12/31/2025, 9:08:45 AM 287 DotnetVSCodeExtensionFound
+true
+Checking extension msjsdiag.vscode-react-native for .NET installation requests
+
+12/31/2025, 9:08:45 AM 287 DotnetVSCodeExtensionFound
+true
+Checking extension NVIDIA.bluebazel for .NET installation requests
+
+12/31/2025, 9:08:45 AM 287 DotnetVSCodeExtensionFound
+true
+Checking extension RocketSoftware.rocket-mvbasic for .NET installation requests
+
+12/31/2025, 9:08:45 AM 287 DotnetVSCodeExtensionFound
+true
+Checking extension sarthikbhat.json-server for .NET installation requests
+
+12/31/2025, 9:08:45 AM 287 DotnetVSCodeExtensionFound
+true
+Checking extension timheuer.jsondbg for .NET installation requests
+
+12/31/2025, 9:08:45 AM 287 DotnetVSCodeExtensionFound
+true
+Checking extension visualstudiotoolsforunity.vstuc for .NET installation requests
+
+12/31/2025, 9:08:45 AM 287 DotnetVSCodeExtensionFound
+true
+Checking extension vsciot-vscode.azure-iot-edge for .NET installation requests
+
+12/31/2025, 9:08:45 AM 287 DotnetVSCodeExtensionFound
+true
+Checking extension vsciot-vscode.azure-iot-toolkit for .NET installation requests
+
+12/31/2025, 9:08:45 AM 287 DotnetVSCodeExtensionFound
+true
+Checking extension vscjava.vscode-gradle for .NET installation requests
+
+12/31/2025, 9:08:45 AM 287 DotnetVSCodeExtensionFound
+true
+Checking extension vscjava.vscode-java-debug for .NET installation requests
+
+12/31/2025, 9:08:45 AM 287 DotnetVSCodeExtensionFound
+true
+Checking extension vscjava.vscode-java-dependency for .NET installation requests
+
+12/31/2025, 9:08:45 AM 287 DotnetVSCodeExtensionFound
+true
+Checking extension vscjava.vscode-java-pack for .NET installation requests
+
+12/31/2025, 9:08:45 AM 287 DotnetVSCodeExtensionFound
+true
+Checking extension vscjava.vscode-java-test for .NET installation requests
+
+12/31/2025, 9:08:45 AM 287 DotnetVSCodeExtensionFound
+true
+Checking extension vscjava.vscode-maven for .NET installation requests
+
+12/31/2025, 9:08:45 AM 287 DotnetVSCodeExtensionFound
+true
+Checking extension vscodevim.vim for .NET installation requests
+
+12/31/2025, 9:13:45 AM 330 GenericDotnetLockEvent
+Action: session-438e694e61 Lock acquired: /var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/vscd-session-438e694e61.sock
+2025-12-31T14:13:45.328Z
+session-438e694e61
+session-438e694e61
+true
+
+12/31/2025, 9:13:45 AM 331 GenericDotnetLockEvent
+Action: installedLk-88fee697-9705-4dab-ada2-ea29ff042d74 Lock acquired: /var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/vscd-installedLk.sock
+2025-12-31T14:13:45.331Z
+installedLk
+installedLk
+true
+
+12/31/2025, 9:13:45 AM 340 FoundTrackingVersions
+true
+installed :
+                        
+
+12/31/2025, 9:13:45 AM 341 GenericDotnetLockEvent
+Action: installedLk-88fee697-9705-4dab-ada2-ea29ff042d74 Lock freed: /var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/vscd-installedLk.sock
+2025-12-31T14:13:45.341Z
+installedLk
+installedLk
+true
+
+12/31/2025, 9:13:45 AM 341 UpdatingInstallGroups
+Automatic update triggered and detected the following install groups: []

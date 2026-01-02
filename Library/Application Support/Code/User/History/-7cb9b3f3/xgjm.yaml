@@ -1,0 +1,36 @@
+# params.yaml - example parameter presets for simulate_lambda.py
+simulation:
+  years: 10
+  days_per_year: 365
+  seed: 42
+
+model:
+  Omega: 1.0
+  alpha: 1.0
+  R: 1.0
+
+adcs:
+  I_eff: 50.0
+  K_ctrl: 0.1
+  kappa: 500.0
+  G_init: 100.0
+  G_max: 500.0
+  G_min_weak: 20.0
+  G_drift_frac_per_year: -0.005
+  sigma_G: 1.0
+
+orientation_error:
+  phi: 0.995
+  eps_sigma: 0.05
+
+velocity:
+  v_init: 7500.0
+  sigma_v: 0.5
+
+desaturation:
+  desat_threshold_fraction: 0.9
+  fuel_budget_init: 1000
+  fuel_per_desat: 10
+
+monte_carlo:
+  trials: 100

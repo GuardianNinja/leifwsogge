@@ -1,0 +1,67 @@
+2025-12-31 09:08:47.539 [info] GitLens v17.8.1 activating in Visual Studio Code (1.107.0) on the desktop; mode=production, language='en', logLevel='warn', defaultDateLocale='null' (vscode|9a72a2f87ed3804aca8ac9ccc2c73fa141020bf9ad0a165e152ede82a06df1f6|81b00a35-27db-43f9-ad5a-c0031ffb65271767190098245)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+
+2025-12-31 09:08:51.357 [info] [2025-12-31 14:08:51.348] [GIT    *630ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system] git remote -v [*630ms] (slow)
+[2025-12-31 14:08:51.356] [GIT    *941ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system] git rev-list --max-parents=0 HEAD -- [*941ms] (slow)
+
+2025-12-31 09:10:32.625 [info] [2025-12-31 14:10:32.096] [GIT   *1850ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system/src] git rev-parse --show-toplevel [*1850ms] (slow)
+
+2025-12-31 09:10:47.304 [info] [2025-12-31 14:10:46.800] [GIT   *2236ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system] git ls-files -- src/models.py [*2236ms] (slow)
+
+2025-12-31 09:10:50.922 [info] [2025-12-31 14:10:50.542] [GIT   *3743ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system/src] git ls-files -- models.py [*3743ms] (slow)
+
+2025-12-31 09:11:23.010 [info] [2025-12-31 14:11:22.505] [GIT   *1854ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system] git ls-files -- src/firewall.py [*1854ms] (slow)
+
+2025-12-31 09:11:23.516 [info] [2025-12-31 14:11:23.091] [GIT    *585ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system/src] git ls-files -- firewall.py [*585ms] (slow)
+
+2025-12-31 09:11:48.326 [info] [2025-12-31 14:11:47.661] [GIT    *789ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system] git ls-files -- src/verification.py [*789ms] (slow)
+
+2025-12-31 15:01:51.698 [info] [2025-12-31 20:01:51.020] [GIT    *652ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system] git remote -v [*652ms] (slow)
+
+2026-01-01 05:16:33.485 [info] [2026-01-01 10:16:29.207] [gate] getGitDir has been pending for 120+ seconds (possible deadlock) — prop=$gate$getGitDir$/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system
+[2026-01-01 10:16:29.562] [gate] getDefaultWorktreePath has been pending for 120+ seconds (possible deadlock) — prop=$gate$getDefaultWorktreePath$/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system
+[2026-01-01 10:16:33.318] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system] git config --get-regex ^branch\..*\.gk-last-(accessed|modified)$ • ABORTED after 3675791ms (timeout)
+[2026-01-01 10:16:33.319] [GIT*3675793ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system] git config --get-regex ^branch\..*\.gk-last-(accessed|modified)$ [*3675793ms] (slow)
+[2026-01-01 10:16:33.320] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system] git rev-parse --git-dir --git-common-dir • ABORTED after 3676101ms (timeout)
+[2026-01-01 10:16:33.320] [GIT*3676101ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system] git rev-parse --git-dir --git-common-dir [*3676101ms] (slow)
+[2026-01-01 10:16:33.321] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ • ABORTED after 3676467ms (timeout)
+[2026-01-01 10:16:33.327] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ • cancelled [3676472ms] (slow)
+
+2026-01-01 06:17:45.800 [info] [2026-01-01 11:17:45.298] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system] git rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • ABORTED after 3675822ms (timeout)
+[2026-01-01 11:17:45.303] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system] git rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • cancelled [3675826ms] (slow)
+
+2026-01-01 10:11:08.550 [info] [2026-01-01 15:11:08.033] [GIT   *4636ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system] git config --get-regex ^branch\..*\.gk-last-(accessed|modified)$ [*4636ms] (slow)
+
+2026-01-01 10:11:24.777 [info] [2026-01-01 15:11:24.275] [GIT  *21103ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ [*21103ms] (slow)
+
+2026-01-01 21:21:33.186 [info] [2026-01-02 02:21:32.674] [GIT    *739ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system] git remote -v [*739ms] (slow)
+
+2026-01-01 21:22:20.858 [info] [2026-01-02 02:22:20.347] [GIT    *844ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system] git ls-files -- reference/captains_secure_link_module_v0_1.py [*844ms] (slow)
+
+2026-01-01 21:22:43.083 [info] [2026-01-02 02:22:42.288] [GIT    *997ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system] git ls-files -- reference/captains_secure_link_module_v0_1.py [*997ms] (slow)
+[2026-01-02 02:22:43.078] [GIT    *789ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system/reference] git ls-files -- captains_secure_link_module_v0_1.py [*789ms] (slow)
+
+2026-01-01 21:23:53.242 [info] [2026-01-02 02:23:52.731] [GIT   *2420ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system] git ls-files -- reference/simulations/captains_union_link_sim_v0_1.py [*2420ms] (slow)
+
+2026-01-01 21:23:54.890 [info] [2026-01-02 02:23:54.694] [GIT   *1962ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system/reference/simulations] git ls-files -- captains_union_link_sim_v0_1.py [*1962ms] (slow)
+
+2026-01-01 21:24:36.605 [info] [2026-01-02 02:24:36.058] [GIT   *1465ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system] git config --get branch.main.gk-last-modified [*1465ms] (slow)
+
+2026-01-01 21:25:29.409 [info] [2026-01-02 02:25:28.907] [GIT    *990ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system] git ls-files -- reference/captains_secure_link_module_v0_1.py [*990ms] (slow)
+
+2026-01-01 21:30:46.605 [info] [2026-01-02 02:30:46.103] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ • ABORTED after 17ms (cancellation)
+[2026-01-02 02:30:46.113] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ • cancelled [23ms]
+[2026-01-02 02:30:46.328] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system] git rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • ABORTED after 2ms (cancellation)
+[2026-01-02 02:30:46.328] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system] git rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • cancelled [2ms]
+
+2026-01-02 08:31:25.846 [info] [2026-01-02 13:31:25.346] P
+HttpError: request to https://api.github.com/graphql failed, reason: Client network socket disconnected before secure TLS connection was established
+[2026-01-02 13:31:25.346] P
+HttpError: request to https://api.github.com/graphql failed, reason: Client network socket disconnected before secure TLS connection was established
+[2026-01-02 13:31:25.346] P
+HttpError: request to https://api.github.com/graphql failed, reason: Client network socket disconnected before secure TLS connection was established
+[2026-01-02 13:31:25.346] P — Failed to get pull requests
+HttpError: request to https://api.github.com/graphql failed, reason: Client network socket disconnected before secure TLS connection was established
+[2026-01-02 13:31:25.346] P — Failed to get pull requests with suggestion counts
+HttpError: request to https://api.github.com/graphql failed, reason: Client network socket disconnected before secure TLS connection was established
+

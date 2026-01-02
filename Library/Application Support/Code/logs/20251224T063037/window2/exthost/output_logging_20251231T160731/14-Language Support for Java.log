@@ -1,0 +1,8 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+Dec 31, 2025 5:46:38 PM org.apache.aries.spifly.BaseActivator log
+INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldBase has been called by com.google.inject.internal.aop.HiddenClassDefiner (file:/Users/leifwsogge/Library/Application Support/Code/User/globalStorage/redhat.java/1.50.0/config_mac/org.eclipse.osgi/69/0/.cp/jars/guice-5.1.0-classes.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.inject.internal.aop.HiddenClassDefiner
+WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release
+[Error - 9:07:10 PM] Stopping server timed out

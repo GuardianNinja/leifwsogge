@@ -1,0 +1,81 @@
+2025-12-27 08:55:35.388 [info] GitLens v17.8.1 activating in Visual Studio Code (1.107.0) on the desktop; mode=production, language='en', logLevel='warn', defaultDateLocale='null' (vscode|9a72a2f87ed3804aca8ac9ccc2c73fa141020bf9ad0a165e152ede82a06df1f6|996cc6c7-4245-49dc-bcfa-5f9878c5e6c31766843707470)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+
+2025-12-27 08:55:35.505 [info] [2025-12-27 13:55:35.196] [GIT    *557ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/simulate_lambda_prototype] git rev-parse --show-toplevel [*557ms] (slow)
+
+2025-12-27 08:55:39.516 [info] [2025-12-27 13:55:39.514] [GIT   *1612ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/simulate_lambda_prototype] git remote -v [*1612ms] (slow)
+
+2025-12-27 08:57:51.541 [info] [2025-12-27 13:57:51.039] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false log --format=%x1E%H%x1D --summary -n1 1f581fe21f7c89b95211b6b3385c14458e8b4606^ -- .gitattributes): fatal: bad revision '1f581fe21f7c89b95211b6b3385c14458e8b4606^'
+
+
+2025-12-27 09:37:34.856 [info] [2025-12-27 14:37:34.343] [GIT    *646ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/simulate_lambda_prototype] git config --get-regex ^branch\..*\.gk-last-(accessed|modified)$ [*646ms] (slow)
+[2025-12-27 14:37:34.344] [GIT    *651ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/simulate_lambda_prototype] git rev-parse --git-dir --git-common-dir [*651ms] (slow)
+[2025-12-27 14:37:34.520] [GIT    *852ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/simulate_lambda_prototype] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ [*852ms] (slow)
+
+2025-12-27 09:38:13.941 [info] [2025-12-27 14:38:13.210] [GIT    *559ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/simulate_lambda_prototype/.github/workflows] git ls-files -- ci.yml [*559ms] (slow)
+
+2025-12-27 09:38:14.452 [info] [2025-12-27 14:38:14.273] [GIT    *757ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/simulate_lambda_prototype/.github/workflows] git rev-parse --show-toplevel [*757ms] (slow)
+
+2025-12-27 10:08:03.670 [info] [2025-12-27 15:08:03.166] [GIT    *657ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/simulate_lambda_prototype] git remote -v [*657ms] (slow)
+
+2025-12-28 11:13:34.923 [info] [2025-12-28 16:13:34.342] [GIT    *766ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/simulate_lambda_prototype] git remote -v [*766ms] (slow)
+
+2025-12-30 08:58:06.052 [info] [2025-12-30 13:58:05.544] [GIT  *10648ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/simulate_lambda_prototype] git config --get-regex ^branch\..*\.gk-last-(accessed|modified)$ [*10648ms] (slow)
+[2025-12-30 13:58:05.547] [GIT  *10855ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/simulate_lambda_prototype] git rev-parse --git-dir --git-common-dir [*10855ms] (slow)
+
+2025-12-30 08:58:29.000 [info] [2025-12-30 13:58:28.495] [GIT  *33864ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/simulate_lambda_prototype] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ [*33864ms] (slow)
+
+2025-12-31 09:07:20.235 [info] [2025-12-31 14:07:19.725] [GIT   *1418ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/simulate_lambda_prototype] git remote -v [*1418ms] (slow)
+
+2026-01-01 04:15:25.263 [info] [2026-01-01 09:15:24.622] [GIT   *6760ms] [/Users/leifwsogge] git config --get-regex ^branch\..*\.gk-last-(accessed|modified)$ [*6760ms] (slow)
+[2026-01-01 09:15:24.627] [GIT   *6898ms] [/Users/leifwsogge] git rev-parse --git-dir --git-common-dir [*6898ms] (slow)
+[2026-01-01 09:15:24.632] [GIT   *6958ms] [/Users/leifwsogge] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ [*6958ms] (slow)
+
+2026-01-01 04:15:25.798 [info] [2026-01-01 09:15:25.759] [GIT   *1028ms] [/Users/leifwsogge] git config --local branch.main.gk-last-accessed 2026-01-01T09:15:24.642Z [*1028ms] (slow)
+
+2026-01-01 04:15:33.617 [info] [2026-01-01 09:15:33.114] [GIT   *7354ms] [/Users/leifwsogge] git config --get branch.main.gk-last-modified [*7354ms] (slow)
+
+2026-01-01 04:15:34.619 [info] [2026-01-01 09:15:34.577] [GIT   *1460ms] [/Users/leifwsogge] git config --local branch.main.gk-last-modified 2026-01-01T09:15:24.642Z [*1460ms] (slow)
+
+2026-01-01 05:16:35.901 [info] [2026-01-01 10:16:35.364] [GIT   *5598ms] [/Users/leifwsogge] git config --get-regex ^branch\..*\.gk-last-(accessed|modified)$ [*5598ms] (slow)
+[2026-01-01 10:16:35.364] [GIT   *5600ms] [/Users/leifwsogge] git rev-parse --git-dir --git-common-dir [*5600ms] (slow)
+[2026-01-01 10:16:35.366] [GIT   *5626ms] [/Users/leifwsogge] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ [*5626ms] (slow)
+
+2026-01-01 05:16:36.740 [info] [2026-01-01 10:16:36.124] [GIT    *755ms] [/Users/leifwsogge] git config --get branch.main.gk-last-accessed [*755ms] (slow)
+[2026-01-01 10:16:36.737] [GIT    *612ms] [/Users/leifwsogge] git config --local branch.main.gk-last-accessed 2026-01-01T10:16:35.369Z [*612ms] (slow)
+
+2026-01-01 06:17:51.955 [info] [2026-01-01 11:17:51.445] [GIT   *5510ms] [/Users/leifwsogge] git config --get-regex ^branch\..*\.gk-last-(accessed|modified)$ [*5510ms] (slow)
+[2026-01-01 11:17:51.445] [GIT   *5517ms] [/Users/leifwsogge] git rev-parse --git-dir --git-common-dir [*5517ms] (slow)
+[2026-01-01 11:17:51.447] [GIT   *5522ms] [/Users/leifwsogge] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ [*5522ms] (slow)
+
+2026-01-01 06:17:52.454 [info] [2026-01-01 11:17:52.301] [GIT    *789ms] [/Users/leifwsogge] git config --local branch.main.gk-last-accessed 2026-01-01T11:17:51.450Z [*789ms] (slow)
+
+2026-01-01 06:17:52.955 [info] [2026-01-01 11:17:52.950] [GIT    *502ms] [/Users/leifwsogge] git config --local branch.main.gk-last-modified 2026-01-01T11:17:51.450Z [*502ms] (slow)
+
+2026-01-01 07:05:02.038 [info] [2026-01-01 12:05:01.446] [GIT  *52299ms] [/Users/leifwsogge] git config --get-regex ^branch\..*\.gk-last-(accessed|modified)$ [*52299ms] (slow)
+[2026-01-01 12:05:01.447] [GIT  *52308ms] [/Users/leifwsogge] git rev-parse --git-dir --git-common-dir [*52308ms] (slow)
+[2026-01-01 12:05:01.452] [GIT  *52334ms] [/Users/leifwsogge] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ [*52334ms] (slow)
+
+2026-01-01 07:05:11.399 [info] [2026-01-01 12:05:10.897] [GIT   *9380ms] [/Users/leifwsogge] git config --get branch.main.gk-last-accessed [*9380ms] (slow)
+
+2026-01-01 07:05:12.910 [info] [2026-01-01 12:05:12.588] [GIT   *1689ms] [/Users/leifwsogge] git config --local branch.main.gk-last-accessed 2026-01-01T12:05:01.458Z [*1689ms] (slow)
+
+2026-01-01 07:05:16.783 [info] [2026-01-01 12:05:16.285] [GIT   *3697ms] [/Users/leifwsogge] git config --get branch.main.gk-last-modified [*3697ms] (slow)
+
+2026-01-01 07:05:19.108 [info] [2026-01-01 12:05:18.368] [GIT   *2083ms] [/Users/leifwsogge] git config --local branch.main.gk-last-modified 2026-01-01T12:05:01.458Z [*2083ms] (slow)
+
+2026-01-01 10:04:56.689 [info] [2026-01-01 15:04:56.160] [GIT  *17321ms] [/Users/leifwsogge] git rev-parse --git-dir --git-common-dir [*17321ms] (slow)
+[2026-01-01 15:04:56.165] [GIT  *17325ms] [/Users/leifwsogge] git config --get-regex ^branch\..*\.gk-last-(accessed|modified)$ [*17325ms] (slow)
+
+2026-01-01 10:04:58.258 [info] [2026-01-01 15:04:58.213] [GIT  *19380ms] [/Users/leifwsogge] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ [*19380ms] (slow)
+
+2026-01-01 10:05:00.299 [info] [2026-01-01 15:05:00.291] [GIT   *2072ms] [/Users/leifwsogge] git config --get branch.main.gk-last-accessed [*2072ms] (slow)
+
+2026-01-01 10:05:04.146 [info] [2026-01-01 15:05:03.938] [GIT   *3644ms] [/Users/leifwsogge] git config --local branch.main.gk-last-accessed 2026-01-01T15:04:58.218Z [*3644ms] (slow)
+
+2026-01-01 10:05:07.392 [info] [2026-01-01 15:05:07.277] [GIT   *3338ms] [/Users/leifwsogge] git config --get branch.main.gk-last-modified [*3338ms] (slow)
+
+2026-01-01 10:05:12.149 [info] [2026-01-01 15:05:11.557] [GIT   *4275ms] [/Users/leifwsogge] git config --local branch.main.gk-last-modified 2026-01-01T15:04:58.218Z [*4275ms] (slow)
+
+2026-01-01 21:21:25.315 [info] [2026-01-02 02:21:24.632] [GIT   *1137ms] [/Users/leifwsogge] git remote -v [*1137ms] (slow)
+

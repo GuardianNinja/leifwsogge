@@ -1,0 +1,6 @@
+2025/12/27-07:32:12.859 232d Creating DB /Users/leifwsogge/Library/Application Support/Microsoft Edge/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb since it was missing.
+2025/12/27-07:32:12.866 232d Reusing MANIFEST /Users/leifwsogge/Library/Application Support/Microsoft Edge/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/27-07:32:44.866 232f Level-0 table #5: started
+2025/12/27-07:32:44.868 232f Level-0 table #5: 1421 bytes OK
+2025/12/27-07:32:44.871 232f Delete type=0 #3
+2025/12/27-07:32:44.871 232f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

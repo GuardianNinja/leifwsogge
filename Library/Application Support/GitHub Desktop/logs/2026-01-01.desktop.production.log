@@ -1,0 +1,95 @@
+2026-01-01T00:40:19.937Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-01-01T00:40:20.437Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.058s)
+2026-01-01T00:40:20.725Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-01-01T00:40:26.612Z - info: [ui] Executing getRemotes: git remote -v (took 3.525s)
+2026-01-01T00:40:29.885Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.655s)
+2026-01-01T00:40:30.031Z - info: [ui] [BranchPruner] No branches to prune.
+2026-01-01T00:41:15.322Z - info: [ui] Executing getWorkingDirectoryDiff: git diff -w --no-ext-diff --patch-with-raw -z --no-color --no-index -- /dev/null .aspnet/dev-certs/https/aspnetcore-localhost-3402A465289D9FAB9B5109503EF67540A2AFD21E.pfx (took 1.008s)
+2026-01-01T00:41:15.389Z - info: [ui] Executing getWorkingDirectoryDiff: git diff -w --no-ext-diff --patch-with-raw -z --no-color --no-index -- /dev/null .aspnet/dev-certs/https/aspnetcore-localhost-3402A465289D9FAB9B5109503EF67540A2AFD21E.pfx (took 1.078s)
+2026-01-01T00:41:24.146Z - info: [ui] Executing getWorkingDirectoryDiff: git diff -w --no-ext-diff --patch-with-raw -z --no-color --no-index -- /dev/null .cache/prisma/master/605197351a3c8bdd595af2d2a9bc3025bca48ea2/darwin/libquery-engine (took 1.458s)
+2026-01-01T00:41:24.206Z - info: [ui] Executing getWorkingDirectoryDiff: git diff -w --no-ext-diff --patch-with-raw -z --no-color --no-index -- /dev/null .cache/prisma/master/605197351a3c8bdd595af2d2a9bc3025bca48ea2/darwin/libquery-engine (took 1.527s)
+2026-01-01T00:41:33.697Z - info: [ui] Executing getWorkingDirectoryDiff: git diff -w --no-ext-diff --patch-with-raw -z --no-color --no-index -- /dev/null .cache/powershell/telemetry.uuid (took 1.036s)
+2026-01-01T00:41:33.745Z - info: [ui] Executing getWorkingDirectoryDiff: git diff -w --no-ext-diff --patch-with-raw -z --no-color --no-index -- /dev/null .cache/powershell/telemetry.uuid (took 1.087s)
+2026-01-01T00:42:07.351Z - info: [ui] Executing unstageAll: git reset -- . (took 1.758s)
+2026-01-01T00:42:47.860Z - info: [ui] [BranchPruner] Last prune took place 10 hours ago - skipping
+2026-01-01T00:42:52.820Z - info: [ui] Executing getRemotes: git remote -v (took 1.270s)
+2026-01-01T00:42:53.517Z - info: [ui] [BranchPruner] Last prune took place 2 minutes ago - skipping
+2026-01-01T00:43:04.902Z - info: [ui] [BranchPruner] Last prune took place 13 hours ago - skipping
+2026-01-01T00:55:00.388Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 874.648s)
+2026-01-01T00:55:05.322Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 873.468s)
+2026-01-01T01:26:07.389Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.401s)
+2026-01-01T01:26:11.397Z - info: [ui] Executing getRemotes: git remote -v (took 2.603s)
+2026-01-01T01:26:12.839Z - info: [ui] Executing getBranches: git for-each-ref --format=%00%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(symref)%00 refs/heads refs/remotes (took 1.442s)
+2026-01-01T01:26:12.950Z - info: [ui] Executing getWorkingDirectoryDiff: git diff -w --no-ext-diff --patch-with-raw -z --no-color HEAD -- tests/test_time_engine.py (took 4.160s)
+2026-01-01T01:26:14.902Z - info: [ui] Executing getPartialBlobContentsCatchPathNotInRef: git show HEAD:tests/test_time_engine.py (took 1.818s)
+2026-01-01T01:26:15.152Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 3.717s)
+2026-01-01T01:26:26.750Z - error: [main] Unable to get spell check menu items  - no electron context-menu event
+2026-01-01T01:26:29.050Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 907.884s)
+2026-01-01T01:26:38.844Z - info: [ui] [Timing] Action 'create commit' for 'GuardianNinja/leifwsogge' took 919.586s
+2026-01-01T01:27:00.241Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 917.697s)
+2026-01-01T01:27:08.647Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 919.669s)
+2026-01-01T01:27:13.817Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 908.062s)
+2026-01-01T01:27:17.218Z - info: [ui] Executing unstageAll: git reset -- . (took 1.389s)
+2026-01-01T01:27:17.628Z - info: [ui] [Timing] Action 'create commit' for 'Space-LEAF-corp/Main-private-files' took 1.805s
+2026-01-01T01:27:20.492Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-01-01T01:27:21.263Z - info: [ui] Executing push: git push origin main:main --progress (took 1.726s)
+2026-01-01T01:27:21.676Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-01-01T01:27:22.287Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-01-01T01:30:50.991Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 252.133s)
+2026-01-01T01:36:30.908Z - info: [ui] [Timing] Action 'create commit' for 'Space-LEAF-corp/Main-private-files' took 0.388s
+2026-01-01T01:36:33.895Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-01-01T01:36:34.565Z - info: [ui] Executing push: git push origin main:main --progress (took 1.029s)
+2026-01-01T01:36:34.902Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-01-01T01:36:35.474Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-01-01T08:14:32.262Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 11.961s)
+2026-01-01T08:14:41.363Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 9.040s)
+2026-01-01T10:16:47.202Z - info: [ui] Executing getAheadBehind: git rev-list --left-right --count main...origin/main -- (took 88.917s)
+2026-01-01T11:18:01.849Z - info: [ui] Executing getBranchesDifferingFromUpstream: git for-each-ref --format=%00%(refname)%00%(objectname)%00%(upstream)%00%(symref)%00%(HEAD)%00 refs/heads refs/remotes (took 44.497s)
+2026-01-01T15:09:28.388Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 18.656s)
+2026-01-01T15:09:39.720Z - info: [ui] Executing getBranches: git for-each-ref --format=%00%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(symref)%00 refs/heads refs/remotes (took 11.248s)
+2026-01-01T15:11:54.661Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 146.149s)
+2026-01-01T15:12:32.441Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 772.274s)
+2026-01-01T15:12:41.640Z - error: [ui] Error performing periodic fetch for 'Space-LEAF-corp/Main-private-files'
+Error: Could not load commit: '4c40748affc5d51e6dbbec76ed1b389448378a15'
+    at hb.lookupCommit (/webpack:/app/src/lib/stores/git-store.ts:1166:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at hb.loadStatus (/webpack:/app/src/lib/stores/git-store.ts:1121:15)
+    at Yp._loadStatus (/webpack:/app/src/lib/stores/app-store.ts:2642:11)
+    at Yp._refreshRepository (/webpack:/app/src/lib/stores/app-store.ts:3575:11)
+    at /webpack:/app/src/lib/stores/app-store.ts:5332:49
+    at Yp.withPushPullFetch (/webpack:/app/src/lib/stores/app-store.ts:4818:5)
+    at Yp.performFetch (/webpack:/app/src/lib/stores/app-store.ts:5284:5)
+    at Uw.performAndScheduleFetch (/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:92:7)
+2026-01-01T16:44:37.661Z - info: [ui] Executing getWorkingDirectoryDiff: git diff -w --no-ext-diff --patch-with-raw -z --no-color HEAD -- .vscode/settings.json (took 6.944s)
+2026-01-01T16:44:40.605Z - info: [ui] Executing getPartialBlobContentsCatchPathNotInRef: git show HEAD:.vscode/settings.json (took 2.900s)
+2026-01-01T16:45:42.940Z - info: [ui] [Timing] Action 'create commit' for 'Space-LEAF-corp/Main-private-files' took 0.779s
+2026-01-01T17:58:37.018Z - error: [main] Unable to get spell check menu items  - no electron context-menu event
+2026-01-01T17:59:10.719Z - info: [ui] [Timing] Action 'create commit' for 'Space-LEAF-corp/Main-private-files' took 0.478s
+2026-01-01T17:59:12.912Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-01-01T17:59:13.701Z - info: [ui] Executing push: git push origin main:main --progress (took 1.261s)
+2026-01-01T17:59:14.009Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-01-01T17:59:14.596Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-01-01T17:59:20.209Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 5.896s)
+2026-01-01T18:24:02.865Z - info: [ui] [Timing] Action 'create commit' for 'Space-LEAF-corp/Main-private-files' took 0.413s
+2026-01-01T18:24:05.953Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-01-01T18:24:06.612Z - info: [ui] Executing push: git push origin main:main --progress (took 1.041s)
+2026-01-01T18:24:06.912Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-01-01T18:24:07.508Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-01-01T19:50:05.546Z - info: [ui] [BranchPruner] No branches to prune.
+2026-01-01T19:52:35.676Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.559s)
+2026-01-01T19:53:17.718Z - info: [ui] [Timing] Action 'create commit' for 'Space-LEAF-corp/Main-private-files' took 0.457s
+2026-01-01T19:53:41.733Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-01-01T19:53:42.600Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-01-01T19:53:43.214Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-01-01T20:35:43.846Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-01-01T20:35:44.392Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.727s)
+2026-01-01T20:35:44.773Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-01-01T20:37:52.241Z - info: [ui] Stats reported.
+2026-01-01T21:49:50.374Z - info: [ui] Executing getRemotes: git remote -v (took 1.076s)
+2026-01-01T21:49:50.410Z - info: [ui] Executing getWorkingDirectoryDiff: git diff -w --no-ext-diff --patch-with-raw -z --no-color HEAD -- tests/ceremonial-terrain-v1/src/ceremonial_terrain/ocean.py (took 1.120s)
+2026-01-01T21:49:53.137Z - info: [ui] Executing getSymbolicRef: git symbolic-ref -q refs/remotes/origin/HEAD (took 2.154s)
+2026-01-01T21:51:05.294Z - info: [ui] [Timing] Action 'create commit' for 'Space-LEAF-corp/Main-private-files' took 1.024s
+2026-01-01T21:51:07.667Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-01-01T21:51:08.466Z - info: [ui] Executing push: git push origin main:main --progress (took 1.212s)
+2026-01-01T21:51:08.753Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-01-01T21:51:09.346Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store

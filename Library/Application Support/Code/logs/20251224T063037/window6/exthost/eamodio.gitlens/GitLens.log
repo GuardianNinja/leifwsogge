@@ -1,0 +1,47 @@
+2025-12-30 08:03:33.145 [info] GitLens v17.8.1 activating in Visual Studio Code (1.107.0) on the desktop; mode=production, language='en', logLevel='warn', defaultDateLocale='null' (vscode|9a72a2f87ed3804aca8ac9ccc2c73fa141020bf9ad0a165e152ede82a06df1f6|7fc9ad69-66db-4bb6-bf41-6cc5c9b855831767099759938)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+
+2025-12-30 08:03:33.145 [info] [2025-12-30 13:03:32.687] [GIT    *935ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype] git rev-parse --show-toplevel [*935ms] (slow)
+
+2025-12-30 08:03:49.023 [info] [2025-12-30 13:03:48.671] [GIT   *3145ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype] git shortlog -s --all --no-min-parents --since=1.year.ago [*3145ms] (slow)
+
+2025-12-30 08:03:49.623 [info] [2025-12-30 13:03:49.275] [GIT    *561ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype] git remote -v [*561ms] (slow)
+
+2025-12-30 08:05:53.749 [info] [2025-12-30 13:05:53.247] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ • ABORTED after 31ms (cancellation)
+[2025-12-30 13:05:53.249] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ • cancelled [32ms]
+[2025-12-30 13:05:53.416] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype] git rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • ABORTED after 5ms (cancellation)
+[2025-12-30 13:05:53.416] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype] git rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • cancelled [6ms]
+
+2025-12-30 08:44:55.272 [info] [2025-12-30 13:44:54.766] [GIT   *3655ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype] git remote -v [*3655ms] (slow)
+
+2025-12-30 08:54:31.301 [info] [2025-12-30 13:54:30.779] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ • ABORTED after 60109ms (timeout)
+[2025-12-30 13:54:30.905] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ • cancelled [60247ms] (slow)
+[2025-12-30 13:54:30.939] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype] git rev-parse --git-dir --git-common-dir • ABORTED after 60259ms (timeout)
+[2025-12-30 13:54:30.943] [GIT  *60262ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype] git rev-parse --git-dir --git-common-dir [*60262ms] (slow)
+[2025-12-30 13:54:30.951] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype] git config --get-regex ^branch\..*\.gk-last-(accessed|modified)$ • ABORTED after 60249ms (timeout)
+[2025-12-30 13:54:30.951] [GIT  *60249ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype] git config --get-regex ^branch\..*\.gk-last-(accessed|modified)$ [*60249ms] (slow)
+
+2025-12-30 08:55:31.496 [info] [2025-12-30 13:55:30.974] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype] git rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • ABORTED after 60017ms (timeout)
+[2025-12-30 13:55:30.975] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype] git rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • cancelled [60017ms] (slow)
+
+2025-12-30 08:58:03.918 [info] [2025-12-30 13:58:03.417] [GIT    *693ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype] git rev-parse --git-dir --git-common-dir [*693ms] (slow)
+[2025-12-30 13:58:03.430] [GIT    *703ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype] git config --get-regex ^branch\..*\.gk-last-(accessed|modified)$ [*703ms] (slow)
+
+2025-12-30 08:58:16.479 [info] [2025-12-30 13:58:15.978] [GIT  *13257ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ [*13257ms] (slow)
+
+2025-12-31 06:45:20.575 [info] [2025-12-31 11:45:19.888] P
+HttpError: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+[2025-12-31 11:45:19.890] P
+HttpError: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+[2025-12-31 11:45:19.907] P
+HttpError: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+[2025-12-31 11:45:19.956] P — Failed to get pull requests
+HttpError: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+[2025-12-31 11:45:19.956] P — Failed to get pull requests with suggestion counts
+HttpError: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+
+2025-12-31 06:51:07.640 [info] [2025-12-31 11:51:07.127] [GIT    *830ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype] git rev-parse --git-dir --git-common-dir [*830ms] (slow)
+[2025-12-31 11:51:07.160] [GIT    *881ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ [*881ms] (slow)
+
+2026-01-01 14:52:35.813 [info] [2026-01-01 19:52:35.233] [GIT   *2395ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype] git remote -v [*2395ms] (slow)
+

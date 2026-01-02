@@ -1,0 +1,481 @@
+2025-12-30 08:02:40.849 [warning] Creation of workbench contribution 'workbench.contrib.explorerViewletViews' took 316ms.
+2025-12-30 08:02:41.214 [warning] Creation of workbench contribution 'workbench.contrib.remoteStatusIndicator' took 100ms.
+2025-12-30 08:02:41.584 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 352ms.
+2025-12-30 08:02:41.637 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 21ms.
+2025-12-30 08:02:47.337 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-12-30 08:02:50.592 [info] Started local extension host with pid 64637.
+2025-12-30 08:02:52.191 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.prettyPrint` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.193 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.toggleSkippingFile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.195 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.addCustomBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.195 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.removeAllCustomBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.196 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.addXHRBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.197 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.removeXHRBreakpoint` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.198 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.editXHRBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.199 [info] [ms-vscode.js-debug-nightly]: Command `extension.pwa-node-debug.attachNodeProcess` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.200 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.npmScript` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.201 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.createDebuggerTerminal` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.202 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.startProfile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.203 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.stopProfile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.204 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.revealPage` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.205 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.debugLink` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.206 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.createDiagnostics` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.207 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.getDiagnosticLogs` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.208 [info] [ms-vscode.js-debug-nightly]: Command `extension.node-debug.startWithStopOnEntry` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.209 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.openEdgeDevTools` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.210 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.add` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.210 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.remove` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.211 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.removeAll` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.212 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.goToCaller` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.213 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.gotToTarget` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.214 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.enableSourceMapStepping` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.215 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.disableSourceMapStepping` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.216 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.viewRequest` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.217 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.clear` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.218 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.openBody` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.345 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.openBodyInHex` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.346 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.replayXHR` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.379 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.copyUri` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 08:02:52.758 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.codelens.npmScripts'. This property is already registered.
+2025-12-30 08:02:52.760 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.terminalOptions'. This property is already registered.
+2025-12-30 08:02:52.761 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.automaticallyTunnelRemoteServer'. This property is already registered.
+2025-12-30 08:02:52.762 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.debugByLinkOptions'. This property is already registered.
+2025-12-30 08:02:52.763 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.pickAndAttachOptions'. This property is already registered.
+2025-12-30 08:02:52.764 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.autoAttachFilter'. This property is already registered.
+2025-12-30 08:02:52.765 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.autoAttachSmartPattern'. This property is already registered.
+2025-12-30 08:02:52.766 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.breakOnConditionalError'. This property is already registered.
+2025-12-30 08:02:52.767 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.unmapMissingSources'. This property is already registered.
+2025-12-30 08:02:52.768 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.defaultRuntimeExecutable'. This property is already registered.
+2025-12-30 08:02:52.769 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.resourceRequestOptions'. This property is already registered.
+2025-12-30 08:02:52.770 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.enableNetworkView'. This property is already registered.
+2025-12-30 08:02:52.773 [warning] [redhat.vscode-yaml]: Cannot register 'redhat.telemetry.enabled'. This property is already registered.
+2025-12-30 08:02:53.505 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsBrowserBreakpoints`
+2025-12-30 08:02:53.506 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsExcludedCallers`
+2025-12-30 08:02:53.507 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsDebugNetworkTree`
+2025-12-30 08:03:07.387 [warning] [DefaultAccount] Attempt 1 to get sessions failed: Timed out waiting for authentication provider 'github' to register.
+2025-12-30 08:03:11.025 [info] Extension host (LocalProcess pid: 64637) is unresponsive.
+2025-12-30 08:03:12.133 [error] [EricSia.pythonsnippets3]: Unknown language in `contributes.pythonsnippets3.language`. Provided value: django-html
+2025-12-30 08:03:12.134 [error] [EricSia.pythonsnippets3]: Unknown language in `contributes.pythonsnippets3.language`. Provided value: django-txt
+2025-12-30 08:03:12.136 [error] [EricSia.pythonsnippets3pro]: Unknown language in `contributes.pythonsnippets3pro.language`. Provided value: django-html
+2025-12-30 08:03:12.136 [error] [EricSia.pythonsnippets3pro]: Unknown language in `contributes.pythonsnippets3pro.language`. Provided value: django-txt
+2025-12-30 08:03:13.342 [error] [Extension Host] (node:64637) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `Code Helper (Plugin) --trace-deprecation ...` to show where the warning was created)
+2025-12-30 08:03:13.503 [error] [Extension Host] (node:64637) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-12-30 08:03:13.504 [info] Extension host (LocalProcess pid: 64637) is responsive.
+2025-12-30 08:03:13.583 [info] MCP Registry configured: https://api.mcp.github.com
+2025-12-30 08:03:16.188 [error] Failed to fetch MCP registry providers Server returned 404
+2025-12-30 08:03:21.892 [warning] Creation of workbench contribution 'workbench.contrib.configurationMigration' took 202ms.
+2025-12-30 08:03:21.936 [error] [Extension Host] Failed to load message bundle for file /Users/leifwsogge/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10/out/extension
+2025-12-30 08:03:22.108 [error] [Extension Host] Failed to load message bundle for file /Users/leifwsogge/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10/out/extension
+2025-12-30 08:03:22.122 [error] [Extension Host] Failed to load message bundle for file /Users/leifwsogge/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10/out/extension
+2025-12-30 08:03:22.126 [error] [Extension Host] Failed to load message bundle for file /Users/leifwsogge/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10/out/extension
+2025-12-30 08:03:22.134 [error] [Extension Host] Failed to load message bundle for file /Users/leifwsogge/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10/out/extension
+2025-12-30 08:03:22.141 [error] [Extension Host] Failed to load message bundle for file /Users/leifwsogge/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10/out/extension
+2025-12-30 08:03:22.157 [error] [Extension Host] Failed to load message bundle for file /Users/leifwsogge/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10/out/extension
+2025-12-30 08:03:22.163 [error] [Extension Host] Failed to load message bundle for file /Users/leifwsogge/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10/out/extension
+2025-12-30 08:03:22.176 [info] Extension host (LocalProcess pid: 64637) is unresponsive.
+2025-12-30 08:03:22.880 [info] [perf] Render performance baseline is 40ms
+2025-12-30 08:03:24.842 [info] Extension host (LocalProcess pid: 64637) is responsive.
+2025-12-30 08:03:30.935 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 08:03:32.522 [error] chatParticipant must be declared in package.json: claude-code
+2025-12-30 08:03:38.985 [info] Extension host (LocalProcess pid: 64637) is unresponsive.
+2025-12-30 08:03:45.285 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-12-30 08:03:45.646 [info] Extension host (LocalProcess pid: 64637) is responsive.
+2025-12-30 08:03:45.647 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-12-30 08:03:48.200 [warning] UNRESPONSIVE extension host: 'github.copilot-chat' took 52.12659973944364% of 204.06ms, saved PROFILE here: 'file:///var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/exthost-f4862a.cpuprofile'
+2025-12-30 08:03:48.764 [info] Settings Sync: Account status changed from uninitialized to available
+2025-12-30 08:03:49.718 [error] Unknown agent: "copilot-swe-agent"
+2025-12-30 08:04:56.556 [error] [LanguageModelToolsService#invokeTool] Error from tool copilot_applyPatch with parameters {"explanation":"Add a top-level heading by prefixing the first line with '# ' to fix MD041.","input":"*** Begin Patch\n*** Update File: untitled:Untitled-1\n@@\n-MIT Stewardship License (Modified)\n+# MIT Stewardship License (Modified)\n*** End Patch"}:
+Canceled: Canceled: Canceled
+    at Mft.invokeTool (vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2257:4778)
+    at async $Xt.$invokeTool (vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:517:17811)
+2025-12-30 08:05:24.593 [error] [LanguageModelToolsService#invokeTool] Error from tool copilot_applyPatch with parameters {"explanation":"Replace hard tabs with spaces in the selected line to fix MD010/no-hard-tabs.","input":"*** Begin Patch\n*** Update File: untitled:Untitled-1\n@@\n-\tThe Software may be freely used for non-commercial educational, scientific, and environmental research purposes.\n+    The Software may be freely used for non-commercial educational, scientific, and environmental research purposes.\n*** End Patch"}:
+Canceled: Canceled: Canceled
+    at Mft.invokeTool (vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2257:4778)
+    at async $Xt.$invokeTool (vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:517:17811)
+2025-12-30 08:09:28.376 [info] Extension host (LocalProcess pid: 64637) is unresponsive.
+2025-12-30 08:09:33.237 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:572:11858
+2025-12-30 08:09:35.328 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-12-30 08:09:36.468 [info] Extension host (LocalProcess pid: 64637) is responsive.
+2025-12-30 08:09:36.468 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-12-30 08:09:37.927 [warning] UNRESPONSIVE extension host: 'ms-toolsai.jupyter' took 56.72038766758278% of 704.17ms, saved PROFILE here: 'file:///var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/exthost-da3f6f.cpuprofile'
+2025-12-30 08:10:57.744 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 08:16:03.144 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 08:21:07.061 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 08:43:30.350 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 08:48:43.797 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 08:53:52.623 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 08:58:59.857 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 09:04:05.848 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 09:09:11.103 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 09:14:15.322 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 09:19:19.449 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 09:24:24.141 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 09:29:28.920 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 09:34:34.181 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 09:39:39.078 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 09:44:44.079 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 10:52:50.930 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 10:53:02.830 [error] [LM] Error resolving language models for vendor copilot: No auto mode endpoints provided.
+2025-12-30 10:53:03.595 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 11:00:54.175 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 12:46:17.103 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 12:51:20.169 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 12:56:25.241 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 13:01:28.140 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 13:06:32.193 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 13:11:36.353 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 13:16:42.264 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 13:21:46.120 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 13:26:50.234 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 13:30:48.487 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.prettyPrint` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:48.493 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.toggleSkippingFile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:48.496 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.addCustomBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:48.502 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.removeAllCustomBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:48.510 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.addXHRBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:48.513 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.removeXHRBreakpoint` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:48.520 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.editXHRBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:48.526 [info] [ms-vscode.js-debug-nightly]: Command `extension.pwa-node-debug.attachNodeProcess` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:48.529 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.npmScript` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:48.533 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.createDebuggerTerminal` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:48.538 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.startProfile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:48.541 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.stopProfile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:48.547 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.revealPage` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:48.561 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.debugLink` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:48.577 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.createDiagnostics` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:48.587 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.getDiagnosticLogs` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:48.986 [info] [ms-vscode.js-debug-nightly]: Command `extension.node-debug.startWithStopOnEntry` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:48.990 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.openEdgeDevTools` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:48.994 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.add` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:48.997 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.remove` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:49.012 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.removeAll` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:49.030 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.goToCaller` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:49.045 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.gotToTarget` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:49.278 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.enableSourceMapStepping` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:49.296 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.disableSourceMapStepping` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:49.348 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.viewRequest` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:49.353 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.clear` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:49.356 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.openBody` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:49.360 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.openBodyInHex` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:49.362 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.replayXHR` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:30:49.366 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.copyUri` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-30 13:31:03.622 [info] Extension host (LocalProcess pid: 64637) is unresponsive.
+2025-12-30 13:31:03.627 [info] Extension host (LocalProcess pid: 64637) is responsive.
+2025-12-30 13:31:03.628 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-12-30 13:31:41.248 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-12-30 13:32:47.398 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 13:37:50.334 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 13:42:54.721 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 13:48:00.465 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 13:53:05.735 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 13:58:10.627 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 17:20:46.798 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 18:21:58.972 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 19:23:11.595 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 20:24:21.977 [info] Extension host (LocalProcess pid: 64637) is unresponsive.
+2025-12-30 20:24:22.157 [info] Extension host (LocalProcess pid: 64637) is responsive.
+2025-12-30 20:24:22.160 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-12-30 20:24:27.644 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-12-30 20:24:29.332 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 21:25:36.313 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 22:26:48.596 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-30 23:27:52.184 [info] Settings Sync: Reset current session
+2025-12-30 23:27:52.204 [info] Settings Sync: Account status changed from available to unavailable
+2025-12-30 23:27:53.897 [info] Settings Sync: Account status changed from unavailable to available
+2025-12-30 23:27:54.401 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 00:29:02.792 [info] Settings Sync: Account status changed from available to unavailable
+2025-12-31 00:29:08.246 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 00:29:25.768 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 01:30:18.595 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 02:31:26.877 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 03:32:37.332 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 03:32:43.267 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 06:36:45.834 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 06:50:12.213 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 06:55:16.987 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 07:00:21.016 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 07:05:24.300 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 07:10:29.237 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 07:15:33.884 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 07:20:37.668 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 07:25:44.091 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 07:25:56.052 [info] Settings Sync: Account status changed from unavailable to available
+2025-12-31 07:26:36.743 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-12-31 07:30:48.787 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 08:40:45.375 [info] Extension host (LocalProcess pid: 64637) is unresponsive.
+2025-12-31 08:40:45.388 [info] Extension host (LocalProcess pid: 64637) is responsive.
+2025-12-31 08:40:45.636 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-12-31 08:41:25.774 [info] Extension host (LocalProcess pid: 64637) is unresponsive.
+2025-12-31 08:41:38.033 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-12-31 08:42:04.164 [info] Extension host (LocalProcess pid: 64637) is responsive.
+2025-12-31 08:42:06.233 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 08:46:46.367 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 08:51:51.043 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 08:56:56.137 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 09:02:01.027 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 09:07:09.765 [info] Extension host (LocalProcess pid: 64637) is unresponsive.
+2025-12-31 09:07:09.786 [info] Extension host (LocalProcess pid: 64637) is responsive.
+2025-12-31 09:07:09.791 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-12-31 09:07:12.131 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 09:07:33.398 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-12-31 09:12:51.548 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 09:17:57.660 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 09:43:07.679 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 09:48:11.455 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 09:53:15.186 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 10:13:50.751 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 11:19:33.821 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 12:38:39.343 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 14:39:42.337 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 14:39:59.519 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 15:06:43.222 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 15:11:49.501 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 15:16:55.628 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 15:21:59.854 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 15:27:03.277 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 15:32:07.339 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 15:37:11.799 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 15:42:16.883 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 15:47:23.205 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 15:52:29.648 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 15:57:32.071 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 16:02:37.652 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 16:07:47.442 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 16:12:49.103 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 16:19:38.939 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 16:46:44.860 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 17:40:28.745 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 17:45:32.836 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 17:50:37.296 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 17:55:43.545 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 18:00:48.985 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 18:05:53.289 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 18:10:58.099 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 18:16:06.006 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 18:21:05.672 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 18:26:10.874 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 18:31:17.584 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 18:36:19.939 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 18:41:24.602 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 18:46:29.302 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 18:51:32.189 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 18:56:36.691 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 19:01:39.303 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 19:06:43.918 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 19:20:13.080 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 19:25:16.036 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 19:30:19.967 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 19:41:05.446 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 19:46:09.961 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 19:51:16.860 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 19:56:21.958 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 20:30:49.304 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 20:35:53.803 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 20:40:58.372 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 20:46:02.072 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 20:51:05.387 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 22:54:22.469 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 23:54:52.043 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 00:11:52.317 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 02:13:01.336 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 03:14:11.494 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 04:15:24.162 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 05:16:39.646 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 06:17:53.979 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 07:06:55.932 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 10:05:09.610 [warning] Failed to fetch chat participant registry Offline
+2026-01-01 10:05:21.355 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 10:06:00.144 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 10:08:45.195 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 10:09:50.031 [info] Extension host (LocalProcess pid: 64637) is unresponsive.
+2026-01-01 10:09:50.244 [info] Extension host (LocalProcess pid: 64637) is responsive.
+2026-01-01 10:09:50.286 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-01-01 10:10:05.008 [info] Extension host (LocalProcess pid: 64637) is unresponsive.
+2026-01-01 10:10:29.651 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-01-01 10:10:29.673 [info] Extension host (LocalProcess pid: 64637) is responsive.
+2026-01-01 10:10:29.673 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-01-01 10:10:31.605 [warning] UNRESPONSIVE extension host: 'github.vscode-pull-request-github' took 72.18694505731044% of 80.487ms, saved PROFILE here: 'file:///var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/exthost-c6e77f.cpuprofile'
+2026-01-01 10:14:33.105 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 10:19:39.527 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 10:24:50.686 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 10:29:58.675 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 10:35:04.310 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 10:40:08.501 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 10:45:13.310 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 10:50:17.177 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 10:55:21.477 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 11:00:25.632 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 11:05:29.965 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 11:10:34.015 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 11:15:38.496 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 11:20:53.410 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 11:25:57.835 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 11:31:02.063 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 11:36:07.146 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 11:41:11.231 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 11:46:16.227 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 12:41:56.431 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 12:43:19.344 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 12:48:24.149 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 12:53:28.459 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 12:58:33.892 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 13:03:37.940 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 13:08:43.847 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 13:13:49.736 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 13:18:54.098 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 13:23:58.503 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 13:29:01.546 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 13:34:05.768 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 13:39:10.566 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 13:44:15.807 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 13:49:20.089 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 13:54:24.558 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 14:47:19.110 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 14:48:09.056 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 14:53:16.805 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 14:58:20.374 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 15:03:23.947 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 15:08:27.868 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 15:13:31.738 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 15:18:36.492 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 15:23:39.852 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 15:37:31.693 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 15:42:35.754 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 15:47:39.439 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 15:52:44.709 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 15:57:49.114 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 16:02:53.241 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 16:07:58.071 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 16:13:02.129 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 16:18:07.684 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 16:23:21.274 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 16:28:26.003 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 16:33:30.513 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 16:38:36.457 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 16:43:40.620 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 16:48:45.160 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 16:53:50.587 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 16:58:54.550 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 17:03:58.720 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 17:09:03.268 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 17:14:07.817 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 17:19:12.188 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 17:24:16.603 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 17:29:21.120 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 17:34:26.007 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 17:39:30.454 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 17:44:35.177 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 17:49:39.672 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 17:54:43.979 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 17:59:48.430 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 18:04:52.902 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 18:09:56.970 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 18:15:01.660 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 18:20:05.810 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 18:25:09.264 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 18:45:20.902 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 20:30:02.017 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 21:09:42.908 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 21:14:50.823 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 21:19:59.801 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 21:25:16.159 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 21:30:22.820 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 21:35:26.451 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 22:21:23.327 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 23:08:14.847 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 23:13:18.140 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 23:29:19.385 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 00:30:58.649 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 01:31:52.689 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 02:33:08.182 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 03:34:08.530 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 04:35:17.244 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 04:35:18.840 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 05:36:30.792 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 06:35:53.855 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 06:40:58.156 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 06:46:01.531 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 06:51:04.969 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 07:04:16.973 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 07:09:20.543 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 07:14:23.709 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 07:19:27.067 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 07:24:30.426 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 07:29:34.967 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 07:34:38.188 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 07:39:41.657 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 07:44:44.825 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 07:49:48.025 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 07:54:51.507 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 07:59:54.967 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 08:04:58.990 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 08:10:03.051 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 08:15:06.186 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 08:20:10.337 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 08:25:15.740 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 08:30:30.561 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 08:35:42.364 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 08:40:48.663 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 08:45:51.341 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 08:50:55.677 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 08:55:59.661 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 09:01:03.236 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 09:06:07.183 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 09:11:27.163 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 09:16:17.516 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 09:21:23.226 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 09:26:26.467 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 09:31:36.869 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 09:36:46.134 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 09:41:54.692 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 09:47:08.384 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 09:52:13.100 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 09:57:18.773 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 10:02:23.872 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 10:07:28.810 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 10:12:33.807 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 10:17:38.380 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 10:22:42.651 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 10:27:47.292 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 10:32:53.552 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 10:37:58.032 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 10:43:03.292 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 10:48:08.591 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 10:53:14.060 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 10:58:18.476 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 11:03:21.786 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 11:08:26.710 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 11:13:30.850 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 11:18:35.148 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 11:23:39.488 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 11:28:44.046 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 11:33:48.393 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 11:38:52.741 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 11:43:57.251 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 11:49:01.527 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 11:54:05.724 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 11:59:09.035 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 12:04:13.965 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 12:09:18.850 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 12:14:23.503 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 12:19:28.004 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 12:24:32.274 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 12:29:36.452 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 12:34:40.638 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 12:39:45.143 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 12:44:49.329 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 12:49:53.791 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 12:54:57.476 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 13:00:09.270 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 13:05:13.181 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 13:10:17.494 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 13:15:22.380 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 13:20:26.922 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 13:25:33.453 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 13:30:37.411 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 13:35:41.759 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 13:40:46.735 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 13:45:51.836 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 13:50:55.592 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 13:55:59.059 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 14:01:04.192 [error] An unknown error occurred. Please consult the log for more details.

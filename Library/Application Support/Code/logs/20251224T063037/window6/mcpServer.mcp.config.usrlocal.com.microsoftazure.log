@@ -1,0 +1,5 @@
+2025-12-30 08:05:35.128 [info] Starting server com.microsoft/azure
+2025-12-30 08:05:35.129 [info] Connection state: Starting
+2025-12-30 08:05:35.159 [info] Starting server from LocalProcess extension host
+2025-12-30 08:05:35.358 [info] Connection state: Starting
+2025-12-30 08:05:35.361 [info] Connection state: Error spawn dnx ENOENT

@@ -1,0 +1,70 @@
+2025-12-31T00:23:09.447Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.765s)
+2025-12-31T00:23:10.547Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.011s)
+2025-12-31T11:45:44.779Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.114s)
+2025-12-31T12:11:27.799Z - info: [ui] Executing getConfigValueInPath: git config -z --local user.name (took 2.449s)
+2025-12-31T12:11:28.917Z - info: [ui] Executing getRemotes: git remote -v (took 3.742s)
+2025-12-31T12:11:32.573Z - info: [ui] Executing mergedBranches: git branch --format=%00%(objectname)%00%(refname)%00 --merged main (took 7.042s)
+2025-12-31T12:11:32.590Z - info: [ui] [BranchPruner] No branches to prune.
+2025-12-31T12:11:34.761Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T12:11:38.689Z - info: [ui] [BranchPruner] Last prune took place 13 seconds ago - skipping
+2025-12-31T12:11:39.887Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 1.127s)
+2025-12-31T12:11:43.596Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 18.222s)
+2025-12-31T12:11:53.396Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 9.781s)
+2025-12-31T12:12:35.620Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 70.180s)
+2025-12-31T12:12:35.921Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T12:12:37.252Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.629s)
+2025-12-31T12:12:46.055Z - info: [ui] Executing createCommit: git commit -F - (took 4.880s)
+2025-12-31T12:12:46.148Z - info: [ui] [Timing] Action 'create commit' for 'Space-LEAF-corp/Main-private-files' took 5.094s
+2025-12-31T12:13:05.104Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T12:13:07.938Z - info: [ui] Executing push: git push origin main:main --progress (took 3.130s)
+2025-12-31T12:13:08.218Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T12:13:08.772Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T12:13:10.304Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.799s)
+2025-12-31T13:41:57.280Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 13.355s)
+2025-12-31T14:06:53.940Z - info: [ui] [AppStore] adding repository at /Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system to store
+2025-12-31T14:14:55.334Z - info: [ui] [Timing] Action 'create commit' for 'planetary-sensing-system' took 0.460s
+2025-12-31T14:15:26.422Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T14:15:27.110Z - info: [ui] Executing push: git push origin main --set-upstream --progress (took 1.200s)
+2025-12-31T14:39:29.623Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 8.770s)
+2025-12-31T16:19:55.857Z - info: [ui] Stats reported.
+2025-12-31T20:02:34.263Z - info: [ui] [BranchPruner] Last prune took place 8 hours ago - skipping
+2025-12-31T20:02:34.884Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T20:02:35.508Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.163s)
+2025-12-31T20:02:35.811Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T20:02:40.552Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T20:02:50.168Z - info: [ui] [BranchPruner] Last prune took place 8 hours ago - skipping
+2025-12-31T20:02:52.699Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T20:02:58.761Z - info: [ui] Executing pull: git -c rebase.backend=merge pull --ff --recurse-submodules --progress origin (took 6.408s)
+2025-12-31T20:02:59.103Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T20:03:29.798Z - info: [ui] Executing pull: git -c rebase.backend=merge pull --ff --recurse-submodules --progress origin (took 49.606s)
+2025-12-31T20:03:30.215Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T20:23:30.712Z - info: [ui] [Timing] Action 'create commit' for 'Space-LEAF-corp/Main-private-files' took 0.403s
+2025-12-31T20:23:32.835Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T20:23:33.529Z - info: [ui] Executing push: git push origin main:main --progress (took 1.071s)
+2025-12-31T20:23:34.065Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T20:23:34.688Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T21:02:05.822Z - info: [ui] Executing getBranches: git for-each-ref --format=%00%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(symref)%00 refs/heads refs/remotes (took 1.754s)
+2025-12-31T21:02:05.861Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 1.749s)
+2025-12-31T21:02:19.405Z - info: [ui] [Timing] Action 'create commit' for 'Space-LEAF-corp/Main-private-files' took 0.349s
+2025-12-31T21:02:21.424Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T21:02:22.420Z - info: [ui] Executing push: git push origin main:main --progress (took 1.451s)
+2025-12-31T21:02:22.713Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T21:02:23.289Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T21:04:43.031Z - info: [ui] [Timing] Action 'create commit' for 'Space-LEAF-corp/Main-private-files' took 0.259s
+2025-12-31T21:04:45.166Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T21:04:45.878Z - info: [ui] Executing push: git push origin main:main --progress (took 1.081s)
+2025-12-31T21:04:46.295Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T21:04:46.927Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T22:00:52.344Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T22:00:53.079Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.117s)
+2025-12-31T22:00:53.768Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T22:00:54.222Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.123s)
+2025-12-31T23:42:28.640Z - info: [ui] [Timing] Action 'create commit' for 'Space-LEAF-corp/Main-private-files' took 0.453s
+2025-12-31T23:42:30.538Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T23:42:31.223Z - info: [ui] Executing push: git push origin main:main --progress (took 1.062s)
+2025-12-31T23:42:31.549Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T23:42:32.119Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T23:46:27.902Z - info: [ui] [Timing] Action 'create commit' for 'Space-LEAF-corp/Main-private-files' took 0.290s
+2025-12-31T23:46:30.771Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T23:46:31.731Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-31T23:46:32.333Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store

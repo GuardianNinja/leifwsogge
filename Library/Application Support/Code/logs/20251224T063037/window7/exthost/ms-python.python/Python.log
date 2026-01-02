@@ -1,0 +1,51 @@
+2025-12-30 08:48:28.476 [info] Experiment 'pythonSurveyNotification' is active
+2025-12-30 08:48:29.050 [info] Native locator: Refresh started
+2025-12-30 08:48:29.050 [info] Native locator: Refresh started
+2025-12-30 08:48:30.010 [info] > conda info --json
+2025-12-30 08:48:31.643 [info] Active interpreter [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module]:  /usr/bin/python3
+2025-12-30 08:48:32.615 [info] Native locator: Refresh finished in 3565 ms
+2025-12-30 08:48:32.771 [info] > pyenv which python
+2025-12-30 08:48:32.771 [info] cwd: ~/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module
+2025-12-30 08:48:36.258 [info] Running installed packages checker:  {
+  id: '/usr/bin/python3',
+  displayName: 'Python 3.9.6',
+  detailedDisplayName: 'Python 3.9.6',
+  envType: 'System',
+  envPath: '/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9',
+  type: undefined,
+  path: '/usr/bin/python3',
+  version: {
+    raw: '3.9.6.final.0',
+    major: 3,
+    minor: 9,
+    patch: 6,
+    build: [],
+    prerelease: []
+  },
+  sysVersion: '3.9.6.final.0',
+  architecture: 3,
+  sysPrefix: '/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9'
+} /Users/leifwsogge/.vscode/extensions/ms-python.python-2025.20.1-darwin-x64/python_files/installed_check.py /Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module/requirements.txt
+2025-12-30 08:48:36.258 [info] > /usr/bin/python3 ~/.vscode/extensions/ms-python.python-2025.20.1-darwin-x64/python_files/installed_check.py "~/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module/requirements.txt"
+2025-12-30 08:48:45.042 [info] Running installed packages checker:  {
+  id: '/usr/bin/python3',
+  displayName: 'Python 3.9.6',
+  detailedDisplayName: 'Python 3.9.6',
+  envType: 'System',
+  envPath: '/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9',
+  type: undefined,
+  path: '/usr/bin/python3',
+  version: {
+    raw: '3.9.6.final.0',
+    major: 3,
+    minor: 9,
+    patch: 6,
+    build: [],
+    prerelease: []
+  },
+  sysVersion: '3.9.6.final.0',
+  architecture: 3,
+  sysPrefix: '/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9'
+} /Users/leifwsogge/.vscode/extensions/ms-python.python-2025.20.1-darwin-x64/python_files/installed_check.py /Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module/requirements.txt
+2025-12-30 08:48:45.043 [info] > /usr/bin/python3 ~/.vscode/extensions/ms-python.python-2025.20.1-darwin-x64/python_files/installed_check.py "~/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module/requirements.txt"
+2025-12-30 08:48:49.775 [info] Starting Pylance language server.

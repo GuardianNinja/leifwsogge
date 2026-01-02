@@ -1,0 +1,149 @@
+2025-12-27 08:55:35.382 [warning] /Users/leifwsogge/.ssh/config: ENOENT: no such file or directory, open '/Users/leifwsogge/.ssh/config'
+2025-12-27 08:55:35.382 [info] [Activation] Extension version: 0.124.1
+2025-12-27 08:55:36.596 [info] [Authentication] Creating hub for .com
+2025-12-27 08:55:39.567 [info] [Activation] Registering built in git provider.
+2025-12-27 08:55:39.567 [info] [Activation] Looking for git repository
+2025-12-27 08:55:39.567 [info] [Activation] Found 0 repositories during activation
+2025-12-27 08:55:39.567 [info] [Activation] Git repository found, initializing review manager and pr tree view.
+2025-12-27 08:55:39.572 [info] [GitAPI] Registering git provider
+2025-12-27 08:55:39.572 [info] [Review+0] Validate state in progress
+2025-12-27 08:55:39.572 [info] [Review+0] Validating state...
+2025-12-27 08:55:39.573 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-12-27 08:55:39.573 [info] [FolderRepositoryManager+0] No GitHub remotes found for folder /Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/simulate_lambda_prototype
+2025-12-27 08:55:39.574 [info] [FolderRepositoryManager+0] Trying to use globalState for assignableUsers.
+2025-12-27 08:55:39.858 [info] [GitPostCommitCommands] Trying to register post commit commands.
+2025-12-27 08:55:39.865 [info] [FolderRepositoryManager+0] Using globalState assignableUsers for 0.
+2025-12-27 08:55:39.989 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2025-12-27 08:55:40.366 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2025-12-27 08:55:41.003 [info] [Activation] Repo state for file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype changed.
+2025-12-27 08:55:41.003 [info] [Activation] Repo file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype has already been setup.
+2025-12-27 09:35:41.081 [info] [Review+0] Validate state in progress
+2025-12-27 09:35:41.083 [info] [Review+0] Validating state...
+2025-12-27 09:35:41.132 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/simulate_lambda_prototype
+2025-12-27 09:35:41.626 [info] [FolderRepositoryManager+0] Trying to use globalState for assignableUsers.
+2025-12-27 09:35:41.626 [info] [GitPostCommitCommands] Trying to register post commit commands.
+2025-12-27 09:35:41.626 [info] [GitPostCommitCommands] GitHub remote(s) found, registering post commit commands.
+2025-12-27 09:35:41.626 [info] [GitPostCommitCommands] Looking for remote. Comparing 1 local repo remotes with 1 GitHub repositories.
+2025-12-27 09:35:41.626 [info] [GitPostCommitCommands] Found a repo when getting post commit commands.
+2025-12-27 09:35:41.626 [info] [GitPostCommitCommands] Looking for remote. Comparing 1 local repo remotes with 1 GitHub repositories.
+2025-12-27 09:35:41.626 [info] [GitPostCommitCommands] Found a repo when getting post commit commands.
+2025-12-27 09:35:41.782 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2025-12-27 09:35:41.839 [info] [FolderRepositoryManager+0] No globalState for assignableUsers.
+2025-12-27 09:35:42.229 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2025-12-27 09:35:42.244 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2025-12-27 09:42:20.843 [info] [GitPostCommitCommands] Looking for remote. Comparing 1 local repo remotes with 1 GitHub repositories.
+2025-12-27 09:42:20.843 [info] [GitPostCommitCommands] Found a repo when getting post commit commands.
+2025-12-27 09:42:20.843 [info] [GitPostCommitCommands] Looking for remote. Comparing 1 local repo remotes with 1 GitHub repositories.
+2025-12-27 09:42:20.843 [info] [GitPostCommitCommands] Found a repo when getting post commit commands.
+2025-12-27 09:42:20.843 [info] [Review+0] Validate state in progress
+2025-12-27 09:42:20.843 [info] [Review+0] Validating state...
+2025-12-27 09:42:20.971 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/simulate_lambda_prototype
+2025-12-27 09:42:20.972 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2025-12-27 09:42:21.054 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2025-12-27 09:42:21.510 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2025-12-27 09:48:58.582 [info] [GitPostCommitCommands] Looking for remote. Comparing 1 local repo remotes with 1 GitHub repositories.
+2025-12-27 09:48:58.583 [info] [GitPostCommitCommands] Found a repo when getting post commit commands.
+2025-12-27 09:48:58.583 [info] [GitPostCommitCommands] Looking for remote. Comparing 1 local repo remotes with 1 GitHub repositories.
+2025-12-27 09:48:58.583 [info] [GitPostCommitCommands] Found a repo when getting post commit commands.
+2025-12-27 09:48:58.583 [info] [Review+0] Validate state in progress
+2025-12-27 09:48:58.583 [info] [Review+0] Validating state...
+2025-12-27 09:48:59.102 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/simulate_lambda_prototype
+2025-12-27 09:48:59.103 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2025-12-27 09:48:59.154 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2025-12-27 09:48:59.612 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2025-12-27 10:50:06.176 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-27 10:50:06.178 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-27 10:55:15.446 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-27 10:55:15.446 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-27 11:03:44.200 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-27 11:03:44.201 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-27 11:11:53.396 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-27 11:11:53.397 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-27 11:17:16.644 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-27 11:17:16.645 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-27 21:00:23.103 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-27 21:00:23.106 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-28 00:46:35.517 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-28 00:46:35.518 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-28 01:47:45.405 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-28 01:47:45.406 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-28 11:13:34.444 [info] [GitPostCommitCommands] Looking for remote. Comparing 1 local repo remotes with 1 GitHub repositories.
+2025-12-28 11:13:34.445 [info] [GitPostCommitCommands] Found a repo when getting post commit commands.
+2025-12-28 11:13:34.445 [info] [GitPostCommitCommands] Looking for remote. Comparing 1 local repo remotes with 1 GitHub repositories.
+2025-12-28 11:13:34.445 [info] [GitPostCommitCommands] Found a repo when getting post commit commands.
+2025-12-28 11:13:34.448 [info] [Review+0] Validate state in progress
+2025-12-28 11:13:34.448 [info] [Review+0] Validating state...
+2025-12-28 11:13:34.867 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/simulate_lambda_prototype
+2025-12-28 11:13:34.876 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2025-12-28 11:13:35.102 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2025-12-28 11:13:35.583 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2025-12-29 03:22:53.544 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-29 03:22:53.545 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-29 03:53:55.350 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-29 03:53:55.351 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-29 04:23:58.006 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-29 04:23:58.007 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-29 05:25:00.784 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-29 05:25:00.785 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-29 06:26:04.282 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-29 06:26:04.282 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-29 07:27:07.337 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-29 07:27:07.339 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-29 08:28:12.475 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-29 08:28:12.488 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-29 09:29:15.773 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-29 09:29:15.774 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-29 09:56:44.288 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-29 09:56:44.288 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-29 22:43:23.269 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-29 22:43:23.273 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-30 01:46:52.563 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-30 01:46:52.567 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-30 02:48:02.464 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-30 02:48:02.466 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-30 03:49:12.727 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-30 03:49:12.742 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-30 04:33:22.040 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-30 04:33:22.043 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-30 04:50:22.490 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-30 04:50:22.493 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-30 05:51:34.037 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-30 05:51:34.039 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-30 06:52:43.604 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-30 06:52:43.606 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-30 07:53:53.748 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-30 07:53:53.750 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-30 11:00:48.322 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-30 11:00:48.331 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-30 11:28:58.746 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-30 11:28:58.748 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-30 11:52:44.952 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-30 11:52:44.953 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-30 12:44:00.514 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-30 12:44:00.515 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-30 17:20:44.417 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-30 17:20:44.420 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-31 03:32:34.237 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-31 03:32:34.240 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-31 04:33:47.497 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-31 04:33:47.500 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-31 05:12:45.303 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-31 05:12:45.305 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-31 05:34:56.553 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-31 05:34:56.557 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-31 06:36:08.132 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-31 06:36:08.133 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-31 06:45:12.225 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-31 06:45:12.226 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-31 08:41:51.335 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-31 08:41:51.341 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2025-12-31 22:54:36.279 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: read ECONNRESET. 
+2025-12-31 22:54:36.286 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: read ECONNRESET
+2026-01-01 07:05:06.895 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2026-01-01 07:05:06.904 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2026-01-01 10:05:05.548 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2026-01-01 10:05:05.549 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2026-01-01 21:06:22.299 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2026-01-01 21:06:22.302 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2026-01-02 00:31:19.777 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: read ECONNRESET. 
+2026-01-02 00:31:19.789 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: read ECONNRESET

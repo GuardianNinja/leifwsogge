@@ -1,0 +1,281 @@
+{
+  "version": 3,
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "panel",
+  "requests": [
+    {
+      "requestId": "request_73b47b82-5b04-47fd-a7c4-8421cc977358",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 32
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 33
+            },
+            "text": "name this file as license please",
+            "kind": "text"
+          }
+        ],
+        "text": "name this file as license please"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "vscode.implicit.selection",
+            "name": "file:Untitled-1",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "fsPath": "Untitled-1",
+                "external": "untitled:Untitled-1",
+                "path": "Untitled-1",
+                "scheme": "untitled"
+              },
+              "range": {
+                "startLineNumber": 9,
+                "startColumn": 1,
+                "endLineNumber": 9,
+                "endColumn": 2,
+                "selectionStartLineNumber": 9,
+                "selectionStartColumn": 1,
+                "positionLineNumber": 9,
+                "positionColumn": 2
+              }
+            },
+            "modelDescription": "User's active selection"
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "value": "You should name this file `LICENSE`. On macOS, you can rename it in the terminal with:\n\n```bash\nmv \"Untitled-1\" LICENSE\n```\n\nOr, simply right-click the file in VS Code’s Explorer and choose “Rename,” then enter `LICENSE`.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.35.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "timestamp": 1767099929842,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_8884cbd5-6df4-43b7-87fe-7a103284c023",
+      "result": {
+        "timings": {
+          "firstProgress": 825,
+          "totalElapsed": 2626
+        },
+        "metadata": {
+          "codeBlocks": [
+            {
+              "code": "mv \"Untitled-1\" LICENSE\n",
+              "language": "bash",
+              "markdownBeforeBlock": "You should name this file `LICENSE`. On macOS, you can rename it in the terminal with:\n\n"
+            }
+          ],
+          "toolCallRounds": [
+            {
+              "response": "You should name this file `LICENSE`. On macOS, you can rename it in the terminal with:\n\n```bash\nmv \"Untitled-1\" LICENSE\n```\n\nOr, simply right-click the file in VS Code’s Explorer and choose “Rename,” then enter `LICENSE`.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "b5cdba2d-c5e3-464a-b9a6-77b5428dcaad"
+            }
+          ],
+          "modelMessageId": "2695918c-a6b3-4cb8-aa6f-744b5cc60f83",
+          "responseId": "cee150ee-9755-4642-b7f3-6c7397a9e229",
+          "sessionId": "fa1d9a69-be82-4b9e-852b-c7dfe10ce803",
+          "agentId": "github.copilot.default"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [
+        {
+          "suggestionId": "sgt-9b168460-f8f3-4c07-911e-07c30dcad7f1"
+        }
+      ],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1767099941796
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "Untitled-1",
+            "external": "untitled:Untitled-1",
+            "path": "Untitled-1",
+            "scheme": "untitled"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    }
+  ],
+  "sessionId": "4151cf30-ff42-4b08-8552-81f800e9733d",
+  "creationDate": 1767099929580,
+  "lastMessageDate": 1767099929842,
+  "customTitle": "Renaming a file to LICENSE",
+  "hasPendingEdits": false,
+  "contrib": {
+    "chatDynamicVariableModel": []
+  },
+  "attachments": [],
+  "mode": {
+    "id": "ask",
+    "kind": "ask"
+  },
+  "selectedModel": {
+    "identifier": "copilot/gpt-4.1",
+    "metadata": {
+      "extension": {
+        "value": "GitHub.copilot-chat",
+        "_lower": "github.copilot-chat"
+      },
+      "id": "gpt-4.1",
+      "vendor": "copilot",
+      "name": "GPT-4.1",
+      "family": "gpt-4.1",
+      "detail": "0x",
+      "tooltip": "GPT-4.1 (gpt-4.1-2025-04-14) does not count towards your premium request limit. This model may be slowed during times of high congestion.",
+      "version": "gpt-4.1-2025-04-14",
+      "maxInputTokens": 111424,
+      "maxOutputTokens": 16384,
+      "auth": {
+        "providerLabel": "GitHub Copilot Chat",
+        "accountLabel": "GuardianNinja"
+      },
+      "isDefault": false,
+      "isUserSelectable": true,
+      "modelPickerCategory": {
+        "label": "Standard Models",
+        "order": 0
+      },
+      "capabilities": {
+        "vision": true,
+        "toolCalling": true,
+        "agentMode": true
+      }
+    }
+  },
+  "inputText": "",
+  "selections": [
+    {
+      "startLineNumber": 1,
+      "startColumn": 1,
+      "endLineNumber": 1,
+      "endColumn": 1,
+      "selectionStartLineNumber": 1,
+      "selectionStartColumn": 1,
+      "positionLineNumber": 1,
+      "positionColumn": 1
+    }
+  ]
+}

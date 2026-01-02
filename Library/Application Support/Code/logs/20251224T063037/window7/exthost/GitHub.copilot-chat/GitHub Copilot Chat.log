@@ -1,0 +1,1072 @@
+2025-12-30 08:45:30.038 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-12-30 08:45:48.195 [error] Copilot extension not found
+2025-12-30 08:45:48.583 [info] Creating node-pty shim: source=/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual Studio Code 2.app/Contents/Resources/app/node_modules/node-pty/build/Release, dest=/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/node_modules/@github/copilot/prebuilds/darwin-x64
+2025-12-30 08:45:48.583 [info] Creating ripgrep shim: source=/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual Studio Code 2.app/Contents/Resources/app/node_modules/@vscode/ripgrep/bin, dest=/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/node_modules/@github/copilot/sdk/ripgrep/bin/darwin-x64
+2025-12-30 08:45:48.849 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-12-30 08:45:48.849 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-12-30 08:45:48.849 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-12-30 08:45:48.946 [info] Found 1 entries to copy: rg
+2025-12-30 08:45:48.946 [info] Found 2 entries to copy: pty.node, spawn-helper
+2025-12-30 08:45:50.064 [info] Using the Electron fetcher.
+2025-12-30 08:45:54.352 [info] Logged in as GuardianNinja
+2025-12-30 08:45:54.838 [info] Got Copilot token for GuardianNinja
+2025-12-30 08:45:54.838 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-30 08:45:54.877 [info] activationBlocker from 'languageModelAccess' took for 6922ms
+2025-12-30 08:45:55.085 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-30 08:45:55.091 [info] Registering default platform agent...
+2025-12-30 08:45:55.093 [info] [code-referencing] Public code references are enabled.
+2025-12-30 08:45:55.093 [info] activationBlocker from 'conversationFeature' took for 7172ms
+2025-12-30 08:45:55.099 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2025-12-30 08:45:55.117 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2025-12-30 08:45:55.118 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2025-12-30 08:45:55.118 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2025-12-30 08:45:55.118 [info] Successfully registered GitHub PR title and description provider.
+2025-12-30 08:45:55.118 [info] Successfully registered GitHub PR reviewer comments provider.
+2025-12-30 08:45:55.261 [info] Fetched model metadata in 7239ms a6735202-aa4e-4afa-b848-479eeef44680
+2025-12-30 08:45:55.857 [info] Latest entry: ccreq:latest.copilotmd
+2025-12-30 08:45:55.857 [info] ccreq:8ebef16e.copilotmd | markdown
+2025-12-30 08:45:55.876 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-12-30 08:48:22.992 [warning] [relatedFiles] unknown language python
+2025-12-30 08:48:30.574 [info] [fetchCompletions] Request ea6cd323-d8fc-4877-a467-ef66d34cc65a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1845.1328470000008ms
+2025-12-30 08:48:30.706 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-12-30 08:48:42.687 [warning] [relatedFiles] unknown language pip-requirements
+2025-12-30 08:48:42.908 [info] [fetchCompletions] Request 4d61e91e-83a1-47d2-ab76-99477cfba7ed at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 164.25149499997497ms
+2025-12-30 08:48:42.974 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-12-30 08:48:43.418 [info] [fetchCompletions] Request 795b7f4f-87c6-42a5-9351-c938dc2dfc1e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 176.68170500002452ms
+2025-12-30 08:48:43.521 [info] [streamChoices] solution 0 returned. finish reason: [null]
+2025-12-30 08:49:41.802 [info] [fetchCompletions] Request c82d20da-4a68-4d20-9ea0-1e6696be9438 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 371.238572000002ms
+2025-12-30 08:49:41.814 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-12-30 08:49:42.081 [info] [fetchCompletions] Request 20ebe3a5-085c-45df-9629-865531df61e2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 200.63560500001768ms
+2025-12-30 08:49:42.196 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-12-30 08:50:08.564 [info] [fetchCompletions] Request 435ad8b0-cd3d-4366-8501-88d34bc9bb59 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 198.2962660000194ms
+2025-12-30 08:50:08.639 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-12-30 08:50:08.863 [info] [fetchCompletions] Request 189b19b7-7962-4364-809f-94242072a622 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 167.06313300004695ms
+2025-12-30 08:50:08.869 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-12-30 08:50:35.617 [info] [fetchCompletions] Request 9a56803d-182e-42b8-ac5c-a5facbed0c97 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 230.8325350000523ms
+2025-12-30 08:50:35.626 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-12-30 08:50:58.488 [info] [fetchCompletions] Request d661ad23-bbe6-4019-95f4-0836388a8e2d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 197.5749519999954ms
+2025-12-30 08:50:58.498 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-12-30 08:51:21.571 [info] message 0 returned. finish reason: [stop]
+2025-12-30 08:51:21.572 [info] request done: requestId: [899ccf91-1473-4371-bf53-e1cf526d98a0] model deployment ID: []
+2025-12-30 08:51:21.581 [info] ccreq:d4278a43.copilotmd | success | gpt-4o-instant-apply-full-ft-v66-short | 1248ms | [editingSession/speculate]
+2025-12-30 08:51:21.586 [info] srequest done: 1266ms, chatRequestId: [undefined], speculationRequestId: [bfd4b5dc-81b9-4ca8-af71-cfefa718e3c0]
+2025-12-30 08:51:25.839 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 08:51:25.840 [info] request done: requestId: [5a98996c-e91e-40df-9b4c-488211d18fb0] model deployment ID: []
+2025-12-30 08:51:25.843 [info] ccreq:27ff6384.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 7002ms | [InlineChat2Intent]
+2025-12-30 08:51:49.386 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 08:51:49.387 [info] request done: requestId: [bd773244-1821-462d-acbc-a404a121aed6] model deployment ID: []
+2025-12-30 08:51:49.393 [info] ccreq:2fd34073.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1688ms | [InlineChat2Intent]
+2025-12-30 08:51:58.891 [info] message 0 returned. finish reason: [stop]
+2025-12-30 08:51:58.892 [info] request done: requestId: [6561ba51-a34c-46d3-9196-d80bbe03e8a4] model deployment ID: []
+2025-12-30 08:51:58.896 [info] ccreq:34d999de.copilotmd | success | gpt-4o-instant-apply-full-ft-v66-short | 594ms | [editingSession/speculate]
+2025-12-30 08:51:58.900 [info] srequest done: 600ms, chatRequestId: [undefined], speculationRequestId: [c2945fe3-89c7-442e-8cfa-0955af097ad9]
+2025-12-30 08:51:59.962 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 08:51:59.962 [info] request done: requestId: [e97b2be9-d6f7-4f8f-9bf7-1b02577ac3e2] model deployment ID: []
+2025-12-30 08:51:59.965 [info] ccreq:b337a176.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2816ms | [InlineChat2Intent]
+2025-12-30 08:52:08.559 [info] message 0 returned. finish reason: [stop]
+2025-12-30 08:52:08.560 [info] request done: requestId: [9ed55436-0b43-4d7a-b17b-4e89c28e1b8f] model deployment ID: []
+2025-12-30 08:52:08.562 [info] ccreq:cdae2072.copilotmd | success | gpt-4o-instant-apply-full-ft-v66-short | 614ms | [editingSession/speculate]
+2025-12-30 08:52:08.564 [info] srequest done: 616ms, chatRequestId: [undefined], speculationRequestId: [bad605d4-b18e-49b0-a77e-e4137b8dd334]
+2025-12-30 08:52:09.548 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 08:52:09.548 [info] request done: requestId: [14136b46-4e23-4357-814b-e2531f73b20c] model deployment ID: []
+2025-12-30 08:52:09.552 [info] ccreq:85e08956.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2884ms | [InlineChat2Intent]
+2025-12-30 08:52:19.442 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 08:52:19.442 [info] request done: requestId: [39ecae16-5a49-40b2-bf10-80e4306902c8] model deployment ID: []
+2025-12-30 08:52:19.445 [info] ccreq:1616ad3d.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1215ms | [InlineChat2Intent]
+2025-12-30 08:52:28.912 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 08:52:28.912 [info] request done: requestId: [7c991d6f-a748-4746-8cd9-ad26ec49a3b2] model deployment ID: []
+2025-12-30 08:52:28.917 [info] ccreq:2f17902b.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1596ms | [InlineChat2Intent]
+2025-12-30 08:52:40.312 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 08:52:40.312 [info] request done: requestId: [50cd8208-1a4e-4c03-afb1-87afe6a59f0a] model deployment ID: []
+2025-12-30 08:52:40.314 [info] ccreq:1666fcf2.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1073ms | [InlineChat2Intent]
+2025-12-30 08:53:03.911 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 08:53:03.911 [info] request done: requestId: [9b797584-5710-49b9-985d-db5f6e9415e8] model deployment ID: []
+2025-12-30 08:53:03.914 [info] ccreq:f8425d14.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1368ms | [InlineChat2Intent]
+2025-12-30 08:55:19.142 [info] ccreq:70ddbeae.copilotmd | cancelled | gpt-4.1 | 33ms | [InlineChat2Intent]
+2025-12-30 08:55:19.163 [error] Canceled: Canceled
+	at Yl (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:1394)
+	at l5.U (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:125215)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:122574)
+	at vQ.invokeTool (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:194:1487)
+	at Object.invokeTool (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:128447)
+	at Gte.invokeTool (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:5815:1832)
+	at I2._handleRequestWithEditTools (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:5844:22586)
+	at async I2._handleRequestWithNewWorld (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:5844:20811)
+	at async BQ.getResult (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1628:9118)
+	at async CP.x (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:5761:1359): InlineChatIntent: prompt rendering failed
+2025-12-30 08:56:18.129 [info] Fetched model metadata in 264ms 505737e1-e82f-4cb7-89da-4b49dcf8d0d5
+2025-12-30 08:56:18.194 [info] ccreq:c9c171ca.copilotmd | markdown
+2025-12-30 08:56:21.428 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 08:56:21.428 [info] request done: requestId: [ad05acfd-63de-4388-bc94-c9a352b5572e] model deployment ID: []
+2025-12-30 08:56:21.433 [info] ccreq:87ed16da.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2126ms | [InlineChat2Intent]
+2025-12-30 08:56:33.910 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 08:56:33.911 [info] request done: requestId: [893299ec-3650-432d-8522-46bb8bf74b28] model deployment ID: []
+2025-12-30 08:56:33.914 [info] ccreq:de007bfc.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1242ms | [InlineChat2Intent]
+2025-12-30 08:56:44.088 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 08:56:44.091 [info] request done: requestId: [209c3394-2d75-4b53-8ffd-2b30ee0ef255] model deployment ID: []
+2025-12-30 08:56:44.094 [info] ccreq:e720e80e.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1516ms | [InlineChat2Intent]
+2025-12-30 08:56:52.336 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 08:56:52.337 [info] request done: requestId: [799b0c53-7528-4379-a467-7d34a6af7d10] model deployment ID: []
+2025-12-30 08:56:52.339 [info] ccreq:9faec5f6.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2172ms | [InlineChat2Intent]
+2025-12-30 08:57:00.239 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 08:57:00.240 [info] request done: requestId: [e1b27363-61bd-47f2-87e2-720f287933b3] model deployment ID: []
+2025-12-30 08:57:00.243 [info] ccreq:db15e4e8.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1637ms | [InlineChat2Intent]
+2025-12-30 08:57:09.612 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 08:57:09.612 [info] request done: requestId: [ef640114-5d7d-4706-bc3f-daff4e663bd6] model deployment ID: []
+2025-12-30 08:57:09.615 [info] ccreq:081e6b95.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1318ms | [InlineChat2Intent]
+2025-12-30 08:57:20.057 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 08:57:20.057 [info] request done: requestId: [dab8a4f9-fa09-44aa-9dfc-bd947e1f70fe] model deployment ID: []
+2025-12-30 08:57:20.060 [info] ccreq:a17e80c3.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2107ms | [InlineChat2Intent]
+2025-12-30 08:57:28.018 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 08:57:28.018 [info] request done: requestId: [38c0e7bb-aeef-4e53-9b50-77d763adee35] model deployment ID: []
+2025-12-30 08:57:28.023 [info] ccreq:75d0c9ef.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1216ms | [InlineChat2Intent]
+2025-12-30 08:57:46.338 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 08:57:46.338 [info] request done: requestId: [99313131-1d28-414c-8942-181004fdbe23] model deployment ID: []
+2025-12-30 08:57:46.341 [info] ccreq:e2446186.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2013ms | [InlineChat2Intent]
+2025-12-30 08:57:56.212 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 08:57:56.212 [info] request done: requestId: [2cc2a557-220f-4c00-aeee-c14241e5e3ee] model deployment ID: []
+2025-12-30 08:57:56.216 [info] ccreq:9d3fe53b.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1428ms | [InlineChat2Intent]
+2025-12-30 08:58:10.845 [info] message 0 returned. finish reason: [stop]
+2025-12-30 08:58:10.845 [info] request done: requestId: [daf6d2a8-34ac-4c7e-b816-2b26a404862c] model deployment ID: []
+2025-12-30 08:58:10.849 [info] ccreq:6989a634.copilotmd | success | gpt-4o-mini-2024-07-18 | 2699ms | [healApplyPatch]
+2025-12-30 08:58:10.947 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 08:58:10.947 [info] request done: requestId: [6ad63211-f17c-4166-b794-8bb57f5e16a7] model deployment ID: []
+2025-12-30 08:58:10.952 [info] ccreq:039f7594.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 4251ms | [InlineChat2Intent]
+2025-12-30 08:58:19.632 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 08:58:19.632 [info] request done: requestId: [f0980972-bb23-401b-8f33-6a56f47866fa] model deployment ID: []
+2025-12-30 08:58:19.635 [info] ccreq:0703ca52.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1222ms | [InlineChat2Intent]
+2025-12-30 08:58:31.380 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 08:58:31.380 [info] request done: requestId: [5f41e646-614f-4ef0-89b3-dc3f91fb6a66] model deployment ID: []
+2025-12-30 08:58:31.383 [info] ccreq:815e8083.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1425ms | [InlineChat2Intent]
+2025-12-30 08:58:49.393 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 08:58:49.393 [info] request done: requestId: [80a47675-5d28-4421-8810-d690c9e32b2e] model deployment ID: []
+2025-12-30 08:58:49.400 [info] ccreq:4a310850.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1210ms | [InlineChat2Intent]
+2025-12-30 08:59:03.814 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 08:59:03.814 [info] request done: requestId: [d3914455-7d34-4ca1-887e-2b8d650d150e] model deployment ID: []
+2025-12-30 08:59:03.818 [info] ccreq:6214a4a1.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1334ms | [InlineChat2Intent]
+2025-12-30 08:59:13.710 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 08:59:13.711 [info] request done: requestId: [4ab2ec8c-ef78-4237-82de-22717b02ad4a] model deployment ID: []
+2025-12-30 08:59:13.713 [info] ccreq:7af96721.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1112ms | [InlineChat2Intent]
+2025-12-30 08:59:30.234 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 08:59:30.234 [info] request done: requestId: [25948c15-a18c-4134-86ff-893808d93353] model deployment ID: []
+2025-12-30 08:59:30.237 [info] ccreq:f47a793f.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1391ms | [InlineChat2Intent]
+2025-12-30 08:59:47.901 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 08:59:47.901 [info] request done: requestId: [4eabd8c9-7389-4e27-86ab-ac803c59fca1] model deployment ID: []
+2025-12-30 08:59:47.903 [info] ccreq:91e38d76.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1516ms | [InlineChat2Intent]
+2025-12-30 09:01:45.570 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 09:01:45.571 [info] request done: requestId: [f93e6b9e-a092-4b1a-bdae-39d97d2b448a] model deployment ID: []
+2025-12-30 09:01:45.579 [info] ccreq:75dc6267.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1346ms | [InlineChat2Intent]
+2025-12-30 09:01:52.785 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 09:01:52.785 [info] request done: requestId: [88808802-bdb9-4a7e-9daa-8ff33c4965bd] model deployment ID: []
+2025-12-30 09:01:52.789 [info] ccreq:de45a871.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1335ms | [InlineChat2Intent]
+2025-12-30 09:02:10.044 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 09:02:10.044 [info] request done: requestId: [7db6993a-9962-47cc-9d7f-0fbb8aa1da2e] model deployment ID: []
+2025-12-30 09:02:10.047 [info] ccreq:183a8a43.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2093ms | [InlineChat2Intent]
+2025-12-30 09:02:30.277 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 09:02:30.278 [info] request done: requestId: [ee28f3b8-a40d-457f-a187-615be88ca8d9] model deployment ID: []
+2025-12-30 09:02:30.280 [info] ccreq:d51fc0d6.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1968ms | [InlineChat2Intent]
+2025-12-30 09:02:41.035 [info] message 0 returned. finish reason: [stop]
+2025-12-30 09:02:41.035 [info] request done: requestId: [5bea2e08-5bae-462e-beba-718db1582107] model deployment ID: []
+2025-12-30 09:02:41.038 [info] ccreq:17f589b6.copilotmd | success | gpt-4o-instant-apply-full-ft-v66-short | 1542ms | [editingSession/speculate]
+2025-12-30 09:02:41.041 [info] srequest done: 1550ms, chatRequestId: [undefined], speculationRequestId: [c3405319-bd85-4802-9e0b-9c46c53ba740]
+2025-12-30 09:02:42.252 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 09:02:42.252 [info] request done: requestId: [6bfd2aba-ef6b-4832-a890-d702296d69ca] model deployment ID: []
+2025-12-30 09:02:42.255 [info] ccreq:6e4ec244.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 4125ms | [InlineChat2Intent]
+2025-12-30 09:02:52.991 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 09:02:52.992 [info] request done: requestId: [a4382f63-f795-4d84-bf5a-d942461e7f78] model deployment ID: []
+2025-12-30 09:02:52.994 [info] ccreq:018dd527.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1790ms | [InlineChat2Intent]
+2025-12-30 09:03:05.531 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 09:03:05.531 [info] request done: requestId: [3b5e99ef-2511-4c88-a083-934fdffbbcd5] model deployment ID: []
+2025-12-30 09:03:05.537 [info] ccreq:3163c5cc.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1183ms | [InlineChat2Intent]
+2025-12-30 09:03:34.156 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 09:03:34.157 [info] request done: requestId: [292b6d9c-897b-4990-859a-fbc67929ec56] model deployment ID: []
+2025-12-30 09:03:34.160 [info] ccreq:92472aad.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1979ms | [InlineChat2Intent]
+2025-12-30 09:03:51.182 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 09:03:51.190 [info] request done: requestId: [fc972f4d-9a27-48eb-8887-a8386d9b2216] model deployment ID: []
+2025-12-30 09:03:51.193 [info] ccreq:45ffbdb5.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2576ms | [InlineChat2Intent]
+2025-12-30 09:04:02.721 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 09:04:02.722 [info] request done: requestId: [14f6970e-206b-42cf-8c7a-b4f2edf75039] model deployment ID: []
+2025-12-30 09:04:02.724 [info] ccreq:59c9157a.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2278ms | [InlineChat2Intent]
+2025-12-30 09:04:12.570 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 09:04:12.574 [info] request done: requestId: [57bab5e4-cae6-442a-ac7f-21d57791297b] model deployment ID: []
+2025-12-30 09:04:12.580 [info] ccreq:a6e032a5.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1753ms | [InlineChat2Intent]
+2025-12-30 09:04:25.015 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 09:04:25.016 [info] request done: requestId: [247c0021-fee6-4a0a-bbc0-bcc382f5abe8] model deployment ID: []
+2025-12-30 09:04:25.019 [info] ccreq:6fc25b13.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1600ms | [InlineChat2Intent]
+2025-12-30 09:04:37.429 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 09:04:37.429 [info] request done: requestId: [976fd03e-a608-4d2c-bda6-0de645e7205a] model deployment ID: []
+2025-12-30 09:04:37.431 [info] ccreq:c3e2e4aa.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1739ms | [InlineChat2Intent]
+2025-12-30 09:04:58.079 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 09:04:58.079 [info] request done: requestId: [bae90b8b-11f1-4cf1-9eb8-84cfd1378fb7] model deployment ID: []
+2025-12-30 09:04:58.082 [info] ccreq:236abb86.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2417ms | [InlineChat2Intent]
+2025-12-30 09:05:17.296 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 09:05:17.298 [info] request done: requestId: [26123ba1-80ce-4c7a-b369-0931cb2f4441] model deployment ID: []
+2025-12-30 09:05:17.302 [info] ccreq:dd0912fe.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1485ms | [InlineChat2Intent]
+2025-12-30 09:05:24.812 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 09:05:24.818 [info] request done: requestId: [dbfc48b2-59a9-452f-8ef8-dd52d2fdeec5] model deployment ID: []
+2025-12-30 09:05:24.822 [info] ccreq:feadeaec.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1079ms | [InlineChat2Intent]
+2025-12-30 09:05:31.769 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 09:05:31.769 [info] request done: requestId: [4a9e436d-662b-4f98-b2d4-d8324f9180df] model deployment ID: []
+2025-12-30 09:05:31.772 [info] ccreq:5cd9a938.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 981ms | [InlineChat2Intent]
+2025-12-30 09:06:00.859 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 09:06:00.859 [info] request done: requestId: [3846ed04-c62b-467d-a347-70e27820afb2] model deployment ID: []
+2025-12-30 09:06:00.862 [info] ccreq:7bb09ecf.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1775ms | [InlineChat2Intent]
+2025-12-30 09:06:13.752 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 09:06:13.753 [info] request done: requestId: [a3e67e40-476a-4ed0-ac67-b05bdaddec67] model deployment ID: []
+2025-12-30 09:06:13.756 [info] ccreq:cbf30f0d.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2475ms | [InlineChat2Intent]
+2025-12-30 09:06:49.658 [info] Fetched model metadata in 121ms 588ecb6f-2fb9-471e-9664-e4fdc8b98be0
+2025-12-30 09:06:49.662 [info] ccreq:24f4400c.copilotmd | markdown
+2025-12-30 09:06:53.162 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 09:06:53.163 [info] request done: requestId: [13aa8c0f-32b9-452b-a96c-8223fa3503ce] model deployment ID: []
+2025-12-30 09:06:53.165 [info] ccreq:6ea955fd.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2557ms | [InlineChat2Intent]
+2025-12-30 09:07:27.334 [warning] Tool mcp_copilot_conta_run_container failed validation: object has unsupported schema keyword 'default'
+2025-12-30 09:07:27.335 [warning] Tool mcp_copilot_conta_run_container failed validation: object has unsupported schema keyword 'default'
+2025-12-30 09:07:27.335 [warning] Tool mcp_copilot_conta_run_container failed validation: object has unsupported schema keyword 'default'
+2025-12-30 09:07:27.335 [warning] Tool mcp_copilot_conta_run_container failed validation: object has unsupported schema keyword 'default'
+2025-12-30 09:07:27.335 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2025-12-30 09:07:27.342 [info] Logged in as GuardianNinja
+2025-12-30 09:07:27.769 [info] Got Copilot token for GuardianNinja
+2025-12-30 09:07:27.769 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-30 09:07:27.842 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-30 09:07:27.842 [info] [code-referencing] Public code references are enabled.
+2025-12-30 09:07:27.932 [info] Fetched model metadata in 98ms 77c35572-410c-4d01-a9ac-92a8ff4be516
+2025-12-30 09:07:27.938 [info] ccreq:2d7d3200.copilotmd | markdown
+2025-12-30 09:07:31.864 [info] message 0 returned. finish reason: [stop]
+2025-12-30 09:07:31.864 [info] request done: requestId: [ccb63522-6473-4007-a848-441cfacab95d] model deployment ID: []
+2025-12-30 09:07:31.868 [info] ccreq:bf4e8d68.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 4534ms | [panel/editAgent]
+2025-12-30 09:07:32.377 [info] message 0 returned. finish reason: [stop]
+2025-12-30 09:07:32.377 [info] request done: requestId: [9a2395e1-a628-4220-b4b3-7996bf7027a8] model deployment ID: []
+2025-12-30 09:07:32.381 [info] ccreq:ab9b2052.copilotmd | success | gpt-4o-mini-2024-07-18 | 401ms | [title]
+2025-12-30 09:09:27.529 [info] message 0 returned. finish reason: [stop]
+2025-12-30 09:09:27.531 [info] request done: requestId: [2dc9c4c3-2f3a-49fd-ab19-e55445fa96a5] model deployment ID: []
+2025-12-30 09:09:27.538 [info] ccreq:12939736.copilotmd | success | gpt-4o-mini-2024-07-18 | 4379ms | [healApplyPatch]
+2025-12-30 09:09:27.580 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 09:09:27.580 [info] request done: requestId: [cc620a28-6f35-46ce-974a-af231ca37245] model deployment ID: []
+2025-12-30 09:09:27.584 [info] ccreq:c8ebea51.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 6963ms | [InlineChat2Intent]
+2025-12-30 09:09:35.021 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 09:09:35.024 [info] request done: requestId: [7d97c2e0-31df-41ae-93b1-41529ebda896] model deployment ID: []
+2025-12-30 09:09:35.028 [info] ccreq:c1d6eb22.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1304ms | [InlineChat2Intent]
+2025-12-30 09:09:50.605 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 09:09:50.605 [info] request done: requestId: [e8e3f8a5-71f5-470a-adb7-49b73eacc9db] model deployment ID: []
+2025-12-30 09:09:50.616 [info] ccreq:12788ae5.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 3594ms | [InlineChat2Intent]
+2025-12-30 09:10:07.921 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 09:10:07.921 [info] request done: requestId: [7501c7d6-6ea6-4a25-ad32-6ee1db5f6df2] model deployment ID: []
+2025-12-30 09:10:07.924 [info] ccreq:1fd431ef.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1534ms | [InlineChat2Intent]
+2025-12-30 09:10:18.862 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 09:10:18.862 [info] request done: requestId: [f869adb2-dcc5-4552-a541-687f31f19418] model deployment ID: []
+2025-12-30 09:10:18.865 [info] ccreq:f48dab53.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2301ms | [InlineChat2Intent]
+2025-12-30 09:10:32.418 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 09:10:32.419 [info] request done: requestId: [50a2b0b5-c294-4483-99ad-67b87b31dc16] model deployment ID: []
+2025-12-30 09:10:32.423 [info] ccreq:fe5e41d2.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1722ms | [InlineChat2Intent]
+2025-12-30 09:10:54.324 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 09:10:54.324 [info] request done: requestId: [1ecf372f-ccfd-4cf5-a83c-d14c291eedfb] model deployment ID: []
+2025-12-30 09:10:54.327 [info] ccreq:f50ca61b.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1358ms | [InlineChat2Intent]
+2025-12-30 10:52:46.438 [info] Logged in as GuardianNinja
+2025-12-30 10:52:47.345 [info] Got Copilot token for GuardianNinja
+2025-12-30 10:52:47.345 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-30 10:52:57.245 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-30 10:52:57.245 [info] [code-referencing] Public code references are enabled.
+2025-12-30 10:52:57.446 [info] Fetched model metadata in 211ms 61a8a06e-f1b7-44b4-b8bb-3f2884db4dc6
+2025-12-30 10:52:57.697 [info] ccreq:0f254b06.copilotmd | markdown
+2025-12-30 11:48:10.348 [info] Logged in as GuardianNinja
+2025-12-30 11:48:10.831 [info] Got Copilot token for GuardianNinja
+2025-12-30 11:48:10.831 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-30 11:52:43.600 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-30 11:52:43.600 [info] [code-referencing] Public code references are enabled.
+2025-12-30 11:52:44.469 [error] Error: net::ERR_NETWORK_CHANGED
+	at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10674)
+	at SimpleURLLoaderWrapper.emit (node:events:519:28)
+	at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+  [object Object]
+  {"active_streams":3,"created_streams":0,"pending_create_stream_request_count":0,"negotiated_protocol":"h2","error":-21,"error_on_unavailable":-21,"max_concurrent_streams":100,"streams_initiated_count":6,"streams_abandoned_count":1,"stream_hi_water_mark":13,"frames_received":4,"send_window_size":2147483571,"recv_window_size":15728640,"unacked_recv_window_bytes":1656,"availability_state":"Draining","last_good_stream_id":0,"reused":true,"drain_error":-21,"drain_description":"Closing current sessions.","proxy_schemes":["direct"],"spdy_session":{"privacy_mode":"disabled","secure_dns_policy":"allow","disable_cert_verification_network_fetches":false},"active_stream_details":[{"stream_id":7,"io_state":"STATE_HALF_CLOSED_LOCAL (0x00000002)","send_stalled_by_flow_control":false,"pending_send_status":1},{"stream_id":9,"io_state":"STATE_HALF_CLOSED_LOCAL (0x00000002)","send_stalled_by_flow_control":false,"pending_send_status":1},{"stream_id":11,"io_state":"STATE_HALF_CLOSED_LOCAL (0x00000002)","send_stalled_by_flow_control":false,"pending_send_status":1}]}: Failed to fetch models (ee8ef621-c737-4063-a37f-b4858c9cb868)
+2025-12-30 12:45:44.230 [info] Logged in as GuardianNinja
+2025-12-30 12:45:44.607 [info] Got Copilot token for GuardianNinja
+2025-12-30 12:45:44.607 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-30 12:45:44.971 [info] Fetched model metadata in 944ms c3ae0a7f-9406-451f-98dc-1c7b65049d7e
+2025-12-30 12:45:45.036 [info] ccreq:710b10ef.copilotmd | markdown
+2025-12-30 12:45:45.763 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-30 12:45:45.763 [info] [code-referencing] Public code references are enabled.
+2025-12-30 12:45:45.873 [info] Fetched model metadata in 112ms 89a55e3e-25d2-4ea4-b519-c2a4bdae73be
+2025-12-30 12:45:45.896 [info] ccreq:12be1ac1.copilotmd | markdown
+2025-12-30 12:45:50.627 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:45:50.627 [info] request done: requestId: [627e379c-591b-44cb-928a-bad74f7f7354] model deployment ID: []
+2025-12-30 12:45:50.634 [info] ccreq:c89cb5b7.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2207ms | [InlineChat2Intent]
+2025-12-30 12:46:13.259 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:46:13.260 [info] request done: requestId: [b9c6bbbb-1bbd-4881-b7be-d7eeb859dea5] model deployment ID: []
+2025-12-30 12:46:13.278 [info] ccreq:2c6f0504.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2512ms | [InlineChat2Intent]
+2025-12-30 12:46:36.539 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:46:36.540 [info] request done: requestId: [2deaebc6-3561-410d-b111-3972fd4dd1f5] model deployment ID: []
+2025-12-30 12:46:36.549 [info] ccreq:28479d66.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1325ms | [InlineChat2Intent]
+2025-12-30 12:47:01.008 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:47:01.008 [info] request done: requestId: [cc2d3b98-f26e-4cd9-96a5-953753c391ff] model deployment ID: []
+2025-12-30 12:47:01.011 [info] ccreq:9d6e728d.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1483ms | [InlineChat2Intent]
+2025-12-30 12:47:14.627 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:47:14.628 [info] request done: requestId: [9aaf270f-2a81-4fae-83b6-347efa211eb7] model deployment ID: []
+2025-12-30 12:47:14.631 [info] ccreq:fb2207b2.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1372ms | [InlineChat2Intent]
+2025-12-30 12:47:48.938 [info] message 0 returned. finish reason: [stop]
+2025-12-30 12:47:48.939 [info] request done: requestId: [28cb3ff5-d9b3-4ae8-bf8a-bcc128036a98] model deployment ID: []
+2025-12-30 12:47:48.941 [info] ccreq:5a84e3cb.copilotmd | success | gpt-4o-mini-2024-07-18 | 5798ms | [healApplyPatch]
+2025-12-30 12:47:48.959 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:47:48.959 [info] request done: requestId: [339267e2-0050-49bb-a23c-e3da50bcc6a2] model deployment ID: []
+2025-12-30 12:47:48.968 [info] ccreq:7c512d42.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 8824ms | [InlineChat2Intent]
+2025-12-30 12:48:27.788 [info] message 0 returned. finish reason: [stop]
+2025-12-30 12:48:27.788 [info] request done: requestId: [e83a933d-0d4b-42cc-9bf3-2ebdabbc0e13] model deployment ID: []
+2025-12-30 12:48:27.792 [info] ccreq:9829ff52.copilotmd | success | gpt-4o-instant-apply-full-ft-v66-short | 1204ms | [editingSession/speculate]
+2025-12-30 12:48:27.796 [info] srequest done: 1210ms, chatRequestId: [undefined], speculationRequestId: [e12c541a-d253-463b-8664-ba86f37c478b]
+2025-12-30 12:48:28.523 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:48:28.524 [info] request done: requestId: [bdf1e6a3-4c6a-4c9b-9463-e7a35da59c1b] model deployment ID: []
+2025-12-30 12:48:28.529 [info] ccreq:7468f1da.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2837ms | [InlineChat2Intent]
+2025-12-30 12:48:49.366 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:48:49.366 [info] request done: requestId: [ae2d11b5-05c6-4a9f-a74e-132719178837] model deployment ID: []
+2025-12-30 12:48:49.370 [info] ccreq:1e2a1395.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1100ms | [InlineChat2Intent]
+2025-12-30 12:49:11.894 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:49:11.896 [info] request done: requestId: [af5cfe94-4053-4e68-9cff-9ef173f5b609] model deployment ID: []
+2025-12-30 12:49:11.899 [info] ccreq:88745b38.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1096ms | [InlineChat2Intent]
+2025-12-30 12:49:26.715 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:49:26.715 [info] request done: requestId: [9e660dad-b542-4e35-b861-0d4ff2b6965b] model deployment ID: []
+2025-12-30 12:49:26.720 [info] ccreq:8805b11f.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1363ms | [InlineChat2Intent]
+2025-12-30 12:50:08.986 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:50:08.986 [info] request done: requestId: [5a15475b-07dd-407a-bea8-19c86a0eb79c] model deployment ID: []
+2025-12-30 12:50:08.989 [info] ccreq:5ab28c49.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1067ms | [InlineChat2Intent]
+2025-12-30 12:50:30.378 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:50:30.379 [info] request done: requestId: [5deda6d1-3178-4020-8373-950b14a483cf] model deployment ID: []
+2025-12-30 12:50:30.383 [info] ccreq:fe700e47.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 905ms | [InlineChat2Intent]
+2025-12-30 12:50:45.029 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:50:45.031 [info] request done: requestId: [85a9dbcd-4128-4057-b0ee-b6a0aeb1d8bb] model deployment ID: []
+2025-12-30 12:50:45.036 [info] ccreq:ced5744d.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1183ms | [InlineChat2Intent]
+2025-12-30 12:50:58.904 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:50:58.905 [info] request done: requestId: [7e81b937-f546-47cf-9a4d-f4c097cc8f48] model deployment ID: []
+2025-12-30 12:50:58.907 [info] ccreq:741ed4dd.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1294ms | [InlineChat2Intent]
+2025-12-30 12:51:14.837 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:51:14.837 [info] request done: requestId: [4236d8cf-6aae-43f3-8b21-e07da44d511f] model deployment ID: []
+2025-12-30 12:51:14.840 [info] ccreq:00cda765.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1164ms | [InlineChat2Intent]
+2025-12-30 12:51:31.254 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:51:31.254 [info] request done: requestId: [63278b06-c9e8-47f7-8358-6396b3c0c4c3] model deployment ID: []
+2025-12-30 12:51:31.258 [info] ccreq:9f290cfc.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1437ms | [InlineChat2Intent]
+2025-12-30 12:51:45.539 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:51:45.540 [info] request done: requestId: [6f820280-4950-45ca-8a00-c6f61c00b093] model deployment ID: []
+2025-12-30 12:51:45.544 [info] ccreq:fb806a45.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1293ms | [InlineChat2Intent]
+2025-12-30 12:52:05.442 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:52:05.442 [info] request done: requestId: [d39d8f7a-9cef-4d1e-8531-4385e9a64f69] model deployment ID: []
+2025-12-30 12:52:05.446 [info] ccreq:f10b7332.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1107ms | [InlineChat2Intent]
+2025-12-30 12:52:22.858 [info] message 0 returned. finish reason: [stop]
+2025-12-30 12:52:22.858 [info] request done: requestId: [f8801300-bdab-4711-972f-49a448765ea5] model deployment ID: []
+2025-12-30 12:52:22.880 [info] ccreq:3d1e7fa0.copilotmd | success | gpt-4o-instant-apply-full-ft-v66-short | 1659ms | [editingSession/speculate]
+2025-12-30 12:52:22.884 [info] srequest done: 1678ms, chatRequestId: [undefined], speculationRequestId: [ab200d8e-4a20-4b75-9ca0-1fda1c06ed04]
+2025-12-30 12:52:24.164 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:52:24.164 [info] request done: requestId: [39d90e7b-c7c3-450e-b090-64260fc3bbdd] model deployment ID: []
+2025-12-30 12:52:24.167 [info] ccreq:338bcc0c.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 4143ms | [InlineChat2Intent]
+2025-12-30 12:52:42.805 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:52:42.805 [info] request done: requestId: [c2bb4db3-bf44-4b8a-bbae-dfc9edf0beef] model deployment ID: []
+2025-12-30 12:52:42.808 [info] ccreq:ef42929a.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1355ms | [InlineChat2Intent]
+2025-12-30 12:52:56.081 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:52:56.082 [info] request done: requestId: [c3db95f0-4b6c-4a65-b217-04aaec9d3354] model deployment ID: []
+2025-12-30 12:52:56.085 [info] ccreq:fa44d90e.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1041ms | [InlineChat2Intent]
+2025-12-30 12:53:06.987 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:53:06.988 [info] request done: requestId: [f42335ec-2c03-4c05-ab63-804b933fbe1d] model deployment ID: []
+2025-12-30 12:53:06.990 [info] ccreq:4bf47875.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1259ms | [InlineChat2Intent]
+2025-12-30 12:53:23.492 [info] message 0 returned. finish reason: [stop]
+2025-12-30 12:53:23.493 [info] request done: requestId: [8f8ebb3e-d52a-4279-960e-30b6c3192917] model deployment ID: []
+2025-12-30 12:53:23.499 [info] ccreq:596df6c8.copilotmd | success | gpt-4o-mini-2024-07-18 | 2757ms | [healApplyPatch]
+2025-12-30 12:53:23.518 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:53:23.518 [info] request done: requestId: [07840832-9005-495f-9ae9-cf4ce28b396d] model deployment ID: []
+2025-12-30 12:53:23.522 [info] ccreq:f8482af1.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 3848ms | [InlineChat2Intent]
+2025-12-30 12:53:39.262 [info] message 0 returned. finish reason: [stop]
+2025-12-30 12:53:39.263 [info] request done: requestId: [07814b57-085e-4783-89d8-65c87229d861] model deployment ID: []
+2025-12-30 12:53:39.266 [info] ccreq:289fbdc6.copilotmd | success | gpt-4o-mini-2024-07-18 | 2835ms | [healApplyPatch]
+2025-12-30 12:53:39.279 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:53:39.279 [info] request done: requestId: [fd01cf44-46a7-40e6-9cdc-eba9af33c4c6] model deployment ID: []
+2025-12-30 12:53:39.281 [info] ccreq:f383a585.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 3816ms | [InlineChat2Intent]
+2025-12-30 12:53:48.597 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:53:48.597 [info] request done: requestId: [c934e37c-6f9e-43a0-a1a0-f8858851637a] model deployment ID: []
+2025-12-30 12:53:48.600 [info] ccreq:3fe31afd.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1608ms | [InlineChat2Intent]
+2025-12-30 12:54:17.178 [info] message 0 returned. finish reason: [stop]
+2025-12-30 12:54:17.179 [info] request done: requestId: [c64e426d-5f56-45bf-a25b-4826ac2c1133] model deployment ID: []
+2025-12-30 12:54:17.183 [info] ccreq:cf734264.copilotmd | success | gpt-4o-instant-apply-full-ft-v66-short | 1057ms | [editingSession/speculate]
+2025-12-30 12:54:17.186 [info] srequest done: 1061ms, chatRequestId: [undefined], speculationRequestId: [8c07de17-7eb1-4fb9-b822-a3973a591f3b]
+2025-12-30 12:54:17.940 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:54:17.940 [info] request done: requestId: [971414d5-fcd5-4f61-9594-4a896d1c1a72] model deployment ID: []
+2025-12-30 12:54:17.944 [info] ccreq:166a160b.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2633ms | [InlineChat2Intent]
+2025-12-30 12:54:33.515 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:54:33.516 [info] request done: requestId: [a5abcc4a-33b0-4c50-a398-6371f996d630] model deployment ID: []
+2025-12-30 12:54:33.519 [info] ccreq:add88d56.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1822ms | [InlineChat2Intent]
+2025-12-30 12:54:53.486 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:54:53.487 [info] request done: requestId: [e919b3a7-a73f-4ff9-aff2-63e73a81dbd5] model deployment ID: []
+2025-12-30 12:54:53.489 [info] ccreq:1007c951.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1506ms | [InlineChat2Intent]
+2025-12-30 12:55:04.473 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:55:04.475 [info] request done: requestId: [f2df87d2-4409-4683-88fb-841ecd480153] model deployment ID: []
+2025-12-30 12:55:04.478 [info] ccreq:4b2e2045.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1480ms | [InlineChat2Intent]
+2025-12-30 12:55:28.677 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:55:28.679 [info] request done: requestId: [57cdb925-4583-47d4-abe2-3ca8ae61c4cd] model deployment ID: []
+2025-12-30 12:55:28.683 [info] ccreq:486243c2.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2054ms | [InlineChat2Intent]
+2025-12-30 12:55:54.966 [info] Fetched model metadata in 82ms 74102aee-1400-4d96-8c7e-1e60b18d86cd
+2025-12-30 12:55:54.972 [info] ccreq:a6b3f3a9.copilotmd | markdown
+2025-12-30 12:55:58.028 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:55:58.028 [info] request done: requestId: [8cab091a-76d4-44c9-9927-21eeb8155694] model deployment ID: []
+2025-12-30 12:55:58.033 [info] ccreq:d7cfb181.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1586ms | [InlineChat2Intent]
+2025-12-30 12:56:20.292 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:56:20.293 [info] request done: requestId: [0da50d31-c277-485b-9c3a-53ad79c41c3b] model deployment ID: []
+2025-12-30 12:56:20.296 [info] ccreq:d3b89dd9.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2286ms | [InlineChat2Intent]
+2025-12-30 12:56:43.066 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:56:43.066 [info] request done: requestId: [b9968b64-7296-4b69-9e12-e47d925583e8] model deployment ID: []
+2025-12-30 12:56:43.069 [info] ccreq:8be083b7.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2176ms | [InlineChat2Intent]
+2025-12-30 12:57:34.589 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:57:34.589 [info] request done: requestId: [100dd2c9-3d21-48a1-9b83-1fd988e0349f] model deployment ID: []
+2025-12-30 12:57:34.592 [info] ccreq:94a3fd46.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1723ms | [InlineChat2Intent]
+2025-12-30 12:58:17.954 [info] message 0 returned. finish reason: [stop]
+2025-12-30 12:58:17.954 [info] request done: requestId: [bdf6fb19-4939-432e-ba42-86151a15f468] model deployment ID: []
+2025-12-30 12:58:17.957 [info] ccreq:2d6819ce.copilotmd | success | gpt-4o-mini-2024-07-18 | 5074ms | [healApplyPatch]
+2025-12-30 12:58:17.972 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:58:17.972 [info] request done: requestId: [18af1295-867c-4d53-983a-40533aad8200] model deployment ID: []
+2025-12-30 12:58:17.974 [info] ccreq:1c129839.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 8064ms | [InlineChat2Intent]
+2025-12-30 12:58:26.466 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:58:26.466 [info] request done: requestId: [73311678-7b0e-4dc2-8385-a1a0f8001181] model deployment ID: []
+2025-12-30 12:58:26.473 [info] ccreq:667a521b.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1374ms | [InlineChat2Intent]
+2025-12-30 12:59:18.504 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:59:18.504 [info] request done: requestId: [5b9b0056-50e9-4155-9849-b3195bf9084c] model deployment ID: []
+2025-12-30 12:59:18.511 [info] ccreq:577ecde2.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1210ms | [InlineChat2Intent]
+2025-12-30 12:59:26.697 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 12:59:26.697 [info] request done: requestId: [41e13224-a3d9-4f48-a480-e85552a8da51] model deployment ID: []
+2025-12-30 12:59:26.700 [info] ccreq:cc04d034.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1286ms | [InlineChat2Intent]
+2025-12-30 13:01:57.967 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 13:01:57.968 [info] request done: requestId: [40ee0da4-cdb8-4d43-9156-e2058b8f63df] model deployment ID: []
+2025-12-30 13:01:57.971 [info] ccreq:355c7b44.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 3424ms | [InlineChat2Intent]
+2025-12-30 13:02:21.202 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 13:02:21.202 [info] request done: requestId: [da21fad2-1134-4271-ad17-97b3dd596ff6] model deployment ID: []
+2025-12-30 13:02:21.204 [info] ccreq:5c1aa6eb.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1624ms | [InlineChat2Intent]
+2025-12-30 13:02:35.431 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 13:02:35.432 [info] request done: requestId: [70d9e2cc-f8a8-4685-b16d-1b8b375babb5] model deployment ID: []
+2025-12-30 13:02:35.434 [info] ccreq:94f5acaf.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1385ms | [InlineChat2Intent]
+2025-12-30 13:02:43.082 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 13:02:43.082 [info] request done: requestId: [0317c354-b964-4f66-bd73-b310f7d420e3] model deployment ID: []
+2025-12-30 13:02:43.085 [info] ccreq:ef816a94.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1658ms | [InlineChat2Intent]
+2025-12-30 13:02:55.649 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 13:02:55.649 [info] request done: requestId: [69f95256-c0d6-45bd-991e-1912d56381b5] model deployment ID: []
+2025-12-30 13:02:55.652 [info] ccreq:d8455be0.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1692ms | [InlineChat2Intent]
+2025-12-30 13:03:14.440 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 13:03:14.440 [info] request done: requestId: [4db06f03-5915-4102-b787-5d98e47fd8c7] model deployment ID: []
+2025-12-30 13:03:14.443 [info] ccreq:eafc2da6.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1500ms | [InlineChat2Intent]
+2025-12-30 13:03:41.133 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 13:03:41.133 [info] request done: requestId: [a4980b2b-5e6e-405e-a407-136d80af92bb] model deployment ID: []
+2025-12-30 13:03:41.136 [info] ccreq:91912ef8.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1222ms | [InlineChat2Intent]
+2025-12-30 13:04:00.025 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 13:04:00.025 [info] request done: requestId: [1ba91b69-5503-4aac-b36a-d865751c50c2] model deployment ID: []
+2025-12-30 13:04:00.028 [info] ccreq:ad62eb16.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2233ms | [InlineChat2Intent]
+2025-12-30 13:04:42.538 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 13:04:42.539 [info] request done: requestId: [24a549ea-f2c6-4548-a78e-c69df7780bc5] model deployment ID: []
+2025-12-30 13:04:42.542 [info] ccreq:c4b57ba8.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 3468ms | [InlineChat2Intent]
+2025-12-30 13:05:02.208 [info] message 0 returned. finish reason: [stop]
+2025-12-30 13:05:02.344 [info] request done: requestId: [353e3e03-9abf-457a-92ab-3603efc46532] model deployment ID: []
+2025-12-30 13:05:02.349 [info] ccreq:bd1c2f7e.copilotmd | success | gpt-4o-instant-apply-full-ft-v66-short | 2038ms | [editingSession/speculate]
+2025-12-30 13:05:02.352 [info] srequest done: 2043ms, chatRequestId: [undefined], speculationRequestId: [afcd30e7-9bdf-4b58-8bc2-a52205b0e859]
+2025-12-30 13:05:03.989 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 13:05:03.989 [info] request done: requestId: [fdd0d40e-3224-4efd-8907-2daf71ab815c] model deployment ID: []
+2025-12-30 13:05:03.992 [info] ccreq:7c21a884.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 6410ms | [InlineChat2Intent]
+2025-12-30 13:05:31.528 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 13:05:31.528 [info] request done: requestId: [3e85e64d-3612-4d91-a867-949c0d1f5cb6] model deployment ID: []
+2025-12-30 13:05:31.531 [info] ccreq:90d0e6c4.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1930ms | [InlineChat2Intent]
+2025-12-30 13:06:25.342 [info] Fetched model metadata in 77ms 20276422-7439-4237-bb72-c73683bc263d
+2025-12-30 13:06:25.346 [info] ccreq:c0531c54.copilotmd | markdown
+2025-12-30 13:06:27.671 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 13:06:27.671 [info] request done: requestId: [1d1f6f8d-0527-4646-936f-1d65070912e4] model deployment ID: []
+2025-12-30 13:06:27.673 [info] ccreq:0f7b19de.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1674ms | [InlineChat2Intent]
+2025-12-30 13:07:22.629 [info] Logged in as GuardianNinja
+2025-12-30 13:07:23.109 [info] Got Copilot token for GuardianNinja
+2025-12-30 13:07:23.109 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-30 13:07:23.229 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-30 13:07:23.230 [info] [code-referencing] Public code references are enabled.
+2025-12-30 13:07:23.311 [info] Fetched model metadata in 87ms d96f5690-5fff-4592-9f1c-aca2873aebc5
+2025-12-30 13:07:23.314 [info] ccreq:38849d36.copilotmd | markdown
+2025-12-30 13:07:25.317 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 13:07:25.317 [info] request done: requestId: [4ad9516f-9779-4760-8d05-c11c88eb65bf] model deployment ID: []
+2025-12-30 13:07:25.320 [info] ccreq:70858ae6.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2710ms | [InlineChat2Intent]
+2025-12-30 13:07:43.741 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 13:07:43.741 [info] request done: requestId: [f647b9c6-323d-415b-997c-e8963926b3ad] model deployment ID: []
+2025-12-30 13:07:43.744 [info] ccreq:9bb476f0.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2134ms | [InlineChat2Intent]
+2025-12-30 13:09:36.595 [info] message 0 returned. finish reason: [stop]
+2025-12-30 13:09:36.596 [info] request done: requestId: [639a628d-0b10-4618-ae1a-9cf9a130f1f1] model deployment ID: []
+2025-12-30 13:09:36.600 [info] ccreq:b2f73878.copilotmd | success | gpt-4o-mini-2024-07-18 | 3814ms | [healApplyPatch]
+2025-12-30 13:09:36.618 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 13:09:36.618 [info] request done: requestId: [3948472c-5792-40c9-98b7-6210fd909274] model deployment ID: []
+2025-12-30 13:09:36.621 [info] ccreq:11d9aa38.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 5113ms | [InlineChat2Intent]
+2025-12-30 13:09:56.231 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 13:09:56.231 [info] request done: requestId: [e133ab50-afce-444c-b8a5-ca2b41c85b7b] model deployment ID: []
+2025-12-30 13:09:56.234 [info] ccreq:950c2706.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1404ms | [InlineChat2Intent]
+2025-12-30 13:10:27.838 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 13:10:27.840 [info] request done: requestId: [d9cc3d51-739d-49a7-a625-bf1a328bdb3f] model deployment ID: []
+2025-12-30 13:10:27.843 [info] ccreq:d6f0afd1.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1565ms | [InlineChat2Intent]
+2025-12-30 13:10:41.383 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 13:10:41.384 [info] request done: requestId: [a3d0ced6-4393-48c7-a1ed-0e5e5b84ad29] model deployment ID: []
+2025-12-30 13:10:41.388 [info] ccreq:31479001.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2304ms | [InlineChat2Intent]
+2025-12-30 13:10:59.855 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 13:10:59.855 [info] request done: requestId: [779ef16e-f291-4e4a-9b9d-a472a7df2ca9] model deployment ID: []
+2025-12-30 13:10:59.857 [info] ccreq:110fc274.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1364ms | [InlineChat2Intent]
+2025-12-30 13:11:09.924 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 13:11:09.925 [info] request done: requestId: [fe90bfd7-9396-497b-ab90-10e5d1facd3e] model deployment ID: []
+2025-12-30 13:11:09.927 [info] ccreq:f9675f2b.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2517ms | [InlineChat2Intent]
+2025-12-30 13:11:39.626 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 13:11:39.627 [info] request done: requestId: [17beb2f9-f270-4c67-98bb-1c16d67b3bd6] model deployment ID: []
+2025-12-30 13:11:39.630 [info] ccreq:6308b43d.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 3541ms | [InlineChat2Intent]
+2025-12-30 13:12:40.501 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 13:12:40.502 [info] request done: requestId: [b61e7f07-68d0-4832-a78a-b9a245fc09db] model deployment ID: []
+2025-12-30 13:12:40.506 [info] ccreq:d90a87d5.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1921ms | [InlineChat2Intent]
+2025-12-30 13:12:57.232 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 13:12:57.232 [info] request done: requestId: [7dc9fa0b-2373-48cb-a187-9c721c8fe6fc] model deployment ID: []
+2025-12-30 13:12:57.236 [info] ccreq:ec1f8f50.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2195ms | [InlineChat2Intent]
+2025-12-30 13:13:42.639 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 13:13:42.639 [info] request done: requestId: [5ce8bd03-c388-413b-a8bb-4b14a403403e] model deployment ID: []
+2025-12-30 13:13:42.642 [info] ccreq:28da1142.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1703ms | [InlineChat2Intent]
+2025-12-30 13:24:53.412 [info] Fetched model metadata in 467ms 81423243-8614-4437-8055-948627c45411
+2025-12-30 13:24:53.476 [info] ccreq:ee9f2a6c.copilotmd | markdown
+2025-12-30 13:24:57.449 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 13:24:57.449 [info] request done: requestId: [50df99f3-98e2-40af-8d54-abb7062ae6af] model deployment ID: []
+2025-12-30 13:24:57.454 [info] ccreq:cd5520ed.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2584ms | [InlineChat2Intent]
+2025-12-30 13:27:28.829 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 13:27:28.830 [info] request done: requestId: [349160ac-afd0-4008-954a-4f945ddfc165] model deployment ID: []
+2025-12-30 13:27:28.832 [info] ccreq:0c3feff9.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 2734ms | [InlineChat2Intent]
+2025-12-30 13:28:14.140 [info] message 0 returned. finish reason: [tool_calls]
+2025-12-30 13:28:14.142 [info] request done: requestId: [5bfd3621-54b5-4bec-badb-25b7b5b209c2] model deployment ID: []
+2025-12-30 13:28:14.146 [info] ccreq:fac36fee.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 1564ms | [InlineChat2Intent]
+2025-12-30 13:47:21.737 [info] Logged in as GuardianNinja
+2025-12-30 13:47:22.019 [info] Got Copilot token for GuardianNinja
+2025-12-30 13:47:22.019 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-30 13:47:22.324 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-30 13:47:22.324 [info] [code-referencing] Public code references are enabled.
+2025-12-30 13:47:22.663 [info] Fetched model metadata in 394ms 42124998-b75d-4359-a789-eede662be948
+2025-12-30 13:47:22.772 [info] ccreq:d6556b80.copilotmd | markdown
+2025-12-30 13:47:23.877 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-30 13:47:23.877 [info] [code-referencing] Public code references are enabled.
+2025-12-30 13:47:23.947 [info] Fetched model metadata in 71ms 941418f7-a729-4b9b-8ddd-936bda807d0e
+2025-12-30 13:47:23.950 [info] ccreq:cee51e8e.copilotmd | markdown
+2025-12-30 15:19:34.614 [info] Logged in as GuardianNinja
+2025-12-30 15:19:35.282 [info] Got Copilot token for GuardianNinja
+2025-12-30 15:19:35.282 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-30 15:19:38.005 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-30 15:19:38.005 [info] [code-referencing] Public code references are enabled.
+2025-12-30 15:19:38.104 [info] Fetched model metadata in 103ms cacab51c-a144-4feb-bdb4-66baa95eec67
+2025-12-30 15:19:38.206 [info] ccreq:a9339b9a.copilotmd | markdown
+2025-12-30 17:20:42.423 [info] Logged in as GuardianNinja
+2025-12-30 17:20:43.415 [info] FetcherService: electron-fetch failed with error: net::ERR_NETWORK_CHANGED
+2025-12-30 17:20:44.984 [info] Got Copilot token for GuardianNinja
+2025-12-30 17:20:44.984 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-30 18:22:00.125 [info] Logged in as GuardianNinja
+2025-12-30 18:22:00.549 [info] Got Copilot token for GuardianNinja
+2025-12-30 18:22:00.549 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-30 18:22:00.860 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-30 18:22:00.860 [info] [code-referencing] Public code references are enabled.
+2025-12-30 18:22:00.860 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-30 18:22:00.860 [info] [code-referencing] Public code references are enabled.
+2025-12-30 18:22:00.861 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-30 18:22:00.861 [info] [code-referencing] Public code references are enabled.
+2025-12-30 18:22:00.957 [info] Fetched model metadata in 360ms 89870cee-8081-4765-9a19-8edd06aeb245
+2025-12-30 18:22:00.972 [info] ccreq:1a99f836.copilotmd | markdown
+2025-12-30 18:22:01.313 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-30 18:22:01.313 [info] [code-referencing] Public code references are enabled.
+2025-12-30 18:22:01.392 [info] Fetched model metadata in 80ms ff699bd4-b4e6-4881-9b07-2e704c78c747
+2025-12-30 18:22:01.394 [info] ccreq:d9fdd450.copilotmd | markdown
+2025-12-30 19:23:08.726 [info] Logged in as GuardianNinja
+2025-12-30 19:23:09.289 [info] Got Copilot token for GuardianNinja
+2025-12-30 19:23:09.289 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-30 19:23:13.624 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-30 19:23:13.624 [info] [code-referencing] Public code references are enabled.
+2025-12-30 19:23:13.733 [info] Fetched model metadata in 111ms 806287a6-549c-4e2a-8bee-159a78f8a68c
+2025-12-30 19:23:13.752 [info] ccreq:bc886662.copilotmd | markdown
+2025-12-30 20:24:21.219 [info] Logged in as GuardianNinja
+2025-12-30 20:24:22.317 [info] Got Copilot token for GuardianNinja
+2025-12-30 20:24:22.317 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-30 20:24:25.271 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-30 20:24:25.271 [info] [code-referencing] Public code references are enabled.
+2025-12-30 20:24:25.344 [info] Fetched model metadata in 75ms 79b667fa-f49c-4245-bba4-296b0d128e36
+2025-12-30 20:24:25.348 [info] ccreq:e623c567.copilotmd | markdown
+2025-12-30 21:25:34.063 [info] Logged in as GuardianNinja
+2025-12-30 21:25:34.742 [info] Got Copilot token for GuardianNinja
+2025-12-30 21:25:34.742 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-30 21:25:39.091 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-30 21:25:39.091 [info] [code-referencing] Public code references are enabled.
+2025-12-30 21:25:39.396 [info] Fetched model metadata in 307ms a7ddcde4-2512-44bc-afe0-5a6ebac59296
+2025-12-30 21:25:39.403 [info] ccreq:8ba32048.copilotmd | markdown
+2025-12-30 22:26:45.150 [error] Error: net::ERR_TIMED_OUT
+	at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10674)
+	at SimpleURLLoaderWrapper.emit (node:events:519:28)
+	at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+  [object Object]
+  {"active_streams":0,"created_streams":0,"pending_create_stream_request_count":0,"negotiated_protocol":"h2","error":-7,"error_on_unavailable":-7,"max_concurrent_streams":100,"streams_initiated_count":8,"streams_abandoned_count":4,"stream_hi_water_mark":17,"frames_received":8,"send_window_size":65535,"recv_window_size":15728640,"unacked_recv_window_bytes":3252,"availability_state":"Draining","last_good_stream_id":0,"reused":true,"drain_error":-7,"drain_description":"Error 7 reading from socket.","proxy_schemes":["direct"],"spdy_session":{"privacy_mode":"disabled","secure_dns_policy":"allow","disable_cert_verification_network_fetches":false},"active_stream_details":[]}: Failed to fetch model list
+2025-12-30 22:26:49.201 [info] Logged in as GuardianNinja
+2025-12-30 22:26:49.474 [info] Got Copilot token for GuardianNinja
+2025-12-30 22:26:49.474 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-30 23:27:53.934 [info] Logged in as GuardianNinja
+2025-12-30 23:27:54.216 [info] Got Copilot token for GuardianNinja
+2025-12-30 23:27:54.217 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-30 23:27:54.236 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-30 23:27:54.236 [info] [code-referencing] Public code references are enabled.
+2025-12-30 23:27:54.236 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-30 23:27:54.236 [info] [code-referencing] Public code references are enabled.
+2025-12-30 23:27:54.237 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-30 23:27:54.237 [info] [code-referencing] Public code references are enabled.
+2025-12-30 23:27:54.401 [info] Fetched model metadata in 168ms f15568c3-f042-4db3-aef6-6aec20adc152
+2025-12-30 23:27:54.412 [info] ccreq:2d30f17a.copilotmd | markdown
+2025-12-30 23:27:55.540 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-30 23:27:55.540 [info] [code-referencing] Public code references are enabled.
+2025-12-30 23:27:55.816 [info] Fetched model metadata in 277ms 01ed61c9-f334-45e7-9e02-d559154bc262
+2025-12-30 23:27:55.823 [info] ccreq:4087e94c.copilotmd | markdown
+2025-12-31 00:29:03.005 [error] Failed to fetch model list: 401
+2025-12-31 00:29:07.338 [info] Logged in as GuardianNinja
+2025-12-31 00:29:07.778 [info] Got Copilot token for GuardianNinja
+2025-12-31 00:29:07.778 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-31 00:29:11.050 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-31 00:29:11.050 [info] [code-referencing] Public code references are enabled.
+2025-12-31 00:29:11.121 [info] Fetched model metadata in 71ms d4a7747c-f3b8-4506-b02b-4bdec8c9a40f
+2025-12-31 00:29:11.126 [info] ccreq:f260bba2.copilotmd | markdown
+2025-12-31 01:30:16.465 [info] Logged in as GuardianNinja
+2025-12-31 01:30:16.974 [info] Got Copilot token for GuardianNinja
+2025-12-31 01:30:16.974 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-31 01:30:17.871 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-31 01:30:17.871 [info] [code-referencing] Public code references are enabled.
+2025-12-31 01:30:17.997 [info] Fetched model metadata in 134ms b9c8cbee-ff8f-4827-b729-d8181ce226e8
+2025-12-31 01:30:18.077 [info] ccreq:4d46858d.copilotmd | markdown
+2025-12-31 02:31:26.990 [info] Logged in as GuardianNinja
+2025-12-31 02:31:27.321 [info] Got Copilot token for GuardianNinja
+2025-12-31 02:31:27.321 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-31 02:31:28.331 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-31 02:31:28.331 [info] [code-referencing] Public code references are enabled.
+2025-12-31 02:31:28.409 [info] Fetched model metadata in 79ms 5787d0ce-dd55-405f-b4ff-a48dfa27c254
+2025-12-31 02:31:28.414 [info] ccreq:da64d744.copilotmd | markdown
+2025-12-31 03:21:46.699 [error] Failed to fetch model list: 401
+2025-12-31 03:32:36.744 [info] Logged in as GuardianNinja
+2025-12-31 03:32:36.955 [info] FetcherService: electron-fetch failed with error: net::ERR_INTERNET_DISCONNECTED
+2025-12-31 03:32:36.982 [info] FetcherService: electron-fetch failed with error: net::ERR_INTERNET_DISCONNECTED
+2025-12-31 03:32:37.058 [info] FetcherService: node-fetch failed with error: fetch failed
+2025-12-31 03:32:37.192 [info] FetcherService: node-fetch failed with error: fetch failed
+2025-12-31 03:32:37.241 [info] FetcherService: node-http failed with error: getaddrinfo ENOTFOUND api.github.com
+2025-12-31 03:32:37.387 [info] FetcherService: node-http failed with error: getaddrinfo ENOTFOUND api.github.com
+2025-12-31 03:32:40.961 [info] Logged in as GuardianNinja
+2025-12-31 03:32:40.965 [info] FetcherService: electron-fetch failed with error: net::ERR_INTERNET_DISCONNECTED
+2025-12-31 03:32:40.981 [info] FetcherService: electron-fetch failed with error: net::ERR_INTERNET_DISCONNECTED
+2025-12-31 03:32:41.002 [info] FetcherService: node-fetch failed with error: fetch failed
+2025-12-31 03:32:41.010 [info] FetcherService: node-fetch failed with error: fetch failed
+2025-12-31 03:32:41.020 [info] FetcherService: node-http failed with error: getaddrinfo ENOTFOUND api.github.com
+2025-12-31 03:32:41.133 [info] copilot token chat_enabled: undefined, sku: 
+2025-12-31 03:32:41.137 [info] FetcherService: node-http failed with error: getaddrinfo ENOTFOUND api.github.com
+2025-12-31 03:32:41.998 [info] Logged in as GuardianNinja
+2025-12-31 03:32:42.006 [info] FetcherService: electron-fetch failed with error: net::ERR_INTERNET_DISCONNECTED
+2025-12-31 03:32:42.025 [info] FetcherService: electron-fetch failed with error: net::ERR_INTERNET_DISCONNECTED
+2025-12-31 03:32:42.109 [info] FetcherService: node-fetch failed with error: fetch failed
+2025-12-31 03:32:42.135 [info] FetcherService: node-fetch failed with error: fetch failed
+2025-12-31 03:32:42.161 [info] FetcherService: node-http failed with error: getaddrinfo ENOTFOUND api.github.com
+2025-12-31 03:32:42.171 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2025-12-31 03:32:42.172 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-12-31 03:32:42.172 [error] Error: net::ERR_INTERNET_DISCONNECTED
+	at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10715)
+	at SimpleURLLoaderWrapper.emit (node:events:519:28)
+	at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-12-31 03:32:42.175 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-12-31 03:32:42.175 [error] Error: net::ERR_INTERNET_DISCONNECTED
+	at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10715)
+	at SimpleURLLoaderWrapper.emit (node:events:519:28)
+	at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-12-31 03:32:42.176 [info] FetcherService: node-http failed with error: getaddrinfo ENOTFOUND api.github.com
+2025-12-31 07:25:39.700 [info] Logged in as GuardianNinja
+2025-12-31 07:25:40.184 [info] Got Copilot token for GuardianNinja
+2025-12-31 07:25:40.184 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-31 07:25:41.247 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-31 07:25:41.267 [info] [code-referencing] Public code references are enabled.
+2025-12-31 07:25:41.382 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2025-12-31 07:25:41.382 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2025-12-31 07:25:41.382 [info] Successfully registered GitHub PR title and description provider.
+2025-12-31 07:25:41.382 [info] Successfully registered GitHub PR reviewer comments provider.
+2025-12-31 07:25:41.785 [info] Fetched model metadata in 540ms a215133f-956c-4ed6-93d1-53153552e09b
+2025-12-31 07:25:41.823 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-12-31 07:25:41.842 [info] ccreq:3e169db8.copilotmd | markdown
+2025-12-31 08:40:47.418 [info] Logged in as GuardianNinja
+2025-12-31 08:41:25.344 [info] Got Copilot token for GuardianNinja
+2025-12-31 08:41:25.347 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-31 08:41:53.868 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-31 08:41:53.868 [info] [code-referencing] Public code references are enabled.
+2025-12-31 08:41:54.013 [info] Fetched model metadata in 114ms d9681319-54dc-4917-b685-aa2ff05216b5
+2025-12-31 08:41:54.041 [info] ccreq:18dd56f5.copilotmd | markdown
+2025-12-31 09:39:31.331 [info] Logged in as GuardianNinja
+2025-12-31 09:39:31.783 [info] Got Copilot token for GuardianNinja
+2025-12-31 09:39:31.783 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-31 09:39:33.852 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-31 09:39:33.852 [info] [code-referencing] Public code references are enabled.
+2025-12-31 09:39:34.042 [info] Fetched model metadata in 192ms c5327649-cf3a-48c0-8aec-390b9f9607b1
+2025-12-31 09:39:34.061 [info] ccreq:5025998e.copilotmd | markdown
+2025-12-31 11:20:00.151 [info] Logged in as GuardianNinja
+2025-12-31 11:20:00.463 [info] Got Copilot token for GuardianNinja
+2025-12-31 11:20:00.463 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-31 11:20:01.759 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-31 11:20:01.759 [info] [code-referencing] Public code references are enabled.
+2025-12-31 11:20:01.759 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-31 11:20:01.759 [info] [code-referencing] Public code references are enabled.
+2025-12-31 11:20:01.851 [info] Fetched model metadata in 94ms 106fde83-5198-4876-8735-49c975a3b8fc
+2025-12-31 11:20:01.863 [info] ccreq:d3c28e82.copilotmd | markdown
+2025-12-31 12:38:37.644 [info] Logged in as GuardianNinja
+2025-12-31 12:38:37.947 [info] Got Copilot token for GuardianNinja
+2025-12-31 12:38:37.947 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-31 12:38:40.155 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-31 12:38:40.156 [info] [code-referencing] Public code references are enabled.
+2025-12-31 12:38:40.242 [info] Fetched model metadata in 88ms 3d27d7ad-2853-4573-928b-da30856e1a25
+2025-12-31 12:38:40.249 [info] ccreq:7a9b0530.copilotmd | markdown
+2025-12-31 14:39:42.160 [info] Logged in as GuardianNinja
+2025-12-31 14:39:41.160 [info] Got Copilot token for GuardianNinja
+2025-12-31 14:39:41.160 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-31 14:39:42.418 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-31 14:39:42.418 [info] [code-referencing] Public code references are enabled.
+2025-12-31 14:39:42.500 [info] Fetched model metadata in 83ms fc31b25d-2dc6-4311-91a5-d46068894c81
+2025-12-31 14:39:42.537 [info] ccreq:8ac8bbbb.copilotmd | markdown
+2025-12-31 15:34:45.451 [info] Logged in as GuardianNinja
+2025-12-31 15:34:45.846 [info] Got Copilot token for GuardianNinja
+2025-12-31 15:34:45.846 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-31 15:34:46.649 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-31 15:34:46.649 [info] [code-referencing] Public code references are enabled.
+2025-12-31 15:34:46.759 [info] Fetched model metadata in 124ms 3ad0a9bf-24d0-4d41-92f8-8c3c9e90704b
+2025-12-31 15:34:46.799 [info] ccreq:8c7b7a17.copilotmd | markdown
+2025-12-31 16:30:32.998 [info] Logged in as GuardianNinja
+2025-12-31 16:30:33.346 [info] FetcherService: electron-fetch failed with error: net::ERR_NETWORK_CHANGED
+2025-12-31 16:30:33.598 [info] FetcherService: electron-fetch failed with error: net::ERR_NETWORK_CHANGED
+2025-12-31 16:30:35.744 [info] Got Copilot token for GuardianNinja
+2025-12-31 16:30:35.744 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-31 16:30:37.387 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-31 16:30:37.387 [info] [code-referencing] Public code references are enabled.
+2025-12-31 16:30:37.475 [info] Fetched model metadata in 98ms 80f0a99b-a3a1-4954-ae2e-627a56a644aa
+2025-12-31 16:30:37.544 [info] ccreq:2cda14f4.copilotmd | markdown
+2025-12-31 17:39:03.586 [info] Logged in as GuardianNinja
+2025-12-31 17:39:03.979 [info] Got Copilot token for GuardianNinja
+2025-12-31 17:39:03.980 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-31 17:39:04.482 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-31 17:39:04.482 [info] [code-referencing] Public code references are enabled.
+2025-12-31 17:39:04.596 [info] Fetched model metadata in 133ms a0582c25-c5d7-4197-b557-bae6e012200e
+2025-12-31 17:39:04.774 [info] ccreq:1540e919.copilotmd | markdown
+2025-12-31 18:34:08.967 [info] Logged in as GuardianNinja
+2025-12-31 18:34:09.498 [info] Got Copilot token for GuardianNinja
+2025-12-31 18:34:09.498 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-31 18:34:10.493 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-31 18:34:10.493 [info] [code-referencing] Public code references are enabled.
+2025-12-31 18:34:10.609 [info] Fetched model metadata in 113ms a375a0c1-ef02-4e35-972c-524771af52fa
+2025-12-31 18:34:10.637 [info] ccreq:344b580d.copilotmd | markdown
+2025-12-31 19:29:12.020 [info] Logged in as GuardianNinja
+2025-12-31 19:29:12.775 [info] Got Copilot token for GuardianNinja
+2025-12-31 19:29:12.775 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-31 19:29:13.461 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-31 19:29:13.461 [info] [code-referencing] Public code references are enabled.
+2025-12-31 19:29:13.561 [info] Fetched model metadata in 111ms 93298745-2522-47d8-ae56-55999e865345
+2025-12-31 19:29:13.643 [info] ccreq:bddf7c28.copilotmd | markdown
+2025-12-31 20:26:07.345 [info] Logged in as GuardianNinja
+2025-12-31 20:26:09.919 [info] Got Copilot token for GuardianNinja
+2025-12-31 20:26:09.919 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-31 20:26:11.141 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-31 20:26:11.141 [info] [code-referencing] Public code references are enabled.
+2025-12-31 20:26:11.320 [info] Fetched model metadata in 183ms f9ef4c0e-f5ac-4742-8388-6624a1d27135
+2025-12-31 20:26:11.342 [info] ccreq:978bfadd.copilotmd | markdown
+2025-12-31 22:54:21.624 [info] Logged in as GuardianNinja
+2025-12-31 22:54:21.979 [info] Got Copilot token for GuardianNinja
+2025-12-31 22:54:21.979 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-31 22:54:31.886 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-31 22:54:31.889 [info] [code-referencing] Public code references are enabled.
+2025-12-31 22:54:32.878 [info] Fetched model metadata in 1358ms ecb6e463-3ff1-4a0c-9a14-9f08f5ce3187
+2025-12-31 22:54:33.594 [info] ccreq:f7968a67.copilotmd | markdown
+2025-12-31 23:54:49.979 [info] Logged in as GuardianNinja
+2025-12-31 23:54:50.300 [info] Got Copilot token for GuardianNinja
+2025-12-31 23:54:50.300 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2025-12-31 23:55:14.500 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2025-12-31 23:55:14.502 [info] [code-referencing] Public code references are enabled.
+2025-12-31 23:55:15.837 [info] Fetched model metadata in 1338ms 75c1a750-1001-4f65-b090-9e25adc97c34
+2025-12-31 23:55:16.373 [info] ccreq:2c374d5a.copilotmd | markdown
+2026-01-01 02:12:56.437 [info] Logged in as GuardianNinja
+2026-01-01 02:12:56.699 [info] Got Copilot token for GuardianNinja
+2026-01-01 02:12:56.699 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-01 02:12:58.543 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-01 02:12:58.543 [info] [code-referencing] Public code references are enabled.
+2026-01-01 02:12:58.631 [info] Fetched model metadata in 89ms a4871bae-4968-48a7-9761-6b7305a7c010
+2026-01-01 02:12:58.641 [info] ccreq:b29ff0a3.copilotmd | markdown
+2026-01-01 03:14:09.321 [info] Logged in as GuardianNinja
+2026-01-01 03:14:09.625 [info] Got Copilot token for GuardianNinja
+2026-01-01 03:14:09.625 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-01 03:14:11.444 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-01 03:14:11.444 [info] [code-referencing] Public code references are enabled.
+2026-01-01 03:14:11.539 [info] Fetched model metadata in 97ms ed5fc150-77f7-480f-a8ce-9bfd760a047c
+2026-01-01 03:14:11.594 [info] ccreq:67bd14e2.copilotmd | markdown
+2026-01-01 04:15:28.856 [info] Logged in as GuardianNinja
+2026-01-01 04:15:29.205 [info] Got Copilot token for GuardianNinja
+2026-01-01 04:15:29.206 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-01 04:15:36.697 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-01 04:15:36.702 [info] [code-referencing] Public code references are enabled.
+2026-01-01 04:15:36.861 [info] Fetched model metadata in 173ms e7b4b37a-36d3-434c-8b17-380c10710673
+2026-01-01 04:15:36.964 [info] ccreq:eac8e75c.copilotmd | markdown
+2026-01-01 05:16:46.822 [info] Logged in as GuardianNinja
+2026-01-01 05:16:47.129 [info] Got Copilot token for GuardianNinja
+2026-01-01 05:16:47.129 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-01 05:16:44.730 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-01 05:16:44.730 [info] [code-referencing] Public code references are enabled.
+2026-01-01 05:16:44.804 [info] Fetched model metadata in 74ms 4a845ba1-4559-4c78-81b8-ef887a74c0cb
+2026-01-01 05:16:44.808 [info] ccreq:5345f62e.copilotmd | markdown
+2026-01-01 06:17:51.349 [info] Logged in as GuardianNinja
+2026-01-01 06:17:51.736 [info] Got Copilot token for GuardianNinja
+2026-01-01 06:17:51.736 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-01 06:17:59.646 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-01 06:17:59.647 [info] [code-referencing] Public code references are enabled.
+2026-01-01 06:17:59.748 [info] Fetched model metadata in 107ms b5890703-f77f-456c-8f57-06e36fa76210
+2026-01-01 06:17:59.781 [info] ccreq:4c483269.copilotmd | markdown
+2026-01-01 10:05:04.175 [info] Logged in as GuardianNinja
+2026-01-01 10:05:07.567 [info] FetcherService: electron-fetch failed with error: net::ERR_NETWORK_CHANGED
+2026-01-01 10:05:08.057 [info] FetcherService: electron-fetch failed with error: net::ERR_NETWORK_CHANGED
+2026-01-01 10:05:17.893 [info] FetcherService: node-fetch failed with error: fetch failed
+2026-01-01 10:05:17.940 [info] FetcherService: node-fetch failed with error: fetch failed
+2026-01-01 10:05:18.308 [info] FetcherService: node-http failed with error: getaddrinfo ENOTFOUND api.github.com
+2026-01-01 10:05:19.257 [info] FetcherService: node-http failed with error: getaddrinfo ENOTFOUND api.github.com
+2026-01-01 10:05:26.753 [info] Logged in as GuardianNinja
+2026-01-01 10:05:26.780 [info] FetcherService: electron-fetch failed with error: net::ERR_INTERNET_DISCONNECTED
+2026-01-01 10:05:26.820 [info] FetcherService: electron-fetch failed with error: net::ERR_INTERNET_DISCONNECTED
+2026-01-01 10:05:26.988 [info] FetcherService: node-fetch failed with error: fetch failed
+2026-01-01 10:05:27.005 [info] FetcherService: node-fetch failed with error: fetch failed
+2026-01-01 10:05:27.013 [info] FetcherService: node-http failed with error: getaddrinfo ENOTFOUND api.github.com
+2026-01-01 10:05:27.394 [info] copilot token chat_enabled: undefined, sku: 
+2026-01-01 10:05:27.396 [info] copilot token chat_enabled: undefined, sku: 
+2026-01-01 10:05:27.403 [info] FetcherService: node-http failed with error: getaddrinfo ENOTFOUND api.github.com
+2026-01-01 10:05:42.144 [info] Logged in as GuardianNinja
+2026-01-01 10:05:42.182 [info] FetcherService: electron-fetch failed with error: net::ERR_INTERNET_DISCONNECTED
+2026-01-01 10:05:42.240 [info] FetcherService: electron-fetch failed with error: net::ERR_INTERNET_DISCONNECTED
+2026-01-01 10:05:42.262 [info] FetcherService: node-fetch failed with error: fetch failed
+2026-01-01 10:05:42.277 [info] FetcherService: node-fetch failed with error: fetch failed
+2026-01-01 10:05:42.303 [info] FetcherService: node-http failed with error: getaddrinfo ENOTFOUND api.github.com
+2026-01-01 10:05:42.320 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2026-01-01 10:05:42.322 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2026-01-01 10:05:42.322 [error] Error: net::ERR_INTERNET_DISCONNECTED
+	at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10715)
+	at SimpleURLLoaderWrapper.emit (node:events:519:28)
+	at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-01-01 10:05:42.324 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2026-01-01 10:05:42.324 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2026-01-01 10:05:42.324 [error] Error: net::ERR_INTERNET_DISCONNECTED
+	at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10715)
+	at SimpleURLLoaderWrapper.emit (node:events:519:28)
+	at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-01-01 10:05:42.324 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2026-01-01 10:05:42.324 [error] Error: net::ERR_INTERNET_DISCONNECTED
+	at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10715)
+	at SimpleURLLoaderWrapper.emit (node:events:519:28)
+	at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-01-01 10:05:42.331 [info] FetcherService: node-http failed with error: getaddrinfo ENOTFOUND api.github.com
+2026-01-01 10:05:57.314 [info] Logged in as GuardianNinja
+2026-01-01 10:05:57.469 [info] FetcherService: electron-fetch failed with error: net::ERR_INTERNET_DISCONNECTED
+2026-01-01 10:05:57.559 [info] FetcherService: electron-fetch failed with error: net::ERR_INTERNET_DISCONNECTED
+2026-01-01 10:05:57.803 [info] FetcherService: node-fetch failed with error: fetch failed
+2026-01-01 10:05:57.858 [info] FetcherService: node-fetch failed with error: fetch failed
+2026-01-01 10:05:57.998 [info] FetcherService: node-http failed with error: getaddrinfo ENOTFOUND api.github.com
+2026-01-01 10:05:57.998 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2026-01-01 10:05:57.999 [error] Error: net::ERR_INTERNET_DISCONNECTED
+	at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10715)
+	at SimpleURLLoaderWrapper.emit (node:events:519:28)
+	at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-01-01 10:05:58.027 [info] FetcherService: node-http failed with error: getaddrinfo ENOTFOUND api.github.com
+2026-01-01 10:09:45.262 [info] Logged in as GuardianNinja
+2026-01-01 10:09:45.759 [info] Got Copilot token for GuardianNinja
+2026-01-01 10:09:45.759 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-01 10:09:49.939 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-01 10:09:50.314 [info] [code-referencing] Public code references are enabled.
+2026-01-01 10:09:50.314 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-01 10:09:50.314 [info] [code-referencing] Public code references are enabled.
+2026-01-01 10:09:51.417 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2026-01-01 10:09:51.420 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2026-01-01 10:09:51.420 [info] Successfully registered GitHub PR title and description provider.
+2026-01-01 10:09:51.420 [info] Successfully registered GitHub PR reviewer comments provider.
+2026-01-01 10:09:51.804 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-01-01 10:09:51.812 [info] Fetched model metadata in 1881ms dbda9ed4-a1c6-41d8-a5a2-f2d70938fdae
+2026-01-01 10:09:51.847 [info] ccreq:f91a3625.copilotmd | markdown
+2026-01-01 10:10:42.335 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-01 10:10:42.336 [info] [code-referencing] Public code references are enabled.
+2026-01-01 10:10:42.434 [info] Fetched model metadata in 161ms b2bddb9c-db3b-4280-a42f-adc514bdee21
+2026-01-01 10:10:42.451 [info] ccreq:009a2d43.copilotmd | markdown
+2026-01-01 11:05:44.110 [info] Logged in as GuardianNinja
+2026-01-01 11:05:44.456 [info] Got Copilot token for GuardianNinja
+2026-01-01 11:05:44.456 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-01 11:05:44.994 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-01 11:05:44.994 [info] [code-referencing] Public code references are enabled.
+2026-01-01 11:05:45.092 [info] Fetched model metadata in 112ms e8f70611-f143-41ee-8fbe-56d3ca50306a
+2026-01-01 11:05:45.122 [info] ccreq:413b6f6d.copilotmd | markdown
+2026-01-01 12:42:05.274 [info] Logged in as GuardianNinja
+2026-01-01 12:42:05.620 [info] Got Copilot token for GuardianNinja
+2026-01-01 12:42:05.620 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-01 12:42:11.876 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-01 12:42:11.877 [info] [code-referencing] Public code references are enabled.
+2026-01-01 12:42:12.041 [info] Fetched model metadata in 176ms 56832839-ab2b-4153-8c0a-82ceca4e17a4
+2026-01-01 12:42:12.136 [info] ccreq:c1997388.copilotmd | markdown
+2026-01-01 13:37:15.005 [info] Logged in as GuardianNinja
+2026-01-01 13:37:15.499 [info] Got Copilot token for GuardianNinja
+2026-01-01 13:37:15.499 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-01 13:37:19.554 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-01 13:37:19.554 [info] [code-referencing] Public code references are enabled.
+2026-01-01 13:37:19.640 [info] Fetched model metadata in 96ms 7ba9db6e-f60c-4a8b-ac39-8ba1e16ad26e
+2026-01-01 13:37:19.674 [info] ccreq:9076fc91.copilotmd | markdown
+2026-01-01 14:47:11.899 [info] Logged in as GuardianNinja
+2026-01-01 14:47:12.772 [info] Got Copilot token for GuardianNinja
+2026-01-01 14:47:12.772 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-01 14:47:21.648 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-01 14:47:21.650 [info] [code-referencing] Public code references are enabled.
+2026-01-01 14:47:21.919 [info] Fetched model metadata in 272ms 8164b37f-3df9-4e67-ac4e-6827270418bf
+2026-01-01 14:47:21.980 [info] ccreq:8381af40.copilotmd | markdown
+2026-01-01 15:42:22.874 [info] Logged in as GuardianNinja
+2026-01-01 15:42:23.226 [info] Got Copilot token for GuardianNinja
+2026-01-01 15:42:23.226 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-01 15:42:24.486 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-01 15:42:24.486 [info] [code-referencing] Public code references are enabled.
+2026-01-01 15:42:24.632 [info] Fetched model metadata in 157ms d073dc0d-63d1-4144-9366-1715ffb36a2d
+2026-01-01 15:42:24.682 [info] ccreq:e94ff51e.copilotmd | markdown
+2026-01-01 16:37:29.421 [info] Logged in as GuardianNinja
+2026-01-01 16:37:29.917 [info] Got Copilot token for GuardianNinja
+2026-01-01 16:37:29.917 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-01 16:37:35.608 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-01 16:37:35.631 [info] [code-referencing] Public code references are enabled.
+2026-01-01 16:37:35.725 [info] Fetched model metadata in 124ms fc4b34b2-bc7f-4b8f-a75b-f885e7cb7bf0
+2026-01-01 16:37:35.767 [info] ccreq:0110215c.copilotmd | markdown
+2026-01-01 17:32:35.852 [info] Logged in as GuardianNinja
+2026-01-01 17:32:36.159 [info] Got Copilot token for GuardianNinja
+2026-01-01 17:32:36.160 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-01 17:32:37.481 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-01 17:32:37.481 [info] [code-referencing] Public code references are enabled.
+2026-01-01 17:32:37.563 [info] Fetched model metadata in 95ms 9af8a4b9-546e-4eee-845c-4d6072ef54a1
+2026-01-01 17:32:37.573 [info] ccreq:d3e9dcdd.copilotmd | markdown
+2026-01-01 18:27:37.470 [info] Logged in as GuardianNinja
+2026-01-01 18:27:37.779 [info] Got Copilot token for GuardianNinja
+2026-01-01 18:27:37.779 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-01 18:27:38.758 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-01 18:27:38.758 [info] [code-referencing] Public code references are enabled.
+2026-01-01 18:27:38.838 [info] Fetched model metadata in 86ms bcfee4a7-f55e-4de1-8d01-a41fb090e644
+2026-01-01 18:27:38.860 [info] ccreq:88a58ec8.copilotmd | markdown
+2026-01-01 20:29:59.750 [info] Logged in as GuardianNinja
+2026-01-01 20:30:00.447 [info] Got Copilot token for GuardianNinja
+2026-01-01 20:30:00.447 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-01 20:30:05.101 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-01 20:30:05.102 [info] [code-referencing] Public code references are enabled.
+2026-01-01 20:30:05.180 [info] Fetched model metadata in 81ms 3b58e677-b854-4ee4-8cca-f67fa337a162
+2026-01-01 20:30:05.239 [info] ccreq:fa611d46.copilotmd | markdown
+2026-01-01 21:25:09.484 [info] Logged in as GuardianNinja
+2026-01-01 21:25:09.886 [info] Got Copilot token for GuardianNinja
+2026-01-01 21:25:09.886 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-01 21:25:11.915 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-01 21:25:11.915 [info] [code-referencing] Public code references are enabled.
+2026-01-01 21:25:12.030 [info] Fetched model metadata in 122ms 41084fd9-b3e1-41f8-b340-f540d541c29e
+2026-01-01 21:25:12.122 [info] ccreq:379fd21a.copilotmd | markdown
+2026-01-01 22:20:13.468 [info] Logged in as GuardianNinja
+2026-01-01 22:20:13.766 [info] Got Copilot token for GuardianNinja
+2026-01-01 22:20:13.766 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-01 22:20:14.632 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-01 22:20:14.632 [info] [code-referencing] Public code references are enabled.
+2026-01-01 22:20:14.717 [info] Fetched model metadata in 92ms 6030822e-82dc-452b-937d-629b09fdd0f4
+2026-01-01 22:20:14.728 [info] ccreq:5f0ecc5a.copilotmd | markdown
+2026-01-01 23:29:17.468 [info] Logged in as GuardianNinja
+2026-01-01 23:29:17.775 [info] Got Copilot token for GuardianNinja
+2026-01-01 23:29:17.775 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-01 23:29:19.182 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-01 23:29:19.182 [info] [code-referencing] Public code references are enabled.
+2026-01-01 23:29:19.468 [info] Fetched model metadata in 291ms 417e9425-f9c5-4391-ac7a-2e0acd1d24d8
+2026-01-01 23:29:20.028 [info] ccreq:43d6527c.copilotmd | markdown
+2026-01-02 00:30:57.172 [info] Logged in as GuardianNinja
+2026-01-02 00:30:57.459 [info] Got Copilot token for GuardianNinja
+2026-01-02 00:30:57.459 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-02 01:31:57.127 [info] Logged in as GuardianNinja
+2026-01-02 01:31:57.403 [info] Got Copilot token for GuardianNinja
+2026-01-02 01:31:57.403 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-02 01:31:57.475 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-02 01:31:57.475 [info] [code-referencing] Public code references are enabled.
+2026-01-02 01:31:57.475 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-02 01:31:57.475 [info] [code-referencing] Public code references are enabled.
+2026-01-02 01:31:57.475 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-02 01:31:57.475 [info] [code-referencing] Public code references are enabled.
+2026-01-02 01:31:57.686 [info] Fetched model metadata in 237ms 2c22585b-79f6-482d-a3d0-ded2854c438c
+2026-01-02 01:31:57.710 [info] ccreq:fc7df543.copilotmd | markdown
+2026-01-02 01:31:57.996 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-02 01:31:57.996 [info] [code-referencing] Public code references are enabled.
+2026-01-02 01:31:58.142 [info] Fetched model metadata in 150ms a139930c-37fb-4729-b2c5-771dde11c249
+2026-01-02 01:31:58.151 [info] ccreq:cd62cdce.copilotmd | markdown
+2026-01-02 02:33:06.759 [info] Logged in as GuardianNinja
+2026-01-02 02:33:07.076 [info] Got Copilot token for GuardianNinja
+2026-01-02 02:33:07.076 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-02 02:33:10.471 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-02 02:33:10.471 [info] [code-referencing] Public code references are enabled.
+2026-01-02 02:33:10.560 [info] Fetched model metadata in 92ms 221ca0b2-86cd-4911-a8b4-31dba0bf50a0
+2026-01-02 02:33:10.574 [info] ccreq:c69ed662.copilotmd | markdown
+2026-01-02 03:34:06.115 [info] Logged in as GuardianNinja
+2026-01-02 03:34:06.654 [info] Got Copilot token for GuardianNinja
+2026-01-02 03:34:06.654 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-02 03:34:16.444 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-02 03:34:16.451 [info] [code-referencing] Public code references are enabled.
+2026-01-02 03:34:16.764 [info] Fetched model metadata in 327ms 608ffdbb-2adb-49a8-8c5e-d1ce4b454902
+2026-01-02 03:34:17.068 [info] ccreq:990ecbe6.copilotmd | markdown
+2026-01-02 04:35:17.081 [info] Logged in as GuardianNinja
+2026-01-02 04:35:17.375 [info] Got Copilot token for GuardianNinja
+2026-01-02 04:35:17.375 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-02 04:35:19.732 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-02 04:35:19.732 [info] [code-referencing] Public code references are enabled.
+2026-01-02 04:35:19.816 [info] Fetched model metadata in 85ms 0bdd789e-ba5d-4b12-a214-39cc74807a07
+2026-01-02 04:35:19.823 [info] ccreq:f3eac30c.copilotmd | markdown
+2026-01-02 05:36:33.583 [info] Logged in as GuardianNinja
+2026-01-02 05:36:33.946 [info] Got Copilot token for GuardianNinja
+2026-01-02 05:36:33.946 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-02 05:36:37.548 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-02 05:36:37.549 [info] [code-referencing] Public code references are enabled.
+2026-01-02 05:36:37.658 [info] Fetched model metadata in 118ms d60eba92-876d-4871-9e0e-61df211d5f8e
+2026-01-02 05:36:37.691 [info] ccreq:20a31550.copilotmd | markdown
+2026-01-02 06:31:51.432 [info] Logged in as GuardianNinja
+2026-01-02 06:31:51.896 [info] Got Copilot token for GuardianNinja
+2026-01-02 06:31:51.896 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-02 06:31:53.360 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-02 06:31:53.360 [info] [code-referencing] Public code references are enabled.
+2026-01-02 06:31:53.464 [info] Fetched model metadata in 110ms 27b327e6-f2d4-4b3c-8885-9741fbf9d401
+2026-01-02 06:31:53.506 [info] ccreq:593f7fd9.copilotmd | markdown
+2026-01-02 07:26:53.182 [info] Logged in as GuardianNinja
+2026-01-02 07:26:53.571 [info] Got Copilot token for GuardianNinja
+2026-01-02 07:26:53.571 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-02 07:26:53.760 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-02 07:26:53.760 [info] [code-referencing] Public code references are enabled.
+2026-01-02 07:26:53.933 [info] Fetched model metadata in 182ms 4a083185-00ed-47e3-a9a1-e5fbbf9a69a4
+2026-01-02 07:26:53.984 [info] ccreq:16d85d35.copilotmd | markdown
+2026-01-02 08:21:55.631 [info] Logged in as GuardianNinja
+2026-01-02 08:21:55.972 [info] Got Copilot token for GuardianNinja
+2026-01-02 08:21:55.972 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-02 08:21:57.954 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-02 08:21:57.954 [info] [code-referencing] Public code references are enabled.
+2026-01-02 08:21:58.048 [info] Fetched model metadata in 97ms 05d86c29-fdef-4d16-92fd-2cf807553734
+2026-01-02 08:21:58.119 [info] ccreq:2ff0947f.copilotmd | markdown
+2026-01-02 09:17:00.202 [info] Logged in as GuardianNinja
+2026-01-02 09:17:00.563 [info] Got Copilot token for GuardianNinja
+2026-01-02 09:17:00.563 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-02 09:17:02.819 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-02 09:17:02.819 [info] [code-referencing] Public code references are enabled.
+2026-01-02 09:17:02.923 [info] Fetched model metadata in 106ms 35de6a66-a32b-4987-815a-d5ae41cdfdf9
+2026-01-02 09:17:02.939 [info] ccreq:c3d791c1.copilotmd | markdown
+2026-01-02 10:12:04.819 [info] Logged in as GuardianNinja
+2026-01-02 10:12:05.246 [info] Got Copilot token for GuardianNinja
+2026-01-02 10:12:05.246 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-02 10:12:06.829 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-02 10:12:06.829 [info] [code-referencing] Public code references are enabled.
+2026-01-02 10:12:07.290 [info] Fetched model metadata in 527ms affb3719-5c16-4098-bbb2-5381814eb352
+2026-01-02 10:12:07.484 [info] ccreq:ea7d2c00.copilotmd | markdown
+2026-01-02 11:07:07.523 [info] Logged in as GuardianNinja
+2026-01-02 11:07:07.953 [info] Got Copilot token for GuardianNinja
+2026-01-02 11:07:07.953 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-02 11:07:08.188 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-02 11:07:08.188 [info] [code-referencing] Public code references are enabled.
+2026-01-02 11:07:08.286 [info] Fetched model metadata in 101ms 279669dd-cb5d-4104-aa89-e96f0bf73ca3
+2026-01-02 11:07:08.308 [info] ccreq:d37e0695.copilotmd | markdown
+2026-01-02 12:02:08.604 [info] Logged in as GuardianNinja
+2026-01-02 12:02:08.869 [info] Got Copilot token for GuardianNinja
+2026-01-02 12:02:08.869 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-02 12:02:09.170 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-02 12:02:09.170 [info] [code-referencing] Public code references are enabled.
+2026-01-02 12:02:09.254 [info] Fetched model metadata in 91ms 43395d46-9e49-4930-a6d5-e826ac9ac371
+2026-01-02 12:02:09.265 [info] ccreq:de6866b9.copilotmd | markdown
+2026-01-02 12:57:09.151 [info] Logged in as GuardianNinja
+2026-01-02 12:57:09.452 [info] Got Copilot token for GuardianNinja
+2026-01-02 12:57:09.452 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-02 12:57:09.720 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-02 12:57:09.720 [info] [code-referencing] Public code references are enabled.
+2026-01-02 12:57:09.799 [info] Fetched model metadata in 104ms ae544f48-27f4-400f-8cea-867c3f86fd0d
+2026-01-02 12:57:09.821 [info] ccreq:2f593fc8.copilotmd | markdown
+2026-01-02 13:52:09.174 [info] Logged in as GuardianNinja
+2026-01-02 13:52:09.500 [info] Got Copilot token for GuardianNinja
+2026-01-02 13:52:09.500 [info] Copilot Chat: 0.35.2, VS Code: 1.107.0
+2026-01-02 13:52:10.220 [info] copilot token chat_enabled: true, sku: plus_monthly_subscriber_quota
+2026-01-02 13:52:10.220 [info] [code-referencing] Public code references are enabled.
+2026-01-02 13:52:10.334 [info] Fetched model metadata in 120ms e726c26d-e36c-46cf-a15c-8c21f77f38af
+2026-01-02 13:52:10.366 [info] ccreq:1294198a.copilotmd | markdown

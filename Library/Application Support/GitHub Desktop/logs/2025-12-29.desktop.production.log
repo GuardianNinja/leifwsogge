@@ -1,0 +1,55 @@
+2025-12-29T01:15:32.428Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-29T01:15:32.954Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.271s)
+2025-12-29T01:15:33.384Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-29T01:15:34.272Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.314s)
+2025-12-29T10:25:05.258Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+fatal: unable to access 'https://github.com/Space-LEAF-corp/Main-private-files.git/': Could not resolve host: github.com
+
+2025-12-29T10:25:05.350Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+TypeError: Failed to fetch
+    at It (/webpack:/app/src/lib/http.ts:152:10)
+    at Qn.request (/webpack:/app/src/lib/api.ts:1812:18)
+    at Qn.ghRequest (/webpack:/app/src/lib/api.ts:1836:33)
+    at Qn.fetchPushControl (/webpack:/app/src/lib/api.ts:1649:35)
+    at Yp.refreshBranchProtectionState (/webpack:/app/src/lib/stores/app-store.ts:1282:37)
+    at /webpack:/app/src/lib/stores/app-store.ts:5332:20
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Yp.withPushPullFetch (/webpack:/app/src/lib/stores/app-store.ts:4818:5)
+    at Yp.performFetch (/webpack:/app/src/lib/stores/app-store.ts:5284:5)
+    at Uw.performAndScheduleFetch (/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:92:7)
+2025-12-29T10:25:05.370Z - info: [ui] [fetchAllRepoRulesets] unable to fetch all repo rulesets | repos/Space-LEAF-corp/Main-private-files/rulesets
+TypeError: Failed to fetch
+    at It (/webpack:/app/src/lib/http.ts:152:10)
+    at Qn.request (/webpack:/app/src/lib/api.ts:1812:18)
+    at Qn.ghRequest (/webpack:/app/src/lib/api.ts:1836:33)
+    at Qn.fetchAllRepoRulesets (/webpack:/app/src/lib/api.ts:1727:35)
+    at Yp.refreshBranchProtectionState (/webpack:/app/src/lib/stores/app-store.ts:1287:40)
+    at /webpack:/app/src/lib/stores/app-store.ts:5327:32
+    at Yp.withPushPullFetch (/webpack:/app/src/lib/stores/app-store.ts:4818:5)
+    at Yp.performFetch (/webpack:/app/src/lib/stores/app-store.ts:5284:5)
+    at Uw.performAndScheduleFetch (/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:92:7)
+2025-12-29T10:25:05.383Z - info: [ui] [fetchRepoRulesForBranch] unable to fetch repo rules for branch: main | repos/Space-LEAF-corp/Main-private-files/rules/branches/main
+TypeError: Failed to fetch
+    at It (/webpack:/app/src/lib/http.ts:152:10)
+    at Qn.request (/webpack:/app/src/lib/api.ts:1812:18)
+    at Qn.ghRequest (/webpack:/app/src/lib/api.ts:1836:33)
+    at Qn.fetchRepoRulesForBranch (/webpack:/app/src/lib/api.ts:1700:35)
+    at Yp.refreshBranchProtectionState (/webpack:/app/src/lib/stores/app-store.ts:1308:39)
+    at /webpack:/app/src/lib/stores/app-store.ts:5327:32
+    at Yp.withPushPullFetch (/webpack:/app/src/lib/stores/app-store.ts:4818:5)
+    at Yp.performFetch (/webpack:/app/src/lib/stores/app-store.ts:5284:5)
+    at Uw.performAndScheduleFetch (/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:92:7)
+2025-12-29T10:25:05.647Z - warn: [ui] getFetchPollInterval: failed for Space-LEAF-corp/Main-private-files
+TypeError: Failed to fetch
+    at It (/webpack:/app/src/lib/http.ts:152:10)
+    at Qn.request (/webpack:/app/src/lib/api.ts:1812:18)
+    at Qn.ghRequest (/webpack:/app/src/lib/api.ts:1836:33)
+    at Qn.getFetchPollInterval (/webpack:/app/src/lib/api.ts:1983:35)
+    at Uw.getFetchInterval (/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:133:40)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Uw.performAndScheduleFetch (/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:107:11)
+2025-12-29T15:24:40.500Z - info: [ui] [Timing] Action 'create commit' for 'Space-LEAF-corp/Main-private-files' took 0.428s
+2025-12-29T15:24:47.456Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-29T15:24:48.126Z - info: [ui] Executing push: git push origin main:main --progress (took 1.079s)
+2025-12-29T15:24:48.420Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-29T15:24:49.032Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store

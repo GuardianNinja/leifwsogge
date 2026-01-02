@@ -1,0 +1,16 @@
+2025-12-30 08:05:53.389 [info] [2025-12-30 13:05:53.249] [         32ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ • FAILED
+2025-12-30 08:05:53.389 [info] 
+Canceled: Operation cancelled; command=/usr/bin/git -c core.quotepath=false -c color.ui=false for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/
+
+2025-12-30 08:05:53.416 [info] [2025-12-30 13:05:53.416] [          6ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype] git rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • FAILED
+2025-12-30 08:05:53.416 [info] 
+Canceled: Operation cancelled; command=/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --abbrev-ref --symbolic-full-name @ @{u} --
+
+2025-12-30 08:54:30.921 [info] [2025-12-30 13:54:30.910] [*     60247ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ (slow) • FAILED
+2025-12-30 08:54:30.931 [info] 
+Canceled: Operation cancelled; command=/usr/bin/git -c core.quotepath=false -c color.ui=false for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/
+
+2025-12-30 08:55:30.975 [info] [2025-12-30 13:55:30.975] [*     60017ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype] git rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- (slow) • FAILED
+2025-12-30 08:55:30.975 [info] 
+Canceled: Operation cancelled; command=/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --abbrev-ref --symbolic-full-name @ @{u} --
+

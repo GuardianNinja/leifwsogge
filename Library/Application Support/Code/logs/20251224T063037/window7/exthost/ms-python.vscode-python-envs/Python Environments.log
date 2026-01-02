@@ -1,0 +1,204 @@
+2025-12-30 08:48:28.481 [info] 
+=== Python Envs Configuration Levels ===
+2025-12-30 08:48:28.482 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2025-12-30 08:48:28.482 [info] [pet] Starting Python Locator /Users/leifwsogge/.vscode/extensions/ms-python.vscode-python-envs-1.14.0-darwin-x64/python-env-tools/bin/pet server
+2025-12-30 08:48:29.313 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-12-30 08:48:29.519 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module"],"environmentDirectories":[],"poetryExecutable":"poetry","cacheDirectory":"/Users/leifwsogge/Library/Application Support/Code/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2025-12-30 08:48:31.593 [info] Discovered env: /usr/bin/python3
+2025-12-30 08:48:31.597 [info] [pet] Locator Conda took 187.668691ms
+2025-12-30 08:48:31.597 [info] [pet] Locator Homebrew took 153.677158ms
+2025-12-30 08:48:31.598 [info] [pet] Locator MacCommandLineTools took 127.283061ms
+2025-12-30 08:48:31.598 [info] [pet] Locator MacPythonOrg took 1.667462ms
+2025-12-30 08:48:31.599 [info] [pet] Locator MacXCode took 56.565µs
+2025-12-30 08:48:31.599 [info] [pet] Locator PipEnv took 2.044211ms
+2025-12-30 08:48:31.600 [info] [pet] Locator Pixi took 99.626µs
+2025-12-30 08:48:31.601 [info] [pet] Locator Poetry took 11.001091ms
+2025-12-30 08:48:31.603 [info] [pet] Locator PyEnv took 404.912µs
+2025-12-30 08:48:31.604 [info] [pet] Locator Uv took 7.321059ms
+2025-12-30 08:48:31.605 [info] [pet] Locator Venv took 1.558074ms
+2025-12-30 08:48:31.606 [info] [pet] Locator VirtualEnv took 3.310072ms
+2025-12-30 08:48:31.606 [info] [pet] Locator VirtualEnvWrapper took 27.322µs
+2025-12-30 08:48:31.607 [info] [pet] Locator GlobalVirtualEnvs took 4.565837ms
+2025-12-30 08:48:31.608 [info] [pet] Locator Locators took 190.155103ms
+2025-12-30 08:48:31.608 [info] [pet] Locator Path took 304.750725ms
+2025-12-30 08:48:31.608 [info] [pet] Locator Workspaces took 6.998892ms
+2025-12-30 08:48:31.613 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-12-30 08:48:31.639 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":306,"breakdown":{"GlobalVirtualEnvs":4,"Locators":190,"Path":304,"Workspaces":6},"locators":{"Conda":187,"Homebrew":153,"MacCommandLineTools":127,"MacPythonOrg":1,"MacXCode":0,"PipEnv":2,"Pixi":0,"Poetry":11,"PyEnv":0,"Uv":7,"Venv":1,"VirtualEnv":3,"VirtualEnvWrapper":0}}}}
+2025-12-30 08:48:32.117 [info] Python API: Changed environment from undefined to Python 3.9.6 for: /Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module
+2025-12-30 08:48:32.122 [info] Internal: Changed environment from undefined to Python 3.9.6 for: /Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module
+2025-12-30 08:48:32.574 [info] Discovered env: /usr/bin/python3
+2025-12-30 08:48:32.588 [info] [pet] Locator Conda took 45.352453ms
+2025-12-30 08:48:32.589 [info] [pet] Locator Homebrew took 73.344019ms
+2025-12-30 08:48:32.590 [info] [pet] Locator MacCommandLineTools took 37.649319ms
+2025-12-30 08:48:32.591 [info] [pet] Locator MacPythonOrg took 42.58µs
+2025-12-30 08:48:32.591 [info] [pet] Locator MacXCode took 29.171µs
+2025-12-30 08:48:32.592 [info] [pet] Locator PipEnv took 40.673µs
+2025-12-30 08:48:32.592 [info] [pet] Locator Pixi took 76.37µs
+2025-12-30 08:48:32.593 [info] [pet] Locator Poetry took 318.913µs
+2025-12-30 08:48:32.593 [info] [pet] Locator PyEnv took 1.528732ms
+2025-12-30 08:48:32.593 [info] [pet] Locator Uv took 30.935808ms
+2025-12-30 08:48:32.594 [info] [pet] Locator Venv took 24.474µs
+2025-12-30 08:48:32.595 [info] [pet] Locator VirtualEnv took 22.034µs
+2025-12-30 08:48:32.596 [info] [pet] Locator VirtualEnvWrapper took 42.277µs
+2025-12-30 08:48:32.596 [info] [pet] Locator GlobalVirtualEnvs took 114.851µs
+2025-12-30 08:48:32.597 [info] [pet] Locator Locators took 76.236533ms
+2025-12-30 08:48:32.598 [info] [pet] Locator Path took 75.365524ms
+2025-12-30 08:48:32.600 [info] [pet] Locator Workspaces took 9.195811ms
+2025-12-30 08:48:32.607 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-12-30 08:48:32.778 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":76,"breakdown":{"GlobalVirtualEnvs":0,"Locators":76,"Path":75,"Workspaces":9},"locators":{"Conda":45,"Homebrew":73,"MacCommandLineTools":37,"MacPythonOrg":0,"MacXCode":0,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":1,"Uv":30,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2025-12-30 08:48:33.391 [info] Discovered env: /usr/bin/python3
+2025-12-30 08:48:33.392 [info] [pet] Locator Conda took 70.686413ms
+2025-12-30 08:48:33.393 [info] [pet] Locator Homebrew took 183.433183ms
+2025-12-30 08:48:33.393 [info] [pet] Locator MacCommandLineTools took 12.584496ms
+2025-12-30 08:48:33.393 [info] [pet] Locator MacPythonOrg took 223.15µs
+2025-12-30 08:48:33.393 [info] [pet] Locator MacXCode took 11.358535ms
+2025-12-30 08:48:33.393 [info] [pet] Locator PipEnv took 157.899µs
+2025-12-30 08:48:33.393 [info] [pet] Locator Pixi took 32.261µs
+2025-12-30 08:48:33.393 [info] [pet] Locator Poetry took 316.728µs
+2025-12-30 08:48:33.393 [info] [pet] Locator PyEnv took 288.263µs
+2025-12-30 08:48:33.393 [info] [pet] Locator Uv took 75.227µs
+2025-12-30 08:48:33.393 [info] [pet] Locator Venv took 32.144µs
+2025-12-30 08:48:33.394 [info] [pet] Locator VirtualEnv took 2.732516ms
+2025-12-30 08:48:33.394 [info] [pet] Locator VirtualEnvWrapper took 22.315µs
+2025-12-30 08:48:33.394 [info] [pet] Locator GlobalVirtualEnvs took 80.949µs
+2025-12-30 08:48:33.394 [info] [pet] Locator Locators took 189.474401ms
+2025-12-30 08:48:33.394 [info] [pet] Locator Path took 115.439103ms
+2025-12-30 08:48:33.394 [info] [pet] Locator Workspaces took 5.219907ms
+2025-12-30 08:48:33.396 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-12-30 08:48:33.412 [info] Conda not found, turning off conda features. [Error: Conda not found
+	at F (/Users/leifwsogge/.vscode/extensions/ms-python.vscode-python-envs-1.14.0-darwin-x64/dist/extension.js:2:544897)
+	at async L (/Users/leifwsogge/.vscode/extensions/ms-python.vscode-python-envs-1.14.0-darwin-x64/dist/extension.js:2:545022)
+	at async t.registerCondaFeatures (/Users/leifwsogge/.vscode/extensions/ms-python.vscode-python-envs-1.14.0-darwin-x64/dist/extension.js:2:561919)
+	at async Promise.all (index 1)
+	at async Immediate.<anonymous> (/Users/leifwsogge/.vscode/extensions/ms-python.vscode-python-envs-1.14.0-darwin-x64/dist/extension.js:2:693451)]
+2025-12-30 08:48:33.431 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":189,"breakdown":{"GlobalVirtualEnvs":0,"Locators":189,"Path":115,"Workspaces":5},"locators":{"Conda":70,"Homebrew":183,"MacCommandLineTools":12,"MacPythonOrg":0,"MacXCode":11,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Uv":0,"Venv":0,"VirtualEnv":2,"VirtualEnvWrapper":0}}}}
+2025-12-30 08:48:33.466 [info] Discovered env: /usr/bin/python3
+2025-12-30 08:48:33.507 [info] [pet] Locator Conda took 30.19216ms
+2025-12-30 08:48:33.507 [info] [pet] Locator Homebrew took 68.18876ms
+2025-12-30 08:48:33.507 [info] [pet] Locator MacCommandLineTools took 22.679389ms
+2025-12-30 08:48:33.507 [info] [pet] Locator MacPythonOrg took 44.031µs
+2025-12-30 08:48:33.508 [info] [pet] Locator MacXCode took 4.09953ms
+2025-12-30 08:48:33.508 [info] [pet] Locator PipEnv took 141.376µs
+2025-12-30 08:48:33.508 [info] [pet] Locator Pixi took 3.357618ms
+2025-12-30 08:48:33.508 [info] [pet] Locator Poetry took 4.335924ms
+2025-12-30 08:48:33.508 [info] [pet] Locator PyEnv took 618.27µs
+2025-12-30 08:48:33.508 [info] [pet] Locator Uv took 642.943µs
+2025-12-30 08:48:33.508 [info] [pet] Locator Venv took 21.139µs
+2025-12-30 08:48:33.508 [info] [pet] Locator VirtualEnv took 197.688µs
+2025-12-30 08:48:33.508 [info] [pet] Locator VirtualEnvWrapper took 26.454µs
+2025-12-30 08:48:33.508 [info] [pet] Locator GlobalVirtualEnvs took 4.30652ms
+2025-12-30 08:48:33.509 [info] [pet] Locator Locators took 71.314145ms
+2025-12-30 08:48:33.509 [info] [pet] Locator Path took 48.147726ms
+2025-12-30 08:48:33.509 [info] [pet] Locator Workspaces took 8.5305ms
+2025-12-30 08:48:33.510 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-12-30 08:48:33.510 [info] Pipenv not found
+2025-12-30 08:48:33.510 [info] Pipenv not found, turning off pipenv features.
+2025-12-30 08:48:33.511 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":72,"breakdown":{"GlobalVirtualEnvs":4,"Locators":71,"Path":48,"Workspaces":8},"locators":{"Conda":30,"Homebrew":68,"MacCommandLineTools":22,"MacPythonOrg":0,"MacXCode":4,"PipEnv":0,"Pixi":3,"Poetry":4,"PyEnv":0,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2025-12-30 08:48:34.281 [info] Discovered env: /usr/bin/python3
+2025-12-30 08:48:34.282 [info] [pet] Locator Conda took 47.292907ms
+2025-12-30 08:48:34.282 [info] [pet] Locator Homebrew took 80.631265ms
+2025-12-30 08:48:34.282 [info] [pet] Locator MacCommandLineTools took 35.442569ms
+2025-12-30 08:48:34.282 [info] [pet] Locator MacPythonOrg took 44.528µs
+2025-12-30 08:48:34.282 [info] [pet] Locator MacXCode took 29.457µs
+2025-12-30 08:48:34.282 [info] [pet] Locator PipEnv took 168.886µs
+2025-12-30 08:48:34.282 [info] [pet] Locator Pixi took 33.763µs
+2025-12-30 08:48:34.282 [info] [pet] Locator Poetry took 2.328062ms
+2025-12-30 08:48:34.283 [info] [pet] Locator PyEnv took 280.765µs
+2025-12-30 08:48:34.283 [info] [pet] Locator Uv took 79.771µs
+2025-12-30 08:48:34.283 [info] [pet] Locator Venv took 1.988838ms
+2025-12-30 08:48:34.283 [info] [pet] Locator VirtualEnv took 27.218µs
+2025-12-30 08:48:34.283 [info] [pet] Locator VirtualEnvWrapper took 46.881µs
+2025-12-30 08:48:34.283 [info] [pet] Locator GlobalVirtualEnvs took 108.272µs
+2025-12-30 08:48:34.283 [info] [pet] Locator Locators took 82.714894ms
+2025-12-30 08:48:34.283 [info] [pet] Locator Path took 75.228207ms
+2025-12-30 08:48:34.283 [info] [pet] Locator Workspaces took 5.553135ms
+2025-12-30 08:48:34.286 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-12-30 08:48:34.287 [info] Pyenv not found, turning off pyenv features.
+2025-12-30 08:48:34.289 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":82,"breakdown":{"GlobalVirtualEnvs":0,"Locators":82,"Path":75,"Workspaces":5},"locators":{"Conda":47,"Homebrew":80,"MacCommandLineTools":35,"MacPythonOrg":0,"MacXCode":0,"PipEnv":0,"Pixi":0,"Poetry":2,"PyEnv":0,"Uv":0,"Venv":1,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2025-12-30 08:48:34.314 [info] Discovered env: /usr/bin/python3
+2025-12-30 08:48:34.351 [info] [pet] Locator Conda took 17.534181ms
+2025-12-30 08:48:34.351 [info] [pet] Locator Homebrew took 43.101768ms
+2025-12-30 08:48:34.352 [info] [pet] Locator MacCommandLineTools took 10.947385ms
+2025-12-30 08:48:34.352 [info] [pet] Locator MacPythonOrg took 42.361µs
+2025-12-30 08:48:34.352 [info] [pet] Locator MacXCode took 31.304µs
+2025-12-30 08:48:34.353 [info] [pet] Locator PipEnv took 1.749492ms
+2025-12-30 08:48:34.353 [info] [pet] Locator Pixi took 566.946µs
+2025-12-30 08:48:34.353 [info] [pet] Locator Poetry took 2.032726ms
+2025-12-30 08:48:34.353 [info] [pet] Locator PyEnv took 476.573µs
+2025-12-30 08:48:34.353 [info] [pet] Locator Uv took 2.407354ms
+2025-12-30 08:48:34.353 [info] [pet] Locator Venv took 58.008µs
+2025-12-30 08:48:34.353 [info] [pet] Locator VirtualEnv took 3.125604ms
+2025-12-30 08:48:34.353 [info] [pet] Locator VirtualEnvWrapper took 1.606413ms
+2025-12-30 08:48:34.353 [info] [pet] Locator GlobalVirtualEnvs took 254.274µs
+2025-12-30 08:48:34.353 [info] [pet] Locator Locators took 43.977641ms
+2025-12-30 08:48:34.353 [info] [pet] Locator Path took 60.635832ms
+2025-12-30 08:48:34.353 [info] [pet] Locator Workspaces took 2.000631ms
+2025-12-30 08:48:34.354 [info] Poetry not found, turning off poetry features.
+2025-12-30 08:48:34.356 [info] [resolveDefaultInterpreter] User configured defaultInterpreterPath: /usr/bin/python3 and defaultEnvManager: undefined
+2025-12-30 08:48:34.356 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-12-30 08:48:34.357 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":60,"breakdown":{"GlobalVirtualEnvs":0,"Locators":43,"Path":60,"Workspaces":2},"locators":{"Conda":17,"Homebrew":43,"MacCommandLineTools":10,"MacPythonOrg":0,"MacXCode":0,"PipEnv":1,"Pixi":0,"Poetry":2,"PyEnv":0,"Uv":2,"Venv":0,"VirtualEnv":3,"VirtualEnvWrapper":1}}}}
+2025-12-30 08:48:34.368 [info] Resolved Python Environment /usr/bin/python3
+2025-12-30 08:48:49.790 [info] Python API: Changed environment from undefined to Python 3.9.6 for: global
+2025-12-30 08:48:49.791 [info] Internal: Changed environment from undefined to Python 3.9.6 for: global
+2025-12-30 09:08:31.007 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-12-30 09:08:31.067 [info] Resolved Python Environment /usr/bin/python3
+2025-12-30 09:08:31.069 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-12-30 09:08:31.110 [info] Resolved Python Environment /usr/bin/python3
+2025-12-30 09:08:38.529 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-12-30 09:08:38.554 [info] Resolved Python Environment /usr/bin/python3
+2025-12-30 09:08:38.554 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-12-30 09:08:38.573 [info] Resolved Python Environment /usr/bin/python3
+2025-12-30 09:08:46.226 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-12-30 09:08:46.259 [info] Resolved Python Environment /usr/bin/python3
+2025-12-30 09:08:46.260 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-12-30 09:08:46.277 [info] Resolved Python Environment /usr/bin/python3
+2025-12-30 09:08:58.963 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-12-30 09:08:58.985 [info] Resolved Python Environment /usr/bin/python3
+2025-12-30 09:08:58.986 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-12-30 09:08:59.017 [info] Resolved Python Environment /usr/bin/python3
+2025-12-30 13:13:23.767 [info] Running: uv --version
+2025-12-30 13:13:23.772 [info] Running: /usr/bin/python3 -m pip list
+2025-12-30 13:13:25.560 [info] python: Package           Version
+
+2025-12-30 13:13:25.560 [info] python: ----------------- -------
+altgraph          0.17.2
+exceptiongroup    1.3.1
+future            0.18.2
+
+2025-12-30 13:13:25.561 [info] python: iniconfig         2.1.0
+macholib          1.15.2
+packaging         25.0
+
+2025-12-30 13:13:25.561 [info] python: pip               21.2.4
+
+2025-12-30 13:13:25.561 [info] python: pluggy            1.6.0
+
+2025-12-30 13:13:25.561 [info] python: Pygments          2.19.2
+pytest            8.4.2
+
+2025-12-30 13:13:25.561 [info] python: setuptools        58.0.4
+
+2025-12-30 13:13:25.561 [info] python: six               1.15.0
+tomli             2.3.0
+
+2025-12-30 13:13:25.561 [info] python: typing_extensions 4.15.0
+
+2025-12-30 13:13:25.561 [info] python: wheel             0.37.0
+
+2025-12-30 13:13:25.577 [info] python: WARNING: You are using pip version 21.2.4; however, version 25.3 is available.
+You should consider upgrading via the '/Library/Developer/CommandLineTools/usr/bin/python3 -m pip install --upgrade pip' command.
+

@@ -1,0 +1,16 @@
+2025-12-28 11:14:10.944 [info] Experiment 'pythonSurveyNotification' is active
+2025-12-28 11:14:10.944 [error] extension activation failed [Canceled (FileSystemError): Canceled
+	at Ns.e (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:18876)
+	at Object.copy (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:17367)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async u (/Users/leifwsogge/.vscode/extensions/ms-python.python-2025.20.1-darwin-x64/out/client/extension.js:2:919528)
+	at async t.registerPythonStartup (/Users/leifwsogge/.vscode/extensions/ms-python.python-2025.20.1-darwin-x64/out/client/extension.js:2:919870)
+	at async /Users/leifwsogge/.vscode/extensions/ms-python.python-2025.20.1-darwin-x64/out/client/extension.js:2:479741
+	at async t.activateComponents (/Users/leifwsogge/.vscode/extensions/ms-python.python-2025.20.1-darwin-x64/out/client/extension.js:2:478477)
+	at async /Users/leifwsogge/.vscode/extensions/ms-python.python-2025.20.1-darwin-x64/out/client/extension.js:2:2707474
+	at async e (/Users/leifwsogge/.vscode/extensions/ms-python.python-2025.20.1-darwin-x64/out/client/extension.js:2:2707006)
+	at async Ky.n (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:13398)
+	at async Ky.m (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:13361)
+	at async Ky.l (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:12817)] {
+  code: 'Unknown'
+}

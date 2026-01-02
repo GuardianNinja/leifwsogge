@@ -1,0 +1,360 @@
+2025-12-27 08:56:29.883 [info] Client: Pylance client (2025.10.4) started with python extension (2025.20.1)
+2025-12-27 08:56:33.892 [info] (46515): Server root directory: file:///Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-27 08:56:33.894 [info] (46515): Pylance language server 2025.10.4 (pyright version 1.1.407, commit 906e40aa) starting
+2025-12-27 08:56:33.921 [info] (46515): Starting service instance "simulate_lambda_prototype" for workspace "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/simulate_lambda_prototype"
+2025-12-27 08:56:37.667 [info] (46515): Loading background bundle file:///Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js into file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype...
+2025-12-27 08:56:38.618 [info] (46515): FG(simulate_lambda_prototype): Setting environmentName for service "simulate_lambda_prototype": "Python 3.9.6"
+2025-12-27 08:56:38.620 [info] (46515): FG(simulate_lambda_prototype): Setting pythonPath for service "simulate_lambda_prototype": "/usr/bin/python3"
+2025-12-27 08:56:38.623 [info] (46515): FG(simulate_lambda_prototype): No include entries specified; assuming /Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/simulate_lambda_prototype
+2025-12-27 08:56:38.624 [info] (46515): FG(simulate_lambda_prototype): Auto-excluding **/node_modules
+2025-12-27 08:56:38.624 [info] (46515): FG(simulate_lambda_prototype): Auto-excluding **/__pycache__
+2025-12-27 08:56:38.625 [info] (46515): FG(simulate_lambda_prototype): Auto-excluding **/.*
+2025-12-27 08:56:39.721 [info] (46515): FG(simulate_lambda_prototype): Assuming Python version 3.9.6.final.0
+2025-12-27 08:56:40.276 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 08:56:40.286 [info] (46515): Settings have not changed. Skipping update.
+2025-12-27 08:56:40.343 [info] (46515): Settings have not changed. Skipping update.
+2025-12-27 08:56:40.344 [info] (46515): Starting service instance "<default>" for workspace ""
+2025-12-27 08:56:40.345 [info] (46515): Loading background bundle file:///Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js into ...
+2025-12-27 08:56:40.508 [info] (46515): Starting Mcp server id:5413 ...
+2025-12-27 08:56:40.742 [info] (46515): Settings have not changed. Skipping update.
+2025-12-27 08:56:42.363 [info] (46515): FG(<default>): Setting environmentName for service "<default>": "Python 3.9.6"
+2025-12-27 08:56:42.365 [info] (46515): FG(<default>): Setting pythonPath for service "<default>": "/usr/bin/python3"
+2025-12-27 08:56:42.366 [info] (46515): FG(<default>): No include entries specified; assuming /<default workspace root>
+2025-12-27 08:56:42.366 [info] (46515): FG(<default>): Auto-excluding **/node_modules
+2025-12-27 08:56:42.366 [info] (46515): FG(<default>): Auto-excluding **/__pycache__
+2025-12-27 08:56:42.367 [info] (46515): FG(<default>): Auto-excluding **/.*
+2025-12-27 08:56:44.720 [info] (46515): FG(<default>): Assuming Python version 3.9.6.final.0
+2025-12-27 08:56:46.074 [error] (46515): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2025-12-27 08:56:46.075 [info] (46515): FG(<default>): No source files found.
+2025-12-27 08:56:46.259 [info] (46515): PQ(simulate_lambda_prototype): Priority queue background worker(2) root directory: file:///Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-27 08:56:46.265 [info] (46515): PQ(simulate_lambda_prototype): Priority queue background worker(2) started
+2025-12-27 08:56:48.188 [info] (46515): PQ(<default>): Priority queue background worker(4) root directory: file:///Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-27 08:56:48.189 [info] (46515): PQ(<default>): Priority queue background worker(4) started
+2025-12-27 08:56:49.252 [info] (46515): IDX(simulate_lambda_prototype): Indexer background runner(5) root directory: file:///Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist (index)
+2025-12-27 08:56:49.252 [info] (46515): IDX(simulate_lambda_prototype): Indexing(5) started
+2025-12-27 08:56:49.318 [info] (46515): BG(simulate_lambda_prototype): Loaded external background bundle file:///Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js. 
+2025-12-27 08:56:50.755 [info] (46515): BG(<default>): Loaded external background bundle file:///Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js. 
+2025-12-27 08:56:51.834 [info] (46515): IDX(simulate_lambda_prototype): Long operation: scan packages file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype (2165ms)
+2025-12-27 08:56:51.835 [info] (46515): IDX(simulate_lambda_prototype): scanned(5) 25 files over 1 exec env
+2025-12-27 08:56:54.870 [info] (46515): IDX(simulate_lambda_prototype): Long operation: indexing: file:///Users/leifwsogge/Library/Python/3.9/lib/python/site-packages/exceptiongroup/__init__.py (2566ms)
+2025-12-27 08:56:55.568 [info] (46515): BG(simulate_lambda_prototype): Long operation: SemanticTokens range 219:0 - 268:0 at file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype/simulate_lambda.py (5310ms)
+2025-12-27 08:56:56.564 [info] (46515): IDX(simulate_lambda_prototype): Long operation: index execution environment file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype (4280ms)
+2025-12-27 08:56:56.579 [info] (46515): IDX(simulate_lambda_prototype): Long operation: index packages file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype (4321ms)
+2025-12-27 08:56:56.580 [info] (46515): IDX(simulate_lambda_prototype): indexed(5) 25 files over 1 exec env
+2025-12-27 08:56:56.603 [info] (46515): IDX(simulate_lambda_prototype): Indexing finished(5).
+2025-12-27 08:57:19.362 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 08:57:32.394 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 08:57:34.767 [info] (46515): BG(simulate_lambda_prototype): Long operation: checking: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype/simulate_lambda.py (2207ms)
+2025-12-27 08:57:34.768 [info] (46515): BG(simulate_lambda_prototype): Long operation: analyzing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype/simulate_lambda.py (2208ms)
+2025-12-27 08:57:39.812 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 08:57:57.867 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 08:58:06.843 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 08:58:10.714 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 08:58:13.482 [info] (46515): BG(simulate_lambda_prototype): Long operation: checking: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype/simulate_lambda.py (2218ms)
+2025-12-27 08:58:13.483 [info] (46515): BG(simulate_lambda_prototype): Long operation: analyzing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype/simulate_lambda.py (2593ms)
+2025-12-27 08:58:42.694 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 08:59:03.300 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 08:59:16.562 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 08:59:23.945 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 08:59:26.412 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 08:59:32.658 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 08:59:42.565 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 08:59:47.752 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 08:59:51.760 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:00:04.455 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:00:12.963 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:00:20.309 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:00:27.635 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:00:39.168 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:00:45.524 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:00:52.580 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:01:08.346 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:01:21.467 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:01:32.110 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:01:38.059 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:01:41.312 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:01:49.724 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:01:57.320 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:02:09.134 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:02:19.568 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:02:28.833 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:02:42.913 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:02:48.035 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:02:58.539 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:03:08.070 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:03:24.051 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:03:27.332 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:03:33.218 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:03:43.223 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:03:50.768 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:04:01.426 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:04:03.297 [info] (46515): BG(simulate_lambda_prototype): Long operation: checking: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype/simulate_lambda.py (2630ms)
+2025-12-27 09:04:03.298 [info] (46515): BG(simulate_lambda_prototype): Long operation: analyzing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype/simulate_lambda.py (2641ms)
+2025-12-27 09:04:07.773 [info] (46515): virtual workspace: vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl1lutxlaamc0t0rzde56y3dnuzawt0rjmkxua3haamt0wlrnmu9xwtnoakv4tkrabq/
+2025-12-27 09:04:07.775 [info] (46515): Starting service instance "<default>" for workspace "vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl1lutxlaamc0t0rzde56y3dnuzawt0rjmkxua3haamt0wlrnmu9xwtnoakv4tkrabq/"
+2025-12-27 09:04:07.847 [info] (46515): FG(<default>): Setting environmentName for service "<default>": "Python 3.9.6"
+2025-12-27 09:04:07.847 [info] (46515): FG(<default>): No include entries specified; assuming vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl1lutxlaamc0t0rzde56y3dnuzawt0rjmkxua3haamt0wlrnmu9xwtnoakv4tkrabq/
+2025-12-27 09:04:07.848 [info] (46515): FG(<default>): Auto-excluding **/node_modules
+2025-12-27 09:04:07.849 [info] (46515): FG(<default>): Auto-excluding **/__pycache__
+2025-12-27 09:04:07.850 [info] (46515): FG(<default>): Auto-excluding **/.*
+2025-12-27 09:04:08.399 [info] (46515): FG(<default>): Assuming Python version 3.9.6.final.0
+2025-12-27 09:04:09.389 [error] (46515): FG(<default>): File or directory "vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl1lutxlaamc0t0rzde56y3dnuzawt0rjmkxua3haamt0wlrnmu9xwtnoakv4tkrabq/" does not exist.
+2025-12-27 09:04:09.389 [info] (46515): FG(<default>): No source files found.
+2025-12-27 09:04:16.526 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:04:24.494 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:04:32.895 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:04:43.477 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:04:50.217 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:05:00.112 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:05:22.278 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:05:59.823 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:06:07.934 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:06:18.433 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:06:26.420 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:06:33.780 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:06:38.389 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:06:46.387 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:07:14.735 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:07:25.365 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:07:33.314 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:07:41.843 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:07:49.946 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:07:54.287 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:08:16.028 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:08:28.847 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:08:49.906 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:09:03.536 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:09:12.741 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:09:19.078 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:09:31.280 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:09:39.792 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:10:05.347 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:10:15.292 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:10:23.829 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:10:31.601 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:10:41.941 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:10:51.752 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:10:54.452 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:11:00.903 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:11:10.852 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:11:17.680 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:11:24.981 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:11:47.261 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:11:53.404 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:11:56.907 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:12:06.851 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:12:13.793 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:12:28.486 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:12:37.082 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:12:39.933 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:12:48.156 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:12:52.144 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:13:00.241 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:13:03.374 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:13:09.087 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:13:17.409 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:13:31.616 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:13:38.895 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:13:47.588 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:13:52.022 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:13:56.592 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:14:05.256 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:14:13.759 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:14:24.748 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:14:31.636 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:14:41.235 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:14:50.320 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:14:57.343 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:15:04.807 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:15:13.108 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:15:18.663 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:15:26.396 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:15:34.851 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:15:38.147 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:15:52.386 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:15:59.536 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:16:05.005 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:16:11.854 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:16:21.606 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:16:30.894 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:16:45.082 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:16:51.018 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:16:55.964 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:17:15.027 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:17:18.041 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:17:24.169 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:17:33.464 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:17:35.857 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:17:47.148 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:17:59.118 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:18:05.801 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:18:35.876 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:18:42.647 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:18:49.047 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:18:56.748 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:19:13.443 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:19:20.168 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:19:33.008 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:19:40.566 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:19:54.411 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:20:04.564 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:20:09.748 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:20:26.566 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:20:34.563 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:20:40.513 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:20:46.912 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:20:54.051 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:21:00.645 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:21:19.203 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:21:26.154 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:21:30.468 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:21:39.165 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:21:48.169 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:21:54.552 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:22:00.618 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:22:06.593 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:22:12.959 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:22:19.654 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:22:30.470 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:22:47.982 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:22:52.406 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:22:59.321 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:23:08.660 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:23:16.958 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:23:25.409 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:23:31.511 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:23:41.748 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:23:49.265 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:23:56.360 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:24:01.250 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:24:15.620 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:24:23.110 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:24:32.180 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:24:42.510 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:24:50.099 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:25:08.407 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:25:15.731 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:25:19.135 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:25:24.960 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:25:52.019 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:26:13.494 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:26:25.078 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:26:29.525 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:26:34.710 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:26:52.008 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:27:38.162 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:27:53.340 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:28:05.470 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:28:11.815 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:28:17.551 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:28:22.169 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:28:30.811 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:28:37.726 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:28:53.703 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:29:03.866 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:29:17.240 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:29:26.411 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:29:29.617 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:29:36.275 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:29:43.323 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:29:50.575 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:29:58.516 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:30:04.327 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:30:13.223 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:30:22.717 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:30:25.533 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:30:33.904 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:30:45.367 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:31:01.069 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:31:07.272 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:31:14.658 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:31:21.091 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:31:30.586 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:31:38.184 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:31:43.819 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:31:52.844 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:31:59.512 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:32:05.953 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:32:13.226 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:32:19.614 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:32:25.989 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:32:30.130 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:32:37.450 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:32:40.526 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:32:49.494 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:33:03.584 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:33:13.177 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:33:22.242 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:33:25.335 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:33:35.283 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:33:42.590 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:35:03.808 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:35:07.239 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:35:10.080 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:35:12.237 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:35:45.020 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:35:50.381 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:37:43.136 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:37:46.388 [info] (46515): BG(simulate_lambda_prototype): Long operation: checking: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype/simulate_lambda.py (3087ms)
+2025-12-27 09:37:46.389 [info] (46515): BG(simulate_lambda_prototype): Long operation: analyzing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype/simulate_lambda.py (3087ms)
+2025-12-27 09:37:47.589 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:37:51.720 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:38:21.958 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:38:26.134 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:38:31.311 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:38:59.715 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:39:06.145 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:39:15.383 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:39:18.792 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:40:11.818 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:40:59.020 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:41:14.335 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:41:33.889 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:41:39.546 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:42:23.082 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:42:25.836 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:45:40.003 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:45:52.259 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:45:58.521 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:46:18.356 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:46:20.710 [info] (46515): BG(simulate_lambda_prototype): Long operation: checking: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype/simulate_lambda.py (2312ms)
+2025-12-27 09:46:20.714 [info] (46515): BG(simulate_lambda_prototype): Long operation: analyzing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype/simulate_lambda.py (2314ms)
+2025-12-27 09:46:25.048 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:46:48.059 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:46:54.512 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:47:13.737 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:47:30.024 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:47:35.400 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:48:43.361 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:48:44.656 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:49:16.471 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:51:36.599 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:51:39.506 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 09:51:43.966 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 11:22:11.641 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-27 11:22:15.676 [info] (46515): BG(simulate_lambda_prototype): Long operation: checking: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype/simulate_lambda.py (2565ms)
+2025-12-27 11:22:15.676 [info] (46515): BG(simulate_lambda_prototype): Long operation: analyzing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype/simulate_lambda.py (3930ms)
+2025-12-28 07:39:30.664 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-28 07:39:34.466 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-28 07:39:35.744 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-28 08:10:49.191 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-28 08:42:18.787 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-28 10:19:35.171 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-28 10:50:22.961 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-28 11:13:03.476 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-31 08:42:25.461 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-31 08:42:29.591 [info] (46515): BG(simulate_lambda_prototype): Long operation: parsing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype/simulate_lambda.py (3082ms)
+2025-12-31 08:42:31.185 [info] (46515): BG(simulate_lambda_prototype): Long operation: indexing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype/simulate_lambda.py (4703ms)
+2025-12-31 08:42:36.320 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2025-12-31 08:42:36.374 [info] (46515): BG(simulate_lambda_prototype): Long operation: checking: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype/simulate_lambda.py (4216ms)
+2025-12-31 08:42:36.374 [info] (46515): BG(simulate_lambda_prototype): Long operation: analyzing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype/simulate_lambda.py (4218ms)
+2025-12-31 08:42:40.836 [info] (46515): BG(simulate_lambda_prototype): Long operation: checking: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype/simulate_lambda.py (4045ms)
+2025-12-31 08:42:40.839 [info] (46515): BG(simulate_lambda_prototype): Long operation: analyzing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype/simulate_lambda.py (4045ms)
+2026-01-01 21:23:49.354 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2026-01-01 21:24:00.849 [info] (46515): BG(simulate_lambda_prototype): Long operation: parsing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype/simulate_lambda.py (6615ms)
+2026-01-01 21:24:03.305 [info] (46515): BG(simulate_lambda_prototype): Long operation: indexing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype/simulate_lambda.py (9091ms)
+2026-01-01 21:24:18.437 [info] (46515): BG(simulate_lambda_prototype): Long operation: checking: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype/simulate_lambda.py (15072ms)
+2026-01-01 21:24:18.438 [info] (46515): BG(simulate_lambda_prototype): Long operation: analyzing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype/simulate_lambda.py (15075ms)
+2026-01-01 21:25:45.022 [info] (46515): FG(simulate_lambda_prototype): Found 1 source file
+2026-01-01 21:25:49.736 [info] (46515): BG(simulate_lambda_prototype): Long operation: checking: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype/simulate_lambda.py (3763ms)
+2026-01-01 21:25:49.737 [info] (46515): BG(simulate_lambda_prototype): Long operation: analyzing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/simulate_lambda_prototype/simulate_lambda.py (3763ms)

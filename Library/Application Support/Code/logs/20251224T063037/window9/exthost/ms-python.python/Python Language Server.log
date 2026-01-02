@@ -1,0 +1,126 @@
+2025-12-31 09:10:36.604 [info] Client: Pylance client (2025.10.4) started with python extension (2025.20.1)
+2025-12-31 09:11:01.988 [info] (78473): Server root directory: file:///Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-31 09:11:02.073 [info] (78473): Pylance language server 2025.10.4 (pyright version 1.1.407, commit 906e40aa) starting
+2025-12-31 09:11:02.316 [info] (78473): Starting service instance "planetary-sensing-system" for workspace "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system"
+2025-12-31 09:11:25.352 [info] (78473): Loading background bundle file:///Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js into file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system...
+2025-12-31 09:11:25.799 [info] (78473): FG(planetary-sensing-system): Setting environmentName for service "planetary-sensing-system": "Python 3.9.6"
+2025-12-31 09:11:25.800 [info] (78473): FG(planetary-sensing-system): Setting pythonPath for service "planetary-sensing-system": "/usr/bin/python3"
+2025-12-31 09:11:25.801 [info] (78473): FG(planetary-sensing-system): No include entries specified; assuming /Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system
+2025-12-31 09:11:25.803 [info] (78473): FG(planetary-sensing-system): Auto-excluding **/node_modules
+2025-12-31 09:11:25.806 [info] (78473): FG(planetary-sensing-system): Auto-excluding **/__pycache__
+2025-12-31 09:11:25.809 [info] (78473): FG(planetary-sensing-system): Auto-excluding **/.*
+2025-12-31 09:11:26.692 [info] (78473): FG(planetary-sensing-system): Assuming Python version 3.9.6.final.0
+2025-12-31 09:11:27.196 [info] (78473): FG(planetary-sensing-system): Found 2 source files
+2025-12-31 09:11:27.696 [info] (78473): Settings have not changed. Skipping update.
+2025-12-31 09:11:27.714 [info] (78473): Starting Mcp server id:4517 ...
+2025-12-31 09:11:27.904 [info] (78473): Settings have not changed. Skipping update.
+2025-12-31 09:11:35.974 [info] (78473): PQ(planetary-sensing-system): Priority queue background worker(2) root directory: file:///Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-31 09:11:35.975 [info] (78473): PQ(planetary-sensing-system): Priority queue background worker(2) started
+2025-12-31 09:11:37.551 [info] (78473): FG(planetary-sensing-system): Found 3 source files
+2025-12-31 09:11:38.644 [info] (78473): IDX(planetary-sensing-system): Indexer background runner(3) root directory: file:///Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist (index)
+2025-12-31 09:11:38.669 [info] (78473): IDX(planetary-sensing-system): Indexing(3) started
+2025-12-31 09:11:38.858 [info] (78473): BG(planetary-sensing-system): Loaded external background bundle file:///Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js. 
+2025-12-31 09:11:45.984 [info] (78473): BG(planetary-sensing-system): Long operation: parsing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/src/firewall.py (4360ms)
+2025-12-31 09:11:48.329 [info] (78473): BG(planetary-sensing-system): Long operation: SemanticTokens range 0:0 - 0:0 at file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/src/firewall.py (6832ms)
+2025-12-31 09:11:48.576 [info] (78473): IDX(planetary-sensing-system): Long operation: scan packages file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system (9677ms)
+2025-12-31 09:11:48.597 [info] (78473): IDX(planetary-sensing-system): scanned(3) 25 files over 1 exec env
+2025-12-31 09:11:54.843 [info] (78473): IDX(planetary-sensing-system): Long operation: indexing: file:///Users/leifwsogge/Library/Python/3.9/lib/python/site-packages/pytest/__init__.py (3197ms)
+2025-12-31 09:11:55.173 [info] (78473): IDX(planetary-sensing-system): Long operation: index execution environment file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system (5708ms)
+2025-12-31 09:11:55.274 [info] (78473): IDX(planetary-sensing-system): Long operation: index packages file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system (5832ms)
+2025-12-31 09:11:55.274 [info] (78473): IDX(planetary-sensing-system): indexed(3) 25 files over 1 exec env
+2025-12-31 09:11:55.321 [info] (78473): IDX(planetary-sensing-system): Indexing finished(3).
+2025-12-31 09:12:10.699 [info] (78473): FG(planetary-sensing-system): Found 4 source files
+2025-12-31 09:12:13.524 [info] (78473): BG(planetary-sensing-system): Long operation: indexing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/src/firewall.py (2747ms)
+2025-12-31 09:12:36.614 [info] (78473): FG(planetary-sensing-system): Found 4 source files
+2025-12-31 09:12:59.929 [info] (78473): FG(planetary-sensing-system): Found 5 source files
+2025-12-31 09:13:21.460 [info] (78473): FG(planetary-sensing-system): Found 5 source files
+2025-12-31 09:13:56.144 [info] (78473): FG(planetary-sensing-system): Found 5 source files
+2025-12-31 09:14:08.265 [info] (78473): FG(planetary-sensing-system): Found 5 source files
+2025-12-31 09:14:16.702 [info] (78473): FG(planetary-sensing-system): Found 5 source files
+2025-12-31 09:15:04.293 [info] (78473): FG(planetary-sensing-system): Found 5 source files
+2025-12-31 09:15:09.060 [info] (78473): FG(planetary-sensing-system): Found 5 source files
+2025-12-31 09:15:33.969 [info] (78473): FG(planetary-sensing-system): Found 5 source files
+2025-12-31 09:15:36.731 [info] (78473): FG(planetary-sensing-system): Found 5 source files
+2025-12-31 09:18:04.573 [info] (78473): FG(planetary-sensing-system): Found 5 source files
+2025-12-31 09:46:02.847 [info] (78473): FG(planetary-sensing-system): Found 5 source files
+2025-12-31 15:01:59.824 [info] (78473): FG(planetary-sensing-system): Long operation: parsing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/src/verification.py (9098ms)
+2025-12-31 15:02:02.248 [info] (78473): FG(planetary-sensing-system): Long operation: parsing: file:///Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/typeshed-fallback/stdlib/builtins.pyi (2392ms)
+2025-12-31 15:02:40.403 [info] (78473): FG(planetary-sensing-system): Found 5 source files
+2025-12-31 19:42:55.200 [info] (78473): FG(planetary-sensing-system): Found 5 source files
+2025-12-31 19:42:57.525 [info] (78473): BG(planetary-sensing-system): Long operation: indexing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/src/firewall.py (2131ms)
+2025-12-31 19:43:01.672 [info] (78473): FG(planetary-sensing-system): Found 5 source files
+2025-12-31 19:43:05.241 [info] (78473): FG(planetary-sensing-system): Found 5 source files
+2026-01-01 10:05:53.629 [info] (78473): FG(planetary-sensing-system): Long operation: parsing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/src/verification.py (5199ms)
+2026-01-01 21:22:14.817 [info] (78473): FG(planetary-sensing-system): Found 5 source files
+2026-01-01 21:22:17.196 [info] (78473): FG(planetary-sensing-system): Found 6 source files
+2026-01-01 21:22:22.238 [info] (78473): FG(planetary-sensing-system): Long operation: parsing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/reference/captains_secure_link_module_v0_1.py (3202ms)
+2026-01-01 21:22:25.271 [info] (78473): BG(planetary-sensing-system): Long operation: parsing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/src/firewall.py (5684ms)
+2026-01-01 21:22:25.274 [info] (78473): BG(planetary-sensing-system): Long operation: parsing: file:///Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/typeshed-fallback/stdlib/builtins.pyi (2366ms)
+2026-01-01 21:22:25.278 [info] (78473): BG(planetary-sensing-system): Long operation: indexing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/src/firewall.py (8796ms)
+2026-01-01 21:22:31.310 [info] (78473): BG(planetary-sensing-system): Long operation: parsing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/src/verification.py (5401ms)
+2026-01-01 21:22:40.213 [info] (78473): BG(planetary-sensing-system): Long operation: parsing: file:///Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/typeshed-fallback/stdlib/builtins.pyi (6103ms)
+2026-01-01 21:22:43.078 [info] (78473): BG(planetary-sensing-system): Long operation: analyzing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/src/verification.py (12809ms)
+2026-01-01 21:22:43.434 [info] (78473): BG(planetary-sensing-system): Long operation: checking: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/src/loop.py (3473ms)
+2026-01-01 21:22:43.438 [info] (78473): BG(planetary-sensing-system): Long operation: analyzing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/src/loop.py (3545ms)
+2026-01-01 21:23:05.620 [info] (78473): FG(planetary-sensing-system): Found 6 source files
+2026-01-01 21:23:05.981 [info] (78473): FG(planetary-sensing-system): Found 6 source files
+2026-01-01 21:23:11.930 [info] (78473): BG(planetary-sensing-system): Long operation: analyzing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/src/models.py (4647ms)
+2026-01-01 21:23:13.844 [info] (78473): BG(planetary-sensing-system): Long operation: indexing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/src/firewall.py (3663ms)
+2026-01-01 21:23:27.458 [info] (78473): FG(planetary-sensing-system): Found 6 source files
+2026-01-01 21:23:27.885 [info] (78473): FG(planetary-sensing-system): Found 6 source files
+2026-01-01 21:23:36.098 [info] (78473): FG(planetary-sensing-system): Found 7 source files
+2026-01-01 21:23:53.373 [info] (78473): BG(planetary-sensing-system): Long operation: checking: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/reference/simulations/captains_union_link_sim_v0_1.py (4106ms)
+2026-01-01 21:23:53.392 [info] (78473): BG(planetary-sensing-system): Long operation: analyzing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/reference/simulations/captains_union_link_sim_v0_1.py (4922ms)
+2026-01-01 21:24:02.598 [info] (78473): FG(planetary-sensing-system): Found 7 source files
+2026-01-01 21:24:05.917 [info] (78473): BG(planetary-sensing-system): Long operation: checking: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/src/models.py (2006ms)
+2026-01-01 21:24:05.917 [info] (78473): BG(planetary-sensing-system): Long operation: analyzing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/src/models.py (2037ms)
+2026-01-01 21:24:38.720 [info] (78473): FG(planetary-sensing-system): Found 7 source files
+2026-01-01 21:24:41.240 [info] (78473): BG(planetary-sensing-system): Long operation: parsing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/src/firewall.py (2436ms)
+2026-01-01 21:24:42.251 [info] (78473): FG(planetary-sensing-system): Found 7 source files
+2026-01-01 21:24:44.288 [info] (78473): BG(planetary-sensing-system): Long operation: parsing: file:///Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/typeshed-fallback/stdlib/builtins.pyi (3048ms)
+2026-01-01 21:24:44.756 [info] (78473): BG(planetary-sensing-system): Long operation: indexing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/src/firewall.py (5953ms)
+2026-01-01 21:24:47.146 [info] (78473): BG(planetary-sensing-system): Long operation: parsing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/src/firewall.py (2006ms)
+2026-01-01 21:24:49.720 [info] (78473): BG(planetary-sensing-system): Long operation: parsing: file:///Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/typeshed-fallback/stdlib/builtins.pyi (2571ms)
+2026-01-01 21:24:54.460 [info] (78473): FG(planetary-sensing-system): Long operation: parsing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/reference/captains_secure_link_module_v0_1.py (2061ms)
+2026-01-01 21:24:55.996 [info] (78473): BG(planetary-sensing-system): Long operation: checking: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/src/firewall.py (4009ms)
+2026-01-01 21:24:55.996 [info] (78473): BG(planetary-sensing-system): Long operation: analyzing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/src/firewall.py (10374ms)
+2026-01-01 21:24:56.828 [info] (78473): FG(planetary-sensing-system): Found 7 source files
+2026-01-01 21:24:59.257 [info] (78473): BG(planetary-sensing-system): Long operation: analyzing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/src/models.py (2355ms)
+2026-01-01 21:25:50.270 [info] (78473): FG(planetary-sensing-system): Found 7 source files
+2026-01-01 21:25:52.702 [info] (78473): BG(planetary-sensing-system): Long operation: analyzing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/reference/captains_secure_link_module_v0_1.py (2034ms)
+2026-01-01 21:25:57.110 [info] (78473): FG(planetary-sensing-system): Found 7 source files
+2026-01-01 21:26:12.860 [info] (78473): FG(planetary-sensing-system): Found 7 source files
+2026-01-01 21:26:22.751 [info] (78473): FG(planetary-sensing-system): Found 7 source files
+2026-01-01 21:26:48.041 [info] (78473): FG(planetary-sensing-system): Found 7 source files
+2026-01-01 21:28:31.077 [info] (78473): virtual workspace: vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl016a3pprgmztkrfdfl6qmhaatawttjrnuxuazrore10t1rnee9ewmlnrel6ttjkba/
+2026-01-01 21:28:31.086 [info] (78473): Starting service instance "<default>" for workspace "vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl016a3pprgmztkrfdfl6qmhaatawttjrnuxuazrore10t1rnee9ewmlnrel6ttjkba/"
+2026-01-01 21:28:31.343 [info] (78473): FG(<default>): Setting environmentName for service "<default>": "Python 3.9.6"
+2026-01-01 21:28:31.344 [info] (78473): FG(<default>): No include entries specified; assuming vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl016a3pprgmztkrfdfl6qmhaatawttjrnuxuazrore10t1rnee9ewmlnrel6ttjkba/
+2026-01-01 21:28:31.363 [info] (78473): FG(<default>): Auto-excluding **/node_modules
+2026-01-01 21:28:31.365 [info] (78473): FG(<default>): Auto-excluding **/__pycache__
+2026-01-01 21:28:31.366 [info] (78473): FG(<default>): Auto-excluding **/.*
+2026-01-01 21:28:31.823 [info] (78473): FG(<default>): Assuming Python version 3.9.6.final.0
+2026-01-01 21:28:32.754 [error] (78473): FG(<default>): File or directory "vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl016a3pprgmztkrfdfl6qmhaatawttjrnuxuazrore10t1rnee9ewmlnrel6ttjkba/" does not exist.
+2026-01-01 21:28:32.755 [info] (78473): FG(<default>): No source files found.
+2026-01-01 21:28:47.607 [info] (78473): FG(planetary-sensing-system): Found 7 source files
+2026-01-01 21:28:57.810 [info] (78473): FG(planetary-sensing-system): Found 7 source files
+2026-01-01 21:29:04.098 [info] (78473): FG(planetary-sensing-system): Found 7 source files
+2026-01-01 21:29:05.950 [info] (78473): FG(planetary-sensing-system): Found 7 source files
+2026-01-01 21:30:25.258 [info] (78473): virtual workspace: vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl056sm1nemsytldvdfltstboatawwtjzeuxxrmlzalv0wvrrmfluzgxabuuwwvrrma/
+2026-01-01 21:30:25.261 [info] (78473): Starting service instance "<default>" for workspace "vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl056sm1nemsytldvdfltstboatawwtjzeuxxrmlzalv0wvrrmfluzgxabuuwwvrrma/"
+2026-01-01 21:30:25.323 [info] (78473): FG(<default>): Setting environmentName for service "<default>": "Python 3.9.6"
+2026-01-01 21:30:25.323 [info] (78473): FG(<default>): No include entries specified; assuming vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl056sm1nemsytldvdfltstboatawwtjzeuxxrmlzalv0wvrrmfluzgxabuuwwvrrma/
+2026-01-01 21:30:25.324 [info] (78473): FG(<default>): Auto-excluding **/node_modules
+2026-01-01 21:30:25.324 [info] (78473): FG(<default>): Auto-excluding **/__pycache__
+2026-01-01 21:30:25.324 [info] (78473): FG(<default>): Auto-excluding **/.*
+2026-01-01 21:30:25.739 [info] (78473): FG(<default>): Assuming Python version 3.9.6.final.0
+2026-01-01 21:30:26.979 [error] (78473): FG(<default>): File or directory "vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl056sm1nemsytldvdfltstboatawwtjzeuxxrmlzalv0wvrrmfluzgxabuuwwvrrma/" does not exist.
+2026-01-01 21:30:26.979 [info] (78473): FG(<default>): No source files found.
+2026-01-01 21:31:23.145 [info] (78473): FG(planetary-sensing-system): Found 7 source files
+2026-01-01 21:32:01.141 [info] (78473): FG(planetary-sensing-system): Found 7 source files
+2026-01-01 21:32:06.973 [info] (78473): FG(planetary-sensing-system): Found 7 source files
+2026-01-01 21:32:51.165 [info] (78473): FG(planetary-sensing-system): Found 7 source files
+2026-01-02 14:15:48.464 [info] (78473): BG(planetary-sensing-system): Long operation: analyzing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/reference/captains_secure_link_module_v0_1.py (2602ms)
+2026-01-02 14:15:51.545 [info] (78473): BG(planetary-sensing-system): Long operation: checking: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/reference/captains_secure_link_module_v0_1.py (2376ms)
+2026-01-02 14:15:51.545 [info] (78473): BG(planetary-sensing-system): Long operation: analyzing: file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system/reference/captains_secure_link_module_v0_1.py (2377ms)
+2026-01-02 14:16:05.534 [info] (78473): FG(planetary-sensing-system): Found 7 source files

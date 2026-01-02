@@ -1,0 +1,2 @@
+{"timestamp":"2025-12-30 09:19:27.15 -0500","bug_type":"226","os_version":"macOS 14.7.8 (23H730)"}
+{"postTime":1767104367150.491,"events":[{"eventTime":1767104366208.709,"product":"macOS","success_count":0,"build":"23H730","eventType":"localHealthSummary","soft_failure_count":0,"eventLinkID":"C68D04DC-299A-40E3-9EC3-3CC5034F9975","topic":"xp_sear_keysync","modelid":"MacBookAir8,1","hard_failure_count":0,"lastUploadTime":1766835185227}]}

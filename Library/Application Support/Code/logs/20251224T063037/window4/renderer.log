@@ -1,0 +1,91 @@
+2025-12-28 11:13:41.084 [info] Started local extension host with pid 55992.
+2025-12-28 11:13:46.343 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.prettyPrint` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.344 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.toggleSkippingFile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.344 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.addCustomBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.345 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.removeAllCustomBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.346 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.addXHRBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.347 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.removeXHRBreakpoint` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.347 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.editXHRBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.347 [info] [ms-vscode.js-debug-nightly]: Command `extension.pwa-node-debug.attachNodeProcess` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.348 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.npmScript` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.350 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.createDebuggerTerminal` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.350 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.startProfile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.351 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.stopProfile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.351 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.revealPage` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.351 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.debugLink` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.352 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.createDiagnostics` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.352 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.getDiagnosticLogs` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.352 [info] [ms-vscode.js-debug-nightly]: Command `extension.node-debug.startWithStopOnEntry` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.352 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.openEdgeDevTools` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.353 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.add` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.355 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.remove` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.356 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.removeAll` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.358 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.goToCaller` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.358 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.gotToTarget` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.358 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.enableSourceMapStepping` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.359 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.disableSourceMapStepping` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.359 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.viewRequest` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.359 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.clear` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.359 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.openBody` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.360 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.openBodyInHex` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.360 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.replayXHR` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.360 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.copyUri` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-28 11:13:46.411 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.codelens.npmScripts'. This property is already registered.
+2025-12-28 11:13:46.412 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.terminalOptions'. This property is already registered.
+2025-12-28 11:13:46.413 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.automaticallyTunnelRemoteServer'. This property is already registered.
+2025-12-28 11:13:46.414 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.debugByLinkOptions'. This property is already registered.
+2025-12-28 11:13:46.414 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.pickAndAttachOptions'. This property is already registered.
+2025-12-28 11:13:46.414 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.autoAttachFilter'. This property is already registered.
+2025-12-28 11:13:46.415 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.autoAttachSmartPattern'. This property is already registered.
+2025-12-28 11:13:46.415 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.breakOnConditionalError'. This property is already registered.
+2025-12-28 11:13:46.416 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.unmapMissingSources'. This property is already registered.
+2025-12-28 11:13:46.416 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.defaultRuntimeExecutable'. This property is already registered.
+2025-12-28 11:13:46.416 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.resourceRequestOptions'. This property is already registered.
+2025-12-28 11:13:46.416 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.enableNetworkView'. This property is already registered.
+2025-12-28 11:13:46.417 [warning] [redhat.vscode-yaml]: Cannot register 'redhat.telemetry.enabled'. This property is already registered.
+2025-12-28 11:13:46.763 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsBrowserBreakpoints`
+2025-12-28 11:13:46.764 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsExcludedCallers`
+2025-12-28 11:13:46.764 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsDebugNetworkTree`
+2025-12-28 11:13:52.665 [info] Extension host (LocalProcess pid: 55992) is unresponsive.
+2025-12-28 11:13:53.025 [warning] [DefaultAccount] Attempt 1 to get sessions failed: Timed out waiting for authentication provider 'github' to register.
+2025-12-28 11:13:54.020 [error] [Extension Host] (node:55992) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `Code Helper (Plugin) --trace-deprecation ...` to show where the warning was created)
+2025-12-28 11:13:54.535 [error] [Extension Host] (node:55992) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-12-28 11:13:54.810 [error] [Extension Host] Failed to load message bundle for file /Users/leifwsogge/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10/out/extension
+2025-12-28 11:13:54.904 [error] [Extension Host] Failed to load message bundle for file /Users/leifwsogge/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10/out/extension
+2025-12-28 11:13:54.907 [error] [Extension Host] Failed to load message bundle for file /Users/leifwsogge/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10/out/extension
+2025-12-28 11:13:54.910 [error] [Extension Host] Failed to load message bundle for file /Users/leifwsogge/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10/out/extension
+2025-12-28 11:13:54.913 [error] [Extension Host] Failed to load message bundle for file /Users/leifwsogge/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10/out/extension
+2025-12-28 11:13:54.914 [error] [Extension Host] Failed to load message bundle for file /Users/leifwsogge/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10/out/extension
+2025-12-28 11:13:54.914 [error] [Extension Host] Failed to load message bundle for file /Users/leifwsogge/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10/out/extension
+2025-12-28 11:13:54.915 [error] [Extension Host] Failed to load message bundle for file /Users/leifwsogge/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10/out/extension
+2025-12-28 11:13:55.764 [error] [EricSia.pythonsnippets3]: Unknown language in `contributes.pythonsnippets3.language`. Provided value: django-html
+2025-12-28 11:13:55.765 [error] [EricSia.pythonsnippets3]: Unknown language in `contributes.pythonsnippets3.language`. Provided value: django-txt
+2025-12-28 11:13:55.766 [error] [EricSia.pythonsnippets3pro]: Unknown language in `contributes.pythonsnippets3pro.language`. Provided value: django-html
+2025-12-28 11:13:55.766 [error] [EricSia.pythonsnippets3pro]: Unknown language in `contributes.pythonsnippets3pro.language`. Provided value: django-txt
+2025-12-28 11:13:58.544 [info] MCP Registry configured: https://api.mcp.github.com
+2025-12-28 11:13:58.899 [info] Extension host (LocalProcess pid: 55992) is responsive.
+2025-12-28 11:14:02.831 [error] Failed to fetch MCP registry providers Server returned 404
+2025-12-28 11:14:04.766 [warning] Creation of workbench contribution 'EditTelemetryContribution' took 128ms.
+2025-12-28 11:14:04.933 [error] Canceled: Canceled
+    at k1 (vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:7:1282)
+    at vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3894:37681
+    at Array.forEach (<anonymous>)
+    at zRt.dispose (vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3894:37621)
+    at e$e.dispose (vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3894:49298)
+    at fSn.dispose (vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3901:7731)
+    at uSn.stopAllInReverse (vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3901:7033)
+    at async wLt.tb (vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3900:15950)
+2025-12-28 11:14:04.947 [warning] Failed to update in-progress status for chat session type 'copilotcli': Canceled
+2025-12-28 11:14:04.948 [warning] Failed to update in-progress status for chat session type 'copilotcli': Canceled
+2025-12-28 11:14:04.948 [warning] Failed to update in-progress status for chat session type 'copilot-cloud-agent': Canceled
+2025-12-28 11:14:04.949 [error] Canceled: Canceled
+    at k1 (vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:7:1282)
+    at vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3894:37681
+    at Array.forEach (<anonymous>)
+    at zRt.dispose (vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3894:37621)
+    at e$e.dispose (vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3894:49298)
+    at fSn.dispose (vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3901:7731)
+    at uSn.stopAllInReverse (vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3901:7033)
+    at async wLt.tb (vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3900:15950)
+2025-12-28 11:14:06.162 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.chatEditingSession

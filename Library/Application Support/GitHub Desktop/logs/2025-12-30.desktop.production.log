@@ -1,0 +1,95 @@
+2025-12-30T03:27:37.613Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-30T03:27:37.995Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.614s)
+2025-12-30T03:27:38.309Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-30T07:48:25.761Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-30T07:48:26.385Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-30T09:50:21.252Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2025-12-30T09:50:22.814Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2025-12-30T09:50:25.708Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2025-12-30T12:57:48.302Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 10.352s)
+2025-12-30T12:57:48.327Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+fatal: unable to access 'https://github.com/Space-LEAF-corp/Main-private-files.git/': Could not resolve host: github.com
+
+2025-12-30T12:57:48.617Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+TypeError: Failed to fetch
+    at It (/webpack:/app/src/lib/http.ts:152:10)
+    at Qn.request (/webpack:/app/src/lib/api.ts:1812:18)
+    at Qn.ghRequest (/webpack:/app/src/lib/api.ts:1836:33)
+    at Qn.fetchPushControl (/webpack:/app/src/lib/api.ts:1649:35)
+    at Yp.refreshBranchProtectionState (/webpack:/app/src/lib/stores/app-store.ts:1282:37)
+    at /webpack:/app/src/lib/stores/app-store.ts:5332:20
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Yp.withPushPullFetch (/webpack:/app/src/lib/stores/app-store.ts:4818:5)
+    at Yp.performFetch (/webpack:/app/src/lib/stores/app-store.ts:5284:5)
+    at Uw.performAndScheduleFetch (/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:92:7)
+2025-12-30T12:57:48.645Z - info: [ui] [fetchAllRepoRulesets] unable to fetch all repo rulesets | repos/Space-LEAF-corp/Main-private-files/rulesets
+TypeError: Failed to fetch
+    at It (/webpack:/app/src/lib/http.ts:152:10)
+    at Qn.request (/webpack:/app/src/lib/api.ts:1812:18)
+    at Qn.ghRequest (/webpack:/app/src/lib/api.ts:1836:33)
+    at Qn.fetchAllRepoRulesets (/webpack:/app/src/lib/api.ts:1727:35)
+    at Yp.refreshBranchProtectionState (/webpack:/app/src/lib/stores/app-store.ts:1287:40)
+    at /webpack:/app/src/lib/stores/app-store.ts:5327:32
+    at Yp.withPushPullFetch (/webpack:/app/src/lib/stores/app-store.ts:4818:5)
+    at Yp.performFetch (/webpack:/app/src/lib/stores/app-store.ts:5284:5)
+    at Uw.performAndScheduleFetch (/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:92:7)
+2025-12-30T12:57:48.786Z - info: [ui] [fetchRepoRulesForBranch] unable to fetch repo rules for branch: main | repos/Space-LEAF-corp/Main-private-files/rules/branches/main
+TypeError: Failed to fetch
+    at It (/webpack:/app/src/lib/http.ts:152:10)
+    at Qn.request (/webpack:/app/src/lib/api.ts:1812:18)
+    at Qn.ghRequest (/webpack:/app/src/lib/api.ts:1836:33)
+    at Qn.fetchRepoRulesForBranch (/webpack:/app/src/lib/api.ts:1700:35)
+    at Yp.refreshBranchProtectionState (/webpack:/app/src/lib/stores/app-store.ts:1308:39)
+    at /webpack:/app/src/lib/stores/app-store.ts:5327:32
+    at Yp.withPushPullFetch (/webpack:/app/src/lib/stores/app-store.ts:4818:5)
+    at Yp.performFetch (/webpack:/app/src/lib/stores/app-store.ts:5284:5)
+    at Uw.performAndScheduleFetch (/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:92:7)
+2025-12-30T12:57:49.452Z - warn: [ui] getFetchPollInterval: failed for Space-LEAF-corp/Main-private-files
+TypeError: Failed to fetch
+    at It (/webpack:/app/src/lib/http.ts:152:10)
+    at Qn.request (/webpack:/app/src/lib/api.ts:1812:18)
+    at Qn.ghRequest (/webpack:/app/src/lib/api.ts:1836:33)
+    at Qn.getFetchPollInterval (/webpack:/app/src/lib/api.ts:1983:35)
+    at Uw.getFetchInterval (/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:133:40)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Uw.performAndScheduleFetch (/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:107:11)
+2025-12-30T13:01:49.269Z - info: [ui] [AppStore] adding repository at /Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Space-LEAF-Corp-air-and-sea-prototype to store
+2025-12-30T13:15:30.465Z - info: [ui] [Timing] Action 'create commit' for 'Space-LEAF-Corp-air-and-sea-prototype' took 0.396s
+2025-12-30T13:17:11.610Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-30T13:17:12.446Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-30T13:17:13.083Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-30T13:43:29.167Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 2.907s)
+2025-12-30T13:44:39.111Z - info: [ui] [AppStore] adding repository at /Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module to store
+2025-12-30T13:55:31.747Z - info: [ui] Executing getRemotes: git remote -v (took 71.231s)
+2025-12-30T13:55:31.952Z - info: [ui] Executing getRemotes: git remote -v (took 70.122s)
+2025-12-30T13:55:31.968Z - warn: [ui] Attempted to add a popup of already existing type - PublishRepository.
+2025-12-30T13:55:32.034Z - info: [ui] Executing getRemotes: git remote -v (took 61.065s)
+2025-12-30T13:55:32.041Z - warn: [ui] Attempted to add a popup of already existing type - PublishRepository.
+2025-12-30T13:55:46.344Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 78.023s)
+2025-12-30T13:55:46.349Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 98.993s)
+2025-12-30T13:55:46.697Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 9.849s)
+2025-12-30T13:55:52.447Z - info: [ui] Executing getWorkingDirectoryDiff: git diff -w --no-ext-diff --patch-with-raw -z --no-color --no-index -- /dev/null ash_dispersion.py (took 5.606s)
+2025-12-30T13:55:52.452Z - info: [ui] Executing getWorkingDirectoryDiff: git diff -w --no-ext-diff --patch-with-raw -z --no-color --no-index -- /dev/null ash_dispersion.py (took 6.091s)
+2025-12-30T13:55:52.453Z - info: [ui] Executing getWorkingDirectoryDiff: git diff -w --no-ext-diff --patch-with-raw -z --no-color --no-index -- /dev/null ash_dispersion.py (took 6.087s)
+2025-12-30T13:55:55.076Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 8.592s)
+2025-12-30T13:55:55.968Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 9.264s)
+2025-12-30T13:55:55.993Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 9.110s)
+2025-12-30T14:07:02.034Z - info: [ui] Stats reported.
+2025-12-30T14:11:31.216Z - info: [ui] Executing updateIndex: git update-index --add --remove --replace -z --stdin (took 4.711s)
+2025-12-30T14:11:36.932Z - info: [ui] Executing createCommit: git commit -F - (took 5.716s)
+2025-12-30T14:11:37.074Z - info: [ui] [Timing] Action 'create commit' for 'Volcanic-Ash-Dispersion-Module' took 10.693s
+2025-12-30T14:12:00.772Z - error: [ui] `git remote add origin https://github.com/GuardianNinja/Volcanic-Ash-Dispersion-Module-2.0.git` exited with an unexpected code: 3.
+error: remote origin already exists.
+
+(The error was parsed as 52: null)
+2025-12-30T14:12:01.300Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-12-30T14:12:02.006Z - info: [ui] Executing push: git push origin main:main --progress (took 1.120s)
+2025-12-30T16:47:39.292Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2025-12-30T16:47:41.129Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2025-12-30T16:47:44.139Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2025-12-30T16:53:14.613Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.776s)
+2025-12-30T16:53:15.823Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.100s)
+2025-12-30T18:14:05.020Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.883s)
+2025-12-30T18:29:01.655Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.715s)
+2025-12-30T18:29:57.054Z - info: [ui] [Timing] Action 'create commit' for 'GuardianNinja/Volcanic-Ash-Dispersion-Module' took 0.288s
+2025-12-30T18:30:00.060Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store

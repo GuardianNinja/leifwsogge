@@ -1,0 +1,70 @@
+0 verbose cli /Users/leifwsogge/.nvm/versions/node/v24.12.0/bin/node /Users/leifwsogge/.nvm/versions/node/v24.12.0/bin/npm
+1 info using npm@11.6.2
+2 info using node@v24.12.0
+3 silly config load:file:/Users/leifwsogge/.nvm/versions/node/v24.12.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/leifwsogge/Library/Caches/typescript/5.9/.npmrc
+5 silly config load:file:/Users/leifwsogge/.npmrc
+6 silly config load:file:/Users/leifwsogge/.nvm/versions/node/v24.12.0/etc/npmrc
+7 verbose title npm install types-registry@latest
+8 verbose argv "install" "--ignore-scripts" "types-registry@latest"
+9 verbose logfile logs-max:10 dir:/Users/leifwsogge/.npm/_logs/2025-12-31T21_08_09_942Z-
+10 verbose logfile /Users/leifwsogge/.npm/_logs/2025-12-31T21_08_09_942Z-debug-0.log
+11 silly logfile start cleaning logs, removing 6 files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly packumentCache corgi:https://registry.npmjs.org/types-registry cache-miss
+14 silly logfile done cleaning log files
+15 http fetch GET 200 https://registry.npmjs.org/npm 590ms
+16 http fetch GET 200 https://registry.npmjs.org/types-registry 735ms (cache updated)
+17 silly packumentCache corgi:https://registry.npmjs.org/types-registry set size:undefined disposed:false
+18 silly idealTree buildDeps
+19 silly fetch manifest types-registry@0.1.752
+20 silly packumentCache full:https://registry.npmjs.org/types-registry cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/types-registry 107ms (cache updated)
+22 silly packumentCache full:https://registry.npmjs.org/types-registry set size:undefined disposed:false
+23 silly placeDep ROOT types-registry@0.1.752 REPLACE for:  want: 0.1.752
+24 silly reify mark retired [
+24 silly reify   '/Users/leifwsogge/Library/Caches/typescript/5.9/node_modules/types-registry'
+24 silly reify ]
+25 silly reify moves {
+25 silly reify   '/Users/leifwsogge/Library/Caches/typescript/5.9/node_modules/types-registry': '/Users/leifwsogge/Library/Caches/typescript/5.9/node_modules/.types-registry-HNP6dV5f'
+25 silly reify }
+26 silly audit bulk request {
+26 silly audit   '@types/bcrypt': [ '6.0.0' ],
+26 silly audit   '@types/body-parser': [ '1.19.6' ],
+26 silly audit   '@types/connect': [ '3.4.38' ],
+26 silly audit   '@types/cors': [ '2.8.19' ],
+26 silly audit   '@types/express': [ '5.0.6' ],
+26 silly audit   '@types/express-serve-static-core': [ '5.1.0' ],
+26 silly audit   '@types/http-errors': [ '2.0.5' ],
+26 silly audit   '@types/jsonwebtoken': [ '9.0.10' ],
+26 silly audit   '@types/mocha': [ '10.0.10' ],
+26 silly audit   '@types/ms': [ '2.1.0' ],
+26 silly audit   '@types/node': [ '25.0.2' ],
+26 silly audit   '@types/qs': [ '6.14.0' ],
+26 silly audit   '@types/range-parser': [ '1.2.7' ],
+26 silly audit   '@types/react': [ '19.2.7' ],
+26 silly audit   '@types/react-dom': [ '19.2.3' ],
+26 silly audit   '@types/send': [ '1.2.1' ],
+26 silly audit   '@types/serve-static': [ '2.2.0' ],
+26 silly audit   '@types/vscode': [ '1.107.0' ],
+26 silly audit   csstype: [ '3.2.3' ],
+26 silly audit   'undici-types': [ '7.16.0' ],
+26 silly audit   'types-registry': [ '0.1.752' ]
+26 silly audit }
+27 http cache types-registry@https://registry.npmjs.org/types-registry/-/types-registry-0.1.752.tgz 1ms (cache hit)
+28 silly tarball no local data for types-registry@https://registry.npmjs.org/types-registry/-/types-registry-0.1.752.tgz. Extracting by manifest.
+29 http fetch GET 200 https://registry.npmjs.org/types-registry/-/types-registry-0.1.752.tgz 143ms (cache miss)
+30 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 174ms
+31 silly audit report {}
+32 silly CHANGE node_modules/types-registry
+33 verbose cwd /Users/leifwsogge/Library/Caches/typescript/5.9
+34 verbose os Darwin 23.6.0
+35 verbose node v24.12.0
+36 verbose npm  v11.6.2
+37 notice
+37 notice New minor version of npm available! 11.6.2 -> 11.7.0
+37 notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+37 notice To update run: npm install -g npm@11.7.0
+37 notice  { force: true, Symbol(proc-log.meta): true }
+38 verbose exit 0
+39 info ok

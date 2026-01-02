@@ -1,0 +1,451 @@
+2025-12-30 08:03:33.550 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker enabled: false
+2025-12-30 08:03:48.416 [info] [getSessions] [all] starting
+2025-12-30 08:03:48.418 [info] [getSessions] [all] returned 1 session(s)
+2025-12-30 08:03:48.418 [info] [getSessions] [all] starting
+2025-12-30 08:03:48.418 [info] [getSessions] [all] returned 1 session(s)
+2025-12-30 08:03:48.418 [info] [getSessions] [all] starting
+2025-12-30 08:03:48.418 [info] [getSessions] [all] returned 1 session(s)
+2025-12-30 08:03:48.419 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-30 08:03:48.754 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-30 08:03:48.786 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-30 08:03:49.294 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-30 08:03:51.534 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-30 08:03:51.552 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-30 08:05:32.102 [info] [getSessions] [all] starting
+2025-12-30 08:05:32.103 [info] [getSessions] [all] returned 1 session(s)
+2025-12-30 08:58:54.254 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-30 08:58:54.359 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-30 10:52:45.904 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-30 10:52:56.778 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-30 10:52:56.782 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-30 10:53:01.950 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-30 10:53:01.950 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-30 10:53:03.633 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-30 10:53:03.636 [info] [getSessions] [all] starting
+2025-12-30 10:53:03.636 [info] [getSessions] [all] returned 1 session(s)
+2025-12-30 10:53:03.637 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-30 10:53:04.032 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-30 10:53:04.032 [info] [getSessions] [https://management.azure.com/.default] starting
+2025-12-30 10:53:06.128 [info] [getSessions] [https://management.azure.com/.default] returned 1 session(s)
+2025-12-30 10:53:06.215 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-30 10:53:06.296 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-30 10:53:06.304 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-30 10:53:08.523 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-30 10:53:08.526 [info] [getSessions] [all] starting
+2025-12-30 10:53:08.526 [info] [getSessions] [all] returned 1 session(s)
+2025-12-30 13:47:19.333 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-30 13:47:19.756 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-30 15:19:34.835 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-30 15:19:37.133 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-30 15:19:37.228 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-30 15:19:37.547 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-30 15:19:37.547 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-30 15:19:38.478 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-30 15:19:38.479 [info] [getSessions] [all] starting
+2025-12-30 15:19:38.479 [info] [getSessions] [all] returned 1 session(s)
+2025-12-30 15:19:38.481 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-30 15:19:40.429 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-30 15:19:48.140 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-30 15:19:50.211 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-30 17:20:43.377 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-30 17:20:45.635 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-30 17:20:45.635 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-30 17:20:46.880 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-30 17:20:46.882 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-30 17:20:47.236 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-30 17:20:47.236 [info] [getSessions] [all] starting
+2025-12-30 17:20:47.236 [info] [getSessions] [all] returned 1 session(s)
+2025-12-30 17:20:47.236 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-30 17:20:47.253 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-30 18:21:53.589 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-30 18:21:58.296 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-30 18:21:58.296 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-30 18:21:58.831 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-30 18:21:58.831 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-30 18:22:01.863 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-30 18:22:01.864 [info] [getSessions] [all] starting
+2025-12-30 18:22:01.864 [info] [getSessions] [all] returned 1 session(s)
+2025-12-30 19:23:07.673 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-30 19:23:11.262 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-30 19:23:11.262 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-30 19:23:13.742 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-30 19:23:13.743 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-30 19:23:13.773 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-30 19:23:13.774 [info] [getSessions] [all] starting
+2025-12-30 19:23:13.774 [info] [getSessions] [all] returned 1 session(s)
+2025-12-30 19:23:13.774 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-30 19:23:13.781 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-30 20:24:21.935 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-30 20:24:28.101 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-30 20:24:28.107 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-30 20:24:28.174 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-30 20:24:28.174 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-30 20:24:28.188 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-30 20:24:28.188 [info] [getSessions] [all] starting
+2025-12-30 20:24:28.188 [info] [getSessions] [all] returned 1 session(s)
+2025-12-30 21:25:33.964 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-30 21:25:35.681 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-30 21:25:35.681 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-30 21:25:36.714 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-30 21:25:36.714 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-30 21:25:36.767 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-30 21:25:36.768 [info] [getSessions] [all] starting
+2025-12-30 21:25:36.768 [info] [getSessions] [all] returned 1 session(s)
+2025-12-30 21:25:36.768 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-30 21:25:36.880 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-30 22:26:45.041 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-30 22:26:46.325 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-30 22:26:46.325 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-30 22:26:47.134 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-30 22:26:47.135 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-30 22:26:47.155 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-30 22:26:47.155 [info] [getSessions] [all] starting
+2025-12-30 22:26:47.155 [info] [getSessions] [all] returned 1 session(s)
+2025-12-30 22:26:47.155 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-30 22:26:47.160 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-30 23:27:52.202 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-30 23:27:53.891 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-30 23:27:53.891 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-30 23:27:53.930 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-30 23:27:53.932 [info] [getSessions] [all] starting
+2025-12-30 23:27:53.932 [info] [getSessions] [all] returned 1 session(s)
+2025-12-31 00:29:06.833 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-31 00:29:08.366 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-31 00:29:08.389 [info] [getSessions] [all] starting
+2025-12-31 00:29:08.389 [info] [getSessions] [all] returned 1 session(s)
+2025-12-31 01:30:17.083 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-31 01:30:17.792 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-31 01:30:17.866 [info] [getSessions] [all] starting
+2025-12-31 01:30:17.867 [info] [getSessions] [all] returned 1 session(s)
+2025-12-31 02:31:25.558 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-31 02:31:27.001 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-31 02:31:27.030 [info] [getSessions] [all] starting
+2025-12-31 02:31:27.030 [info] [getSessions] [all] returned 1 session(s)
+2025-12-31 03:32:36.652 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-31 03:32:37.036 [info] [getAllSessionsForPca] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] [CappedCorn7871@outlook.com] failed to acquire token silently, skipping account {"errorCode":"network_error","errorMessage":"Network request failed","subError":"","name":"ClientAuthError"}
+2025-12-31 03:32:37.036 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2025-12-31 07:24:40.643 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-31 07:24:40.798 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-31 07:25:55.736 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-31 07:25:55.902 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-31 08:40:44.286 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-31 08:42:06.265 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-31 08:42:06.268 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-31 08:42:07.651 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-31 08:42:07.652 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-31 08:42:07.698 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-31 08:42:07.699 [info] [getSessions] [all] starting
+2025-12-31 08:42:07.699 [info] [getSessions] [all] returned 1 session(s)
+2025-12-31 09:39:29.693 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-31 09:39:31.867 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-31 09:39:31.904 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-31 09:39:32.135 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-31 09:39:32.135 [info] [getSessions] [all] starting
+2025-12-31 09:39:32.135 [info] [getSessions] [all] returned 1 session(s)
+2025-12-31 11:19:30.755 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-31 11:19:41.797 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-31 11:19:41.800 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-31 11:19:42.919 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-31 11:19:42.920 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-31 11:19:43.839 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-31 11:19:43.841 [info] [getSessions] [all] starting
+2025-12-31 11:19:43.841 [info] [getSessions] [all] returned 1 session(s)
+2025-12-31 12:38:36.118 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-31 12:38:38.070 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-31 12:38:38.076 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-31 12:38:39.697 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-31 12:38:39.697 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-31 12:38:39.799 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-31 12:38:39.799 [info] [getSessions] [all] starting
+2025-12-31 12:38:39.799 [info] [getSessions] [all] returned 1 session(s)
+2025-12-31 12:38:39.799 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-31 12:38:40.016 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-31 14:39:40.748 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-31 14:39:42.129 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-31 14:39:42.130 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-31 14:39:42.330 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-31 14:39:42.331 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-31 14:39:42.374 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-31 14:39:42.374 [info] [getSessions] [all] starting
+2025-12-31 14:39:42.374 [info] [getSessions] [all] returned 1 session(s)
+2025-12-31 14:39:42.375 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-31 14:39:42.384 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-31 15:34:46.034 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-31 15:34:46.209 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-31 16:04:52.329 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-31 16:04:55.703 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-31 16:04:55.822 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-31 16:04:56.310 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-31 16:04:56.310 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-31 16:04:56.337 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-31 16:04:56.339 [info] [getSessions] [all] starting
+2025-12-31 16:04:56.339 [info] [getSessions] [all] returned 1 session(s)
+2025-12-31 16:04:57.566 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-31 16:04:57.579 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-31 17:00:09.229 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-31 17:00:09.998 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-31 17:00:10.009 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-31 17:00:10.067 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-31 17:00:10.068 [info] [getSessions] [all] starting
+2025-12-31 17:00:10.068 [info] [getSessions] [all] returned 1 session(s)
+2025-12-31 17:55:13.450 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-31 17:55:13.781 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-31 18:50:17.206 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-31 18:50:17.240 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-31 19:45:30.492 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-31 19:45:30.525 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-31 20:40:30.889 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-31 20:40:31.783 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-31 20:40:31.887 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-31 20:40:31.939 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-31 20:40:31.956 [info] [getSessions] [all] starting
+2025-12-31 20:40:31.956 [info] [getSessions] [all] returned 1 session(s)
+2025-12-31 22:54:18.980 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-31 22:54:22.456 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-31 22:54:22.458 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-31 22:54:27.995 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-31 22:54:27.997 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-31 22:54:36.073 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-31 22:54:36.077 [info] [getSessions] [all] starting
+2025-12-31 22:54:36.078 [info] [getSessions] [all] returned 1 session(s)
+2025-12-31 22:54:36.078 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-31 22:54:37.722 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-31 23:54:49.000 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-31 23:55:11.748 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-31 23:55:11.752 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-12-31 23:55:12.402 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2025-12-31 23:55:12.402 [info] [getSessions] [email offline_access openid profile] starting
+2025-12-31 23:55:13.004 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-12-31 23:55:13.259 [info] [getSessions] [all] starting
+2025-12-31 23:55:13.259 [info] [getSessions] [all] returned 1 session(s)
+2026-01-01 02:12:57.272 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 02:13:01.261 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 02:13:01.272 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-01 02:13:01.713 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-01 02:13:01.714 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 02:13:02.066 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 02:13:02.069 [info] [getSessions] [all] starting
+2026-01-01 02:13:02.069 [info] [getSessions] [all] returned 1 session(s)
+2026-01-01 03:14:09.180 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 03:14:11.718 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 03:14:11.719 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-01 03:14:11.762 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-01 03:14:11.762 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 03:14:11.955 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 03:14:11.956 [info] [getSessions] [all] starting
+2026-01-01 03:14:11.956 [info] [getSessions] [all] returned 1 session(s)
+2026-01-01 04:15:20.645 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 04:15:24.502 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 04:15:24.502 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-01 04:15:27.166 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-01 04:15:27.168 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 04:15:27.997 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 04:15:27.997 [info] [getSessions] [all] starting
+2026-01-01 04:15:27.997 [info] [getSessions] [all] returned 1 session(s)
+2026-01-01 04:15:27.997 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 04:15:29.005 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 05:16:33.239 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 05:16:35.457 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 05:16:35.458 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-01 05:16:42.168 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-01 05:16:42.169 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 05:16:44.129 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 05:16:44.129 [info] [getSessions] [all] starting
+2026-01-01 05:16:44.129 [info] [getSessions] [all] returned 1 session(s)
+2026-01-01 05:16:44.129 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 05:16:44.167 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 06:17:51.602 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 06:17:54.087 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 06:17:54.087 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-01 06:17:55.632 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-01 06:17:55.632 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 06:17:55.728 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 06:17:55.728 [info] [getSessions] [all] starting
+2026-01-01 06:17:55.728 [info] [getSessions] [all] returned 1 session(s)
+2026-01-01 06:17:55.728 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 06:17:55.764 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 10:05:20.170 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-01 10:05:21.348 [info] [getAllSessionsForPca] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] [CappedCorn7871@outlook.com] failed to acquire token silently, skipping account {"errorCode":"network_error","errorMessage":"Network request failed","subError":"","name":"ClientAuthError"}
+2026-01-01 10:05:21.348 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2026-01-01 10:09:36.510 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 10:09:38.239 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 10:09:38.273 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 10:09:38.924 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 10:09:38.924 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-01 10:09:43.920 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-01 10:09:43.921 [info] [getSessions] [all] starting
+2026-01-01 10:09:43.921 [info] [getSessions] [all] returned 1 session(s)
+2026-01-01 10:09:43.974 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 10:09:52.069 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 10:09:52.070 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-01 10:09:53.133 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-01 11:04:54.013 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-01 11:04:54.709 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-01 11:04:54.781 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 11:04:54.982 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 11:04:55.038 [info] [getSessions] [all] starting
+2026-01-01 11:04:55.039 [info] [getSessions] [all] returned 1 session(s)
+2026-01-01 12:41:51.633 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 12:42:08.729 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 12:42:08.732 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-01 12:42:10.258 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-01 12:42:10.258 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 12:42:11.415 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 12:42:11.415 [info] [getSessions] [all] starting
+2026-01-01 12:42:11.415 [info] [getSessions] [all] returned 1 session(s)
+2026-01-01 12:42:11.415 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 12:42:11.934 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 13:37:12.057 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-01 13:37:12.176 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-01 14:47:07.617 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 14:47:20.762 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 14:47:20.763 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-01 14:47:21.093 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-01 14:47:21.093 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 14:47:21.761 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 14:47:21.761 [info] [getSessions] [all] starting
+2026-01-01 14:47:21.761 [info] [getSessions] [all] returned 1 session(s)
+2026-01-01 15:42:22.105 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-01 15:42:23.209 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-01 15:42:23.279 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 15:42:23.485 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 15:42:23.489 [info] [getSessions] [all] starting
+2026-01-01 15:42:23.489 [info] [getSessions] [all] returned 1 session(s)
+2026-01-01 16:37:24.553 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-01 16:37:26.205 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-01 16:37:26.246 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 16:37:28.205 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 16:37:28.210 [info] [getSessions] [all] starting
+2026-01-01 16:37:28.210 [info] [getSessions] [all] returned 1 session(s)
+2026-01-01 16:37:28.270 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 16:37:29.052 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 16:37:29.053 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-01 16:37:29.137 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-01 17:32:26.847 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-01 17:32:26.960 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-01 18:27:27.979 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-01 18:27:28.044 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-01 20:29:59.470 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 20:30:04.045 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 20:30:04.046 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-01 20:30:20.871 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-01 20:30:20.874 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 20:30:22.336 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 20:30:22.337 [info] [getSessions] [all] starting
+2026-01-01 20:30:22.338 [info] [getSessions] [all] returned 1 session(s)
+2026-01-01 20:30:22.338 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 20:30:22.752 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 21:25:24.477 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-01 21:25:24.826 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-01 22:20:27.044 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-01 22:20:27.060 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-01 23:29:16.306 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 23:29:17.966 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 23:29:17.966 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-01 23:29:18.925 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-01 23:29:18.925 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-01 23:29:19.711 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-01 23:29:19.712 [info] [getSessions] [all] starting
+2026-01-01 23:29:19.712 [info] [getSessions] [all] returned 1 session(s)
+2026-01-02 00:30:54.667 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-02 00:30:59.018 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-02 00:30:59.019 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-02 00:31:02.402 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-02 00:31:02.403 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-02 00:31:08.415 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-02 00:31:08.416 [info] [getSessions] [all] starting
+2026-01-02 00:31:08.416 [info] [getSessions] [all] returned 1 session(s)
+2026-01-02 00:31:08.418 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-02 00:31:09.577 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-02 01:31:42.445 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-02 01:31:50.261 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-02 01:31:50.272 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-02 01:31:50.655 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-02 01:31:50.655 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-02 01:31:51.081 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-02 01:31:51.082 [info] [getSessions] [all] starting
+2026-01-02 01:31:51.082 [info] [getSessions] [all] returned 1 session(s)
+2026-01-02 02:33:04.962 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-02 02:33:08.193 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-02 02:33:08.193 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-02 02:33:08.981 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-02 02:33:08.981 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-02 02:33:09.023 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-02 02:33:09.023 [info] [getSessions] [all] starting
+2026-01-02 02:33:09.023 [info] [getSessions] [all] returned 1 session(s)
+2026-01-02 02:33:09.023 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-02 02:33:09.029 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-02 03:34:02.702 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-02 03:34:12.423 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-02 03:34:12.426 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-02 03:34:14.706 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-02 03:34:14.706 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-02 03:34:15.422 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-02 03:34:15.422 [info] [getSessions] [all] starting
+2026-01-02 03:34:15.422 [info] [getSessions] [all] returned 1 session(s)
+2026-01-02 03:34:15.423 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-02 03:34:15.692 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-02 04:35:17.183 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-02 04:35:18.853 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-02 04:35:18.853 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-02 04:35:19.063 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-02 04:35:19.063 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-02 04:35:19.260 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-02 04:35:19.261 [info] [getSessions] [all] starting
+2026-01-02 04:35:19.261 [info] [getSessions] [all] returned 1 session(s)
+2026-01-02 05:36:28.421 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-02 05:36:30.788 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-02 05:36:30.788 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-02 05:36:32.330 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-02 05:36:32.331 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-02 05:36:32.354 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-02 05:36:32.354 [info] [getSessions] [all] starting
+2026-01-02 05:36:32.354 [info] [getSessions] [all] returned 1 session(s)
+2026-01-02 05:36:32.356 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-02 05:36:32.500 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-02 06:31:51.211 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-02 06:31:51.232 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-02 07:26:52.832 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-02 07:26:53.486 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-02 07:26:53.519 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-02 07:26:54.662 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-02 07:26:54.662 [info] [getSessions] [all] starting
+2026-01-02 07:26:54.662 [info] [getSessions] [all] returned 1 session(s)
+2026-01-02 07:26:54.665 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-02 07:26:54.700 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-02 07:26:54.700 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-02 07:26:54.714 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-02 08:21:54.825 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-02 08:21:54.952 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-02 09:16:58.037 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-02 09:16:59.571 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-02 09:16:59.627 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-02 09:17:00.987 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-02 09:17:00.988 [info] [getSessions] [all] starting
+2026-01-02 09:17:00.988 [info] [getSessions] [all] returned 1 session(s)
+2026-01-02 09:17:01.004 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-02 09:17:01.045 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-02 09:17:01.045 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-02 09:17:01.086 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-02 10:12:00.767 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-02 10:12:01.510 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-02 10:12:01.577 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-02 10:12:01.691 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-02 10:12:02.287 [info] [getSessions] [all] starting
+2026-01-02 10:12:02.287 [info] [getSessions] [all] returned 1 session(s)
+2026-01-02 11:07:02.513 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-02 11:07:03.399 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-02 11:07:03.416 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-02 11:07:04.389 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-02 11:07:04.390 [info] [getSessions] [all] starting
+2026-01-02 11:07:04.390 [info] [getSessions] [all] returned 1 session(s)
+2026-01-02 11:07:04.396 [info] [getSessions] [email offline_access openid profile] starting
+2026-01-02 11:07:04.409 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2026-01-02 11:07:04.410 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-02 11:07:04.418 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-02 12:02:03.586 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-02 12:02:03.614 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-02 12:57:03.632 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-02 12:57:03.671 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)
+2026-01-02 13:52:05.020 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-01-02 13:52:05.095 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 1 session(s)

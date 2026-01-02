@@ -1,0 +1,28 @@
+name: CI - Smoke Test
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run smoke test (short deterministic run)
+        run: |
+          python -c "import numpy as np; np.random.seed(42); from simulate_lambda import gyroscopic_factor, compute_lambda; g = gyroscopic_factor(100.0, 500.0); assert 0.0 < g <= 1.0; lam = compute_lambda(1.0, 1.0, 1.0, g, 7500.0, 31380.0); assert np.isfinite(lam); print('Smoke test passed')"

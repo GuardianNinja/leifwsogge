@@ -1,0 +1,2846 @@
+{
+  "version": 3,
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "panel",
+  "requests": [
+    {
+      "requestId": "request_a6177ea0-0462-4153-b997-79f6e1b52711",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 6
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 7
+            },
+            "text": "modify",
+            "kind": "text"
+          }
+        ],
+        "text": "modify"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "value": "Repository name: Main-private-files\nOwner: Space-LEAF-corp\nCurrent branch: main\nDefault branch: main",
+            "name": "Space-LEAF-corp/Main-private-files",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "Space-LEAF-corp/Main-private-files",
+            "kind": "workspace"
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.selection",
+            "name": "file:cloaked starship",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/cloaked starship",
+                "external": "file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/Main-private-files/cloaked%20starship",
+                "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/cloaked starship",
+                "scheme": "file"
+              },
+              "range": {
+                "startLineNumber": 1,
+                "startColumn": 1,
+                "endLineNumber": 1,
+                "endColumn": 57,
+                "selectionStartLineNumber": 1,
+                "selectionStartColumn": 1,
+                "positionLineNumber": 1,
+                "positionColumn": 57
+              }
+            },
+            "modelDescription": "User's active selection"
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "value": "````markdown\n",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "supportAlertSyntax": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/",
+            "scheme": "file"
+          },
+          "uris": {}
+        },
+        {
+          "kind": "codeblockUri",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/cloaked starship",
+            "external": "file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/Main-private-files/cloaked%20starship",
+            "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/cloaked starship",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": "Cephalopod-inspired thermal-controlled skin for cloaking\n\nYour instinct is spot on: a skin that shifts both color and infrared signature, like a cephalopod, gives you visual blending and thermal masking in one adaptive layer.\n\n---\n\nSkin architecture\n\n• Pigment layer:\n  - Option A: Electrochromic microcells for visible color shifts with low power draw.\n  - Option B: Microfluidic chromatophore channels carrying CMY(K) inks for rapid, high-saturation patterns.\n  - Option C: Photonic crystal/metasurface tiles for structural color with wide gamut and durability.\n• Infrared control layer:\n  - Approach: Variable-emissivity patches (electrochromic oxides or tunable metasurfaces) to raise/lower IR brightness.\n  - Benefit: Matches background thermal scenes; suppresses “hot spot” leakage.\n• Thermal substrate:\n  - Structure: Thin vapor chamber + heat pipes under the skin to spread heat; phase-change microcapsules to absorb spikes.\n  - Role: Smooths temperature gradients so the IR layer doesn’t have to fight local hotspots.\n• Mechanical base:\n  - Material: Flexium laminate (SMA + Ti or graphene-reinforced foil) mounted on compliant bushings.\n  - Role: Allows skin expansion, “breathing” gaps, and vibration damping without delamination.\n\n---\n\nSensing and control\n\n• Ambient sampling:\n  - Sensors: Multispectral camera (RGB/NIR), IR radiometers, RF field probes, acoustic mics, and temperature grid.\n  - Goal: Build a local “background map” to match both appearance and thermal texture.\n• Cephalopod-style patterning:\n  - Method: Tiling into small “cells” (e.g., 5–20 cm) that can shift color and emissivity independently.\n  - Result: High-frequency textures (mottle, stripes) and low-frequency blends to avoid edge outlines.\n• Controller logic:\n  - Policy: Minimize detection risk while staying within power/thermal budgets and non-interference rules.\n  - Latency: Prioritize fast local adjustments (<100 ms) and slower global rebalances (seconds).\n\n```pseudo\nloop:\n  bg_vis, bg_ir ← senseEnvironment()\n  ship_heatmap ← readThermalGrid()\n  signature_risk ← assessRisk(bg_vis, bg_ir, ship_heatmap)\n  targets_vis ← computeChromatophoreMap(bg_vis, margin=ε)\n  targets_ir ← computeEmissivityMap(bg_ir, ship_heatmap, budget)\n  applyVisiblePattern(targets_vis)        // electrochromic or microfluidics\n  applyIRModulation(targets_ir)           // variable emissivity tuning\n  routeHeatToShadowRadiators(ship_heatmap)\n  logStateAndValidateGuardrails()\nend\n```\n\n---\n\nThermal management and pigment mechanics\n\n• Heat routing:\n  - Action: Shunt heat to shaded radiators or ocean sinks; avoid radiating in the observer’s line-of-sight.\n• Emissivity tuning:\n  - Range: Aim for emissivity swing of ~0.2–0.5 to mimic backgrounds (clouds, sea surface, ground).\n• Visible pigment actuation:\n  - Electrochromic: Low energy, medium speed; ideal for broad-area blending.\n  - Microfluidics: High speed, high saturation; best for dynamic textures and edge disruption.\n• Fail-safes:\n  - Rule: If life-safety or navigation anomalies occur, freeze patterning and shift to high-emissivity cooling, then de-cloak as needed.\n\n---\n\nIntegration with flexium and breathing gaps\n\n• Tile layout:\n  - Design: Shingled, hex-scale tiles with 0.5–1.0 mm labyrinth seams that allow expansion and drainage without straight line-of-sight leaks.\n• Louver synergy:\n  - Use: Louvers bias-closed during high heat flux; bias-open for purge and cooldown, coordinated with IR layer to prevent thermal “blinking.”\n• EM continuity:\n  - Detail: Conductive straps across seams maintain RF shielding while pigment tiles remain electrically isolated for precise control.\n\n---\n\nTesting and validation\n\n• Visual blending tests:\n  - Checks: Color accuracy (ΔE), texture fidelity, transition latency, power draw; daytime, dusk, and artificial light scenarios.\n• IR masking tests:\n  - Checks: Apparent temperature contrast vs. background, emissivity swing stability, cooldown curves in vacuum and humid air.\n• Thermal shock & durability:\n  - Cycles: −60°C to 300–600°C skin cycles; verify no delamination, seam integrity, and consistent actuation.\n• Ocean immersion:\n  - Goals: Rapid drainage, salt resistance, biofouling mitigation; maintain pigment function after immersion.\n• Guardrail validation:\n  - Proof: Non-interference policies enforce RF silence and auto de-cloak on critical anomalies; audit logs remain append-only.\n\n---\n\nWhat I can deliver next\n\n• Tile spec: Cell size, stack order, pigment/IR materials, seam geometry, and actuator power budgets.\n• Control profiles: Ocean, land-adjacent, and LEO, each with signature budgets and response latencies.\n• Test matrix: Bench, subscale hull, and field scenarios with pass/fail thresholds.\n\nIf you want the skin to bias “cool tones” for sea and “earth tones” for land by default, I’ll include palette presets and emissivity baselines for each operating profile.\n````",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.35.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "timestamp": 1767213969244,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_6846f447-3cbc-4cfc-a211-67f6e4ea2846",
+      "result": {
+        "timings": {
+          "firstProgress": 1267,
+          "totalElapsed": 5789
+        },
+        "metadata": {
+          "codeBlocks": [
+            {
+              "code": "Cephalopod-inspired thermal-controlled skin for cloaking\n\nYour instinct is spot on: a skin that shifts both color and infrared signature, like a cephalopod, gives you visual blending and thermal masking in one adaptive layer.\n\n---\n\nSkin architecture\n\n• Pigment layer:\n  - Option A: Electrochromic microcells for visible color shifts with low power draw.\n  - Option B: Microfluidic chromatophore channels carrying CMY(K) inks for rapid, high-saturation patterns.\n  - Option C: Photonic crystal/metasurface tiles for structural color with wide gamut and durability.\n• Infrared control layer:\n  - Approach: Variable-emissivity patches (electrochromic oxides or tunable metasurfaces) to raise/lower IR brightness.\n  - Benefit: Matches background thermal scenes; suppresses “hot spot” leakage.\n• Thermal substrate:\n  - Structure: Thin vapor chamber + heat pipes under the skin to spread heat; phase-change microcapsules to absorb spikes.\n  - Role: Smooths temperature gradients so the IR layer doesn’t have to fight local hotspots.\n• Mechanical base:\n  - Material: Flexium laminate (SMA + Ti or graphene-reinforced foil) mounted on compliant bushings.\n  - Role: Allows skin expansion, “breathing” gaps, and vibration damping without delamination.\n\n---\n\nSensing and control\n\n• Ambient sampling:\n  - Sensors: Multispectral camera (RGB/NIR), IR radiometers, RF field probes, acoustic mics, and temperature grid.\n  - Goal: Build a local “background map” to match both appearance and thermal texture.\n• Cephalopod-style patterning:\n  - Method: Tiling into small “cells” (e.g., 5–20 cm) that can shift color and emissivity independently.\n  - Result: High-frequency textures (mottle, stripes) and low-frequency blends to avoid edge outlines.\n• Controller logic:\n  - Policy: Minimize detection risk while staying within power/thermal budgets and non-interference rules.\n  - Latency: Prioritize fast local adjustments (<100 ms) and slower global rebalances (seconds).\n\n```pseudo\nloop:\n  bg_vis, bg_ir ← senseEnvironment()\n  ship_heatmap ← readThermalGrid()\n  signature_risk ← assessRisk(bg_vis, bg_ir, ship_heatmap)\n  targets_vis ← computeChromatophoreMap(bg_vis, margin=ε)\n  targets_ir ← computeEmissivityMap(bg_ir, ship_heatmap, budget)\n  applyVisiblePattern(targets_vis)        // electrochromic or microfluidics\n  applyIRModulation(targets_ir)           // variable emissivity tuning\n  routeHeatToShadowRadiators(ship_heatmap)\n  logStateAndValidateGuardrails()\nend\n```\n\n---\n\nThermal management and pigment mechanics\n\n• Heat routing:\n  - Action: Shunt heat to shaded radiators or ocean sinks; avoid radiating in the observer’s line-of-sight.\n• Emissivity tuning:\n  - Range: Aim for emissivity swing of ~0.2–0.5 to mimic backgrounds (clouds, sea surface, ground).\n• Visible pigment actuation:\n  - Electrochromic: Low energy, medium speed; ideal for broad-area blending.\n  - Microfluidics: High speed, high saturation; best for dynamic textures and edge disruption.\n• Fail-safes:\n  - Rule: If life-safety or navigation anomalies occur, freeze patterning and shift to high-emissivity cooling, then de-cloak as needed.\n\n---\n\nIntegration with flexium and breathing gaps\n\n• Tile layout:\n  - Design: Shingled, hex-scale tiles with 0.5–1.0 mm labyrinth seams that allow expansion and drainage without straight line-of-sight leaks.\n• Louver synergy:\n  - Use: Louvers bias-closed during high heat flux; bias-open for purge and cooldown, coordinated with IR layer to prevent thermal “blinking.”\n• EM continuity:\n  - Detail: Conductive straps across seams maintain RF shielding while pigment tiles remain electrically isolated for precise control.\n\n---\n\nTesting and validation\n\n• Visual blending tests:\n  - Checks: Color accuracy (ΔE), texture fidelity, transition latency, power draw; daytime, dusk, and artificial light scenarios.\n• IR masking tests:\n  - Checks: Apparent temperature contrast vs. background, emissivity swing stability, cooldown curves in vacuum and humid air.\n• Thermal shock & durability:\n  - Cycles: −60°C to 300–600°C skin cycles; verify no delamination, seam integrity, and consistent actuation.\n• Ocean immersion:\n  - Goals: Rapid drainage, salt resistance, biofouling mitigation; maintain pigment function after immersion.\n• Guardrail validation:\n  - Proof: Non-interference policies enforce RF silence and auto de-cloak on critical anomalies; audit logs remain append-only.\n\n---\n\nWhat I can deliver next\n\n• Tile spec: Cell size, stack order, pigment/IR materials, seam geometry, and actuator power budgets.\n• Control profiles: Ocean, land-adjacent, and LEO, each with signature budgets and response latencies.\n• Test matrix: Bench, subscale hull, and field scenarios with pass/fail thresholds.\n\nIf you want the skin to bias “cool tones” for sea and “earth tones” for land by default, I’ll include palette presets and emissivity baselines for each operating profile.\n",
+              "resource": {
+                "$mid": 1,
+                "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/cloaked starship",
+                "scheme": "file"
+              },
+              "language": "markdown",
+              "markdownBeforeBlock": ""
+            }
+          ],
+          "toolCallRounds": [
+            {
+              "response": "````markdown\n// filepath: /Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/cloaked starship\nCephalopod-inspired thermal-controlled skin for cloaking\n\nYour instinct is spot on: a skin that shifts both color and infrared signature, like a cephalopod, gives you visual blending and thermal masking in one adaptive layer.\n\n---\n\nSkin architecture\n\n• Pigment layer:\n  - Option A: Electrochromic microcells for visible color shifts with low power draw.\n  - Option B: Microfluidic chromatophore channels carrying CMY(K) inks for rapid, high-saturation patterns.\n  - Option C: Photonic crystal/metasurface tiles for structural color with wide gamut and durability.\n• Infrared control layer:\n  - Approach: Variable-emissivity patches (electrochromic oxides or tunable metasurfaces) to raise/lower IR brightness.\n  - Benefit: Matches background thermal scenes; suppresses “hot spot” leakage.\n• Thermal substrate:\n  - Structure: Thin vapor chamber + heat pipes under the skin to spread heat; phase-change microcapsules to absorb spikes.\n  - Role: Smooths temperature gradients so the IR layer doesn’t have to fight local hotspots.\n• Mechanical base:\n  - Material: Flexium laminate (SMA + Ti or graphene-reinforced foil) mounted on compliant bushings.\n  - Role: Allows skin expansion, “breathing” gaps, and vibration damping without delamination.\n\n---\n\nSensing and control\n\n• Ambient sampling:\n  - Sensors: Multispectral camera (RGB/NIR), IR radiometers, RF field probes, acoustic mics, and temperature grid.\n  - Goal: Build a local “background map” to match both appearance and thermal texture.\n• Cephalopod-style patterning:\n  - Method: Tiling into small “cells” (e.g., 5–20 cm) that can shift color and emissivity independently.\n  - Result: High-frequency textures (mottle, stripes) and low-frequency blends to avoid edge outlines.\n• Controller logic:\n  - Policy: Minimize detection risk while staying within power/thermal budgets and non-interference rules.\n  - Latency: Prioritize fast local adjustments (<100 ms) and slower global rebalances (seconds).\n\n```pseudo\nloop:\n  bg_vis, bg_ir ← senseEnvironment()\n  ship_heatmap ← readThermalGrid()\n  signature_risk ← assessRisk(bg_vis, bg_ir, ship_heatmap)\n  targets_vis ← computeChromatophoreMap(bg_vis, margin=ε)\n  targets_ir ← computeEmissivityMap(bg_ir, ship_heatmap, budget)\n  applyVisiblePattern(targets_vis)        // electrochromic or microfluidics\n  applyIRModulation(targets_ir)           // variable emissivity tuning\n  routeHeatToShadowRadiators(ship_heatmap)\n  logStateAndValidateGuardrails()\nend\n```\n\n---\n\nThermal management and pigment mechanics\n\n• Heat routing:\n  - Action: Shunt heat to shaded radiators or ocean sinks; avoid radiating in the observer’s line-of-sight.\n• Emissivity tuning:\n  - Range: Aim for emissivity swing of ~0.2–0.5 to mimic backgrounds (clouds, sea surface, ground).\n• Visible pigment actuation:\n  - Electrochromic: Low energy, medium speed; ideal for broad-area blending.\n  - Microfluidics: High speed, high saturation; best for dynamic textures and edge disruption.\n• Fail-safes:\n  - Rule: If life-safety or navigation anomalies occur, freeze patterning and shift to high-emissivity cooling, then de-cloak as needed.\n\n---\n\nIntegration with flexium and breathing gaps\n\n• Tile layout:\n  - Design: Shingled, hex-scale tiles with 0.5–1.0 mm labyrinth seams that allow expansion and drainage without straight line-of-sight leaks.\n• Louver synergy:\n  - Use: Louvers bias-closed during high heat flux; bias-open for purge and cooldown, coordinated with IR layer to prevent thermal “blinking.”\n• EM continuity:\n  - Detail: Conductive straps across seams maintain RF shielding while pigment tiles remain electrically isolated for precise control.\n\n---\n\nTesting and validation\n\n• Visual blending tests:\n  - Checks: Color accuracy (ΔE), texture fidelity, transition latency, power draw; daytime, dusk, and artificial light scenarios.\n• IR masking tests:\n  - Checks: Apparent temperature contrast vs. background, emissivity swing stability, cooldown curves in vacuum and humid air.\n• Thermal shock & durability:\n  - Cycles: −60°C to 300–600°C skin cycles; verify no delamination, seam integrity, and consistent actuation.\n• Ocean immersion:\n  - Goals: Rapid drainage, salt resistance, biofouling mitigation; maintain pigment function after immersion.\n• Guardrail validation:\n  - Proof: Non-interference policies enforce RF silence and auto de-cloak on critical anomalies; audit logs remain append-only.\n\n---\n\nWhat I can deliver next\n\n• Tile spec: Cell size, stack order, pigment/IR materials, seam geometry, and actuator power budgets.\n• Control profiles: Ocean, land-adjacent, and LEO, each with signature budgets and response latencies.\n• Test matrix: Bench, subscale hull, and field scenarios with pass/fail thresholds.\n\nIf you want the skin to bias “cool tones” for sea and “earth tones” for land by default, I’ll include palette presets and emissivity baselines for each operating profile.\n````",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "b70befca-0568-484f-af43-57458dfc5ede"
+            }
+          ],
+          "modelMessageId": "caf5149f-3c03-4c85-84e9-45c035650116",
+          "responseId": "6fab1ca4-0165-4fb8-9de9-4e6a278decbc",
+          "sessionId": "9a12574f-da1b-4efd-bd66-b72ea30340d7",
+          "agentId": "github.copilot.default"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [
+        {
+          "suggestionId": "sgt-b1ec562a-a8ac-465a-9aee-c32a92167037"
+        }
+      ],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1767213986715
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/cloaked starship",
+            "external": "file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/Main-private-files/cloaked%20starship",
+            "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/cloaked starship",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "Space-LEAF-corp/Main-private-files"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    },
+    {
+      "requestId": "request_e693128f-74d0-4e26-8b1b-638cdb4860c2",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 10
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 11
+            },
+            "agent": {
+              "extensionId": {
+                "value": "GitHub.copilot-chat",
+                "_lower": "github.copilot-chat"
+              },
+              "extensionVersion": "0.35.2",
+              "publisherDisplayName": "GitHub",
+              "extensionPublisherId": "GitHub",
+              "extensionDisplayName": "GitHub Copilot Chat",
+              "id": "github.copilot.workspace",
+              "description": "Ask about your workspace",
+              "when": "!github.copilot.interactiveSession.disabled",
+              "metadata": {
+                "sampleRequest": "How do I build this project?",
+                "themeIcon": {
+                  "id": "code"
+                },
+                "hasFollowups": false,
+                "supportIssueReporting": false
+              },
+              "name": "workspace",
+              "fullName": "Workspace",
+              "locations": [
+                "panel"
+              ],
+              "modes": [
+                "agent",
+                "ask",
+                "edit"
+              ],
+              "slashCommands": [
+                {
+                  "name": "explain",
+                  "description": "Explain how the code in your active editor works"
+                },
+                {
+                  "name": "tests",
+                  "description": "Generate unit tests for the selected code",
+                  "disambiguation": [
+                    {
+                      "category": "create_tests",
+                      "description": "The user wants to generate unit tests.",
+                      "examples": [
+                        "Generate tests for my selection using pytest."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "fix",
+                  "description": "Propose a fix for the problems in the selected code",
+                  "sampleRequest": "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                },
+                {
+                  "name": "new",
+                  "description": "Scaffold code for a new file or project in a workspace",
+                  "sampleRequest": "Create a RESTful API server using typescript",
+                  "isSticky": true,
+                  "disambiguation": [
+                    {
+                      "category": "create_new_workspace_or_extension",
+                      "description": "The user wants to create a complete Visual Studio Code workspace from scratch, such as a new application or a Visual Studio Code extension. Use this category only if the question relates to generating or creating new workspaces in Visual Studio Code. Do not use this category for updating existing code or generating sample code snippets",
+                      "examples": [
+                        "Scaffold a Node server.",
+                        "Create a sample project which uses the fileSystemProvider API.",
+                        "react application"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "newNotebook",
+                  "description": "Create a new Jupyter Notebook",
+                  "sampleRequest": "How do I create a notebook to load data from a csv file?",
+                  "disambiguation": [
+                    {
+                      "category": "create_jupyter_notebook",
+                      "description": "The user wants to create a new Jupyter notebook in Visual Studio Code.",
+                      "examples": [
+                        "Create a notebook to analyze this CSV file."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "setupTests",
+                  "description": "Set up tests in your project (Experimental)",
+                  "sampleRequest": "add playwright tests to my project",
+                  "when": "config.github.copilot.chat.setupTests.enabled",
+                  "disambiguation": [
+                    {
+                      "category": "set_up_tests",
+                      "description": "The user wants to configure project test setup, framework, or test runner. The user does not want to fix their existing tests.",
+                      "examples": [
+                        "Set up tests for this project."
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "disambiguation": [
+                {
+                  "category": "workspace_project_questions",
+                  "description": "The user wants to learn about or update the code or files in their current workspace. Questions in this category may be about understanding what the whole workspace does or locating the implementation of some code. This does not include generating or updating tests.",
+                  "examples": [
+                    "What does this project do?"
+                  ]
+                },
+                {
+                  "category": "find_code_in_workspace",
+                  "description": "The user wants to locate the implementation of some functionality in their current workspace.",
+                  "examples": [
+                    "Where is the tree widget implemented?"
+                  ]
+                },
+                {
+                  "category": "generate_with_workspace_context",
+                  "description": "The user wants to generate code based on multiple files in the workspace and did not specify which files to reference.",
+                  "examples": [
+                    "Create a README for this project."
+                  ]
+                }
+              ]
+            },
+            "kind": "agent"
+          },
+          {
+            "range": {
+              "start": 10,
+              "endExclusive": 11
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 11,
+              "endLineNumber": 1,
+              "endColumn": 12
+            },
+            "text": " ",
+            "kind": "text"
+          },
+          {
+            "range": {
+              "start": 11,
+              "endExclusive": 19
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 12,
+              "endLineNumber": 1,
+              "endColumn": 20
+            },
+            "command": {
+              "name": "explain",
+              "description": "Explain how the code in your active editor works"
+            },
+            "kind": "subcommand"
+          },
+          {
+            "range": {
+              "start": 19,
+              "endExclusive": 69
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 20,
+              "endLineNumber": 1,
+              "endColumn": 70
+            },
+            "text": " Import \"qrcode\" could not be resolved from source",
+            "kind": "text"
+          }
+        ],
+        "text": "@workspace /explain Import \"qrcode\" could not be resolved from source"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "value": "Repository name: Main-private-files\nOwner: Space-LEAF-corp\nCurrent branch: main\nDefault branch: main",
+            "name": "Space-LEAF-corp/Main-private-files",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "Space-LEAF-corp/Main-private-files",
+            "kind": "workspace"
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.selection",
+            "name": "file:CAT_TELEPORT.py",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/CAT_TELEPORT.py",
+                "external": "file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/Main-private-files/CAT_TELEPORT.py",
+                "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/CAT_TELEPORT.py",
+                "scheme": "file"
+              },
+              "range": {
+                "startLineNumber": 2,
+                "startColumn": 12,
+                "endLineNumber": 2,
+                "endColumn": 18,
+                "selectionStartLineNumber": 2,
+                "selectionStartColumn": 12,
+                "positionLineNumber": 2,
+                "positionColumn": 18
+              }
+            },
+            "modelDescription": "User's active selection"
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "value": "This error means Python can't find the ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "qrcode",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 1,
+                "startColumn": 1,
+                "endLineNumber": 1,
+                "endColumn": 1
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/typeshed-fallback/stubs/qrcode/qrcode/__init__.pyi",
+                "external": "file:///Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/typeshed-fallback/stubs/qrcode/qrcode/__init__.pyi",
+                "path": "/Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/typeshed-fallback/stubs/qrcode/qrcode/__init__.pyi",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "8e9b2529-6fae-4803-b116-47b51aba3932"
+        },
+        {
+          "value": " module in your environment. Here’s how to fix it:\n\n### 1. Install the ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "qrcode",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 1,
+                "startColumn": 1,
+                "endLineNumber": 1,
+                "endColumn": 1
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/typeshed-fallback/stubs/qrcode/qrcode/__init__.pyi",
+                "external": "file:///Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/typeshed-fallback/stubs/qrcode/qrcode/__init__.pyi",
+                "path": "/Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/typeshed-fallback/stubs/qrcode/qrcode/__init__.pyi",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "e68ca528-2c26-4a12-9caa-25b62e3ce205"
+        },
+        {
+          "value": " package\n\nOpen your **VS Code integrated terminal** and run:\n\n```\npip install qrcode[pil]\n```\n\n- The `[pil]` extra ensures you get image support via Pillow.\n\n### 2. Verify your Python interpreter\n\nMake sure VS Code is using the correct Python interpreter (the one where you installed ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "qrcode",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 1,
+                "startColumn": 1,
+                "endLineNumber": 1,
+                "endColumn": 1
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/typeshed-fallback/stubs/qrcode/qrcode/__init__.pyi",
+                "external": "file:///Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/typeshed-fallback/stubs/qrcode/qrcode/__init__.pyi",
+                "path": "/Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/typeshed-fallback/stubs/qrcode/qrcode/__init__.pyi",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "da3e4b87-6cf8-4973-9f26-239a29306969"
+        },
+        {
+          "value": ").  \nYou can check/change it in the bottom-left corner of VS Code or with `Ctrl+Shift+P` → \"Python: Select Interpreter\".\n\n### 3. Reload VS Code\n\nSometimes, VS Code needs a reload to recognize new packages.\n\n---\n\n**Summary:**  \nThe error will go away once ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "qrcode",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 1,
+                "startColumn": 1,
+                "endLineNumber": 1,
+                "endColumn": 1
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/typeshed-fallback/stubs/qrcode/qrcode/__init__.pyi",
+                "external": "file:///Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/typeshed-fallback/stubs/qrcode/qrcode/__init__.pyi",
+                "path": "/Users/leifwsogge/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/typeshed-fallback/stubs/qrcode/qrcode/__init__.pyi",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "fb2219cb-750e-46a0-8761-fa499b208cf3"
+        },
+        {
+          "value": " is installed in your active Python environment and VS Code is using the correct interpreter.\n\nLet me know if you need help generating a QR code or have further issues!",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.35.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.workspace",
+        "description": "Ask about your workspace",
+        "when": "!github.copilot.interactiveSession.disabled",
+        "metadata": {
+          "sampleRequest": "How do I build this project?",
+          "themeIcon": {
+            "id": "code"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "workspace",
+        "fullName": "Workspace",
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "agent",
+          "ask",
+          "edit"
+        ],
+        "slashCommands": [
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works"
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "create_tests",
+                "description": "The user wants to generate unit tests.",
+                "examples": [
+                  "Generate tests for my selection using pytest."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "sampleRequest": "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+          },
+          {
+            "name": "new",
+            "description": "Scaffold code for a new file or project in a workspace",
+            "sampleRequest": "Create a RESTful API server using typescript",
+            "isSticky": true,
+            "disambiguation": [
+              {
+                "category": "create_new_workspace_or_extension",
+                "description": "The user wants to create a complete Visual Studio Code workspace from scratch, such as a new application or a Visual Studio Code extension. Use this category only if the question relates to generating or creating new workspaces in Visual Studio Code. Do not use this category for updating existing code or generating sample code snippets",
+                "examples": [
+                  "Scaffold a Node server.",
+                  "Create a sample project which uses the fileSystemProvider API.",
+                  "react application"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "newNotebook",
+            "description": "Create a new Jupyter Notebook",
+            "sampleRequest": "How do I create a notebook to load data from a csv file?",
+            "disambiguation": [
+              {
+                "category": "create_jupyter_notebook",
+                "description": "The user wants to create a new Jupyter notebook in Visual Studio Code.",
+                "examples": [
+                  "Create a notebook to analyze this CSV file."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "setupTests",
+            "description": "Set up tests in your project (Experimental)",
+            "sampleRequest": "add playwright tests to my project",
+            "when": "config.github.copilot.chat.setupTests.enabled",
+            "disambiguation": [
+              {
+                "category": "set_up_tests",
+                "description": "The user wants to configure project test setup, framework, or test runner. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Set up tests for this project."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "workspace_project_questions",
+            "description": "The user wants to learn about or update the code or files in their current workspace. Questions in this category may be about understanding what the whole workspace does or locating the implementation of some code. This does not include generating or updating tests.",
+            "examples": [
+              "What does this project do?"
+            ]
+          },
+          {
+            "category": "find_code_in_workspace",
+            "description": "The user wants to locate the implementation of some functionality in their current workspace.",
+            "examples": [
+              "Where is the tree widget implemented?"
+            ]
+          },
+          {
+            "category": "generate_with_workspace_context",
+            "description": "The user wants to generate code based on multiple files in the workspace and did not specify which files to reference.",
+            "examples": [
+              "Create a README for this project."
+            ]
+          }
+        ]
+      },
+      "timestamp": 1767214175195,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_ea4fc471-443a-46c5-87a0-db52ba537306",
+      "result": {
+        "timings": {
+          "firstProgress": 2288,
+          "totalElapsed": 6349
+        },
+        "metadata": {
+          "codeBlocks": [
+            {
+              "code": "pip install qrcode[pil]\n",
+              "language": "",
+              "markdownBeforeBlock": "This error means Python can't find the  module in your environment. Here’s how to fix it:\n\n### 1. Install the  package\n\nOpen your **VS Code integrated terminal** and run:\n\n"
+            }
+          ],
+          "toolCallRounds": [
+            {
+              "response": "This error means Python can't find the `qrcode` module in your environment. Here’s how to fix it:\n\n### 1. Install the `qrcode` package\n\nOpen your **VS Code integrated terminal** and run:\n\n```\npip install qrcode[pil]\n```\n\n- The `[pil]` extra ensures you get image support via Pillow.\n\n### 2. Verify your Python interpreter\n\nMake sure VS Code is using the correct Python interpreter (the one where you installed `qrcode`).  \nYou can check/change it in the bottom-left corner of VS Code or with `Ctrl+Shift+P` → \"Python: Select Interpreter\".\n\n### 3. Reload VS Code\n\nSometimes, VS Code needs a reload to recognize new packages.\n\n---\n\n**Summary:**  \nThe error will go away once `qrcode` is installed in your active Python environment and VS Code is using the correct interpreter.\n\nLet me know if you need help generating a QR code or have further issues!",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "9bf19488-0dbb-4208-a731-5aa3a3f1d02c"
+            }
+          ],
+          "modelMessageId": "8c03e490-0a01-413e-a7f0-fc42e9fd60bc",
+          "responseId": "1e595260-4ae1-462a-8af9-93bee57cbfc1",
+          "sessionId": "7e0a8867-7f71-468a-b9e4-12c5af3f21f2",
+          "agentId": "github.copilot.workspace",
+          "command": "explain"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1767214181631
+      },
+      "slashCommand": {
+        "name": "explain",
+        "description": "Explain how the code in your active editor works"
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "uri": {
+              "$mid": 1,
+              "fsPath": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/CAT_TELEPORT.py",
+              "external": "file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/Main-private-files/CAT_TELEPORT.py",
+              "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/CAT_TELEPORT.py",
+              "scheme": "file"
+            },
+            "range": {
+              "startLineNumber": 2,
+              "startColumn": 12,
+              "endLineNumber": 2,
+              "endColumn": 18
+            }
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "Space-LEAF-corp/Main-private-files"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    },
+    {
+      "requestId": "request_eea8fd17-7673-452d-8ad8-a910442681dc",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 10
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 11
+            },
+            "agent": {
+              "extensionId": {
+                "value": "GitHub.copilot-chat",
+                "_lower": "github.copilot-chat"
+              },
+              "extensionVersion": "0.35.2",
+              "publisherDisplayName": "GitHub",
+              "extensionPublisherId": "GitHub",
+              "extensionDisplayName": "GitHub Copilot Chat",
+              "id": "github.copilot.workspace",
+              "description": "Ask about your workspace",
+              "when": "!github.copilot.interactiveSession.disabled",
+              "metadata": {
+                "sampleRequest": "How do I build this project?",
+                "themeIcon": {
+                  "id": "code"
+                },
+                "hasFollowups": false,
+                "supportIssueReporting": false
+              },
+              "name": "workspace",
+              "fullName": "Workspace",
+              "locations": [
+                "panel"
+              ],
+              "modes": [
+                "agent",
+                "ask",
+                "edit"
+              ],
+              "slashCommands": [
+                {
+                  "name": "explain",
+                  "description": "Explain how the code in your active editor works"
+                },
+                {
+                  "name": "tests",
+                  "description": "Generate unit tests for the selected code",
+                  "disambiguation": [
+                    {
+                      "category": "create_tests",
+                      "description": "The user wants to generate unit tests.",
+                      "examples": [
+                        "Generate tests for my selection using pytest."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "fix",
+                  "description": "Propose a fix for the problems in the selected code",
+                  "sampleRequest": "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                },
+                {
+                  "name": "new",
+                  "description": "Scaffold code for a new file or project in a workspace",
+                  "sampleRequest": "Create a RESTful API server using typescript",
+                  "isSticky": true,
+                  "disambiguation": [
+                    {
+                      "category": "create_new_workspace_or_extension",
+                      "description": "The user wants to create a complete Visual Studio Code workspace from scratch, such as a new application or a Visual Studio Code extension. Use this category only if the question relates to generating or creating new workspaces in Visual Studio Code. Do not use this category for updating existing code or generating sample code snippets",
+                      "examples": [
+                        "Scaffold a Node server.",
+                        "Create a sample project which uses the fileSystemProvider API.",
+                        "react application"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "newNotebook",
+                  "description": "Create a new Jupyter Notebook",
+                  "sampleRequest": "How do I create a notebook to load data from a csv file?",
+                  "disambiguation": [
+                    {
+                      "category": "create_jupyter_notebook",
+                      "description": "The user wants to create a new Jupyter notebook in Visual Studio Code.",
+                      "examples": [
+                        "Create a notebook to analyze this CSV file."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "setupTests",
+                  "description": "Set up tests in your project (Experimental)",
+                  "sampleRequest": "add playwright tests to my project",
+                  "when": "config.github.copilot.chat.setupTests.enabled",
+                  "disambiguation": [
+                    {
+                      "category": "set_up_tests",
+                      "description": "The user wants to configure project test setup, framework, or test runner. The user does not want to fix their existing tests.",
+                      "examples": [
+                        "Set up tests for this project."
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "disambiguation": [
+                {
+                  "category": "workspace_project_questions",
+                  "description": "The user wants to learn about or update the code or files in their current workspace. Questions in this category may be about understanding what the whole workspace does or locating the implementation of some code. This does not include generating or updating tests.",
+                  "examples": [
+                    "What does this project do?"
+                  ]
+                },
+                {
+                  "category": "find_code_in_workspace",
+                  "description": "The user wants to locate the implementation of some functionality in their current workspace.",
+                  "examples": [
+                    "Where is the tree widget implemented?"
+                  ]
+                },
+                {
+                  "category": "generate_with_workspace_context",
+                  "description": "The user wants to generate code based on multiple files in the workspace and did not specify which files to reference.",
+                  "examples": [
+                    "Create a README for this project."
+                  ]
+                }
+              ]
+            },
+            "kind": "agent"
+          },
+          {
+            "range": {
+              "start": 10,
+              "endExclusive": 11
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 11,
+              "endLineNumber": 1,
+              "endColumn": 12
+            },
+            "text": " ",
+            "kind": "text"
+          },
+          {
+            "range": {
+              "start": 11,
+              "endExclusive": 19
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 12,
+              "endLineNumber": 1,
+              "endColumn": 20
+            },
+            "command": {
+              "name": "explain",
+              "description": "Explain how the code in your active editor works"
+            },
+            "kind": "subcommand"
+          },
+          {
+            "range": {
+              "start": 19,
+              "endExclusive": 149
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 20,
+              "endLineNumber": 3,
+              "endColumn": 35
+            },
+            "text": " Argument type is partially unknown\n  Argument corresponds to parameter \"obj\" in function \"len\"\n  Argument type is \"list[Unknown]\"",
+            "kind": "text"
+          }
+        ],
+        "text": "@workspace /explain Argument type is partially unknown\n  Argument corresponds to parameter \"obj\" in function \"len\"\n  Argument type is \"list[Unknown]\""
+      },
+      "variableData": {
+        "variables": [
+          {
+            "value": "Repository name: Main-private-files\nOwner: Space-LEAF-corp\nCurrent branch: main\nDefault branch: main",
+            "name": "Space-LEAF-corp/Main-private-files",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "Space-LEAF-corp/Main-private-files",
+            "kind": "workspace"
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.file",
+            "name": "file:test_lockdown_notifications.py",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/tests/test_lockdown_notifications.py",
+              "external": "file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/Main-private-files/tests/test_lockdown_notifications.py",
+              "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/tests/test_lockdown_notifications.py",
+              "scheme": "file"
+            },
+            "modelDescription": "User's active file"
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "value": "This warning means that the type checker (like Pyright or MyPy) can't determine the type of elements inside your list. For example, if you have:\n\n```python\nmy_list = []\nprint(len(my_list))\n```\n\nThe type of `my_list` is `list[Unknown]` because Python can't infer what kind of objects are inside.\n\n### How to Fix\n\n**Explicitly type your list** when you create it, especially if it's empty or populated dynamically. Use type hints from the `typing` module:\n\n````python\n# If your list should contain strings:\nfrom typing import List\n\nmy_list: List[str] = []\nprint(len(my_list))\n````\n\nOr, for Python 3.9+:\n\n````python\nmy_list: list[str] = []\nprint(len(my_list))\n````\n\nReplace `str` with the actual type you expect (e.g., `int`, `dict`, etc.).\n\n---\n\n**Summary:**  \nAdd a type annotation to your list so the type checker knows what it contains. This will resolve the \"Argument type is partially unknown\" warning.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.35.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.workspace",
+        "description": "Ask about your workspace",
+        "when": "!github.copilot.interactiveSession.disabled",
+        "metadata": {
+          "sampleRequest": "How do I build this project?",
+          "themeIcon": {
+            "id": "code"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "workspace",
+        "fullName": "Workspace",
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "agent",
+          "ask",
+          "edit"
+        ],
+        "slashCommands": [
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works"
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "create_tests",
+                "description": "The user wants to generate unit tests.",
+                "examples": [
+                  "Generate tests for my selection using pytest."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "sampleRequest": "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+          },
+          {
+            "name": "new",
+            "description": "Scaffold code for a new file or project in a workspace",
+            "sampleRequest": "Create a RESTful API server using typescript",
+            "isSticky": true,
+            "disambiguation": [
+              {
+                "category": "create_new_workspace_or_extension",
+                "description": "The user wants to create a complete Visual Studio Code workspace from scratch, such as a new application or a Visual Studio Code extension. Use this category only if the question relates to generating or creating new workspaces in Visual Studio Code. Do not use this category for updating existing code or generating sample code snippets",
+                "examples": [
+                  "Scaffold a Node server.",
+                  "Create a sample project which uses the fileSystemProvider API.",
+                  "react application"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "newNotebook",
+            "description": "Create a new Jupyter Notebook",
+            "sampleRequest": "How do I create a notebook to load data from a csv file?",
+            "disambiguation": [
+              {
+                "category": "create_jupyter_notebook",
+                "description": "The user wants to create a new Jupyter notebook in Visual Studio Code.",
+                "examples": [
+                  "Create a notebook to analyze this CSV file."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "setupTests",
+            "description": "Set up tests in your project (Experimental)",
+            "sampleRequest": "add playwright tests to my project",
+            "when": "config.github.copilot.chat.setupTests.enabled",
+            "disambiguation": [
+              {
+                "category": "set_up_tests",
+                "description": "The user wants to configure project test setup, framework, or test runner. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Set up tests for this project."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "workspace_project_questions",
+            "description": "The user wants to learn about or update the code or files in their current workspace. Questions in this category may be about understanding what the whole workspace does or locating the implementation of some code. This does not include generating or updating tests.",
+            "examples": [
+              "What does this project do?"
+            ]
+          },
+          {
+            "category": "find_code_in_workspace",
+            "description": "The user wants to locate the implementation of some functionality in their current workspace.",
+            "examples": [
+              "Where is the tree widget implemented?"
+            ]
+          },
+          {
+            "category": "generate_with_workspace_context",
+            "description": "The user wants to generate code based on multiple files in the workspace and did not specify which files to reference.",
+            "examples": [
+              "Create a README for this project."
+            ]
+          }
+        ]
+      },
+      "timestamp": 1767215013984,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_4d7c402f-c370-44a8-8e93-c777b042e361",
+      "result": {
+        "timings": {
+          "firstProgress": 4017,
+          "totalElapsed": 6377
+        },
+        "metadata": {
+          "codeBlocks": [
+            {
+              "code": "my_list = []\nprint(len(my_list))\n",
+              "language": "python",
+              "markdownBeforeBlock": "This warning means that the type checker (like Pyright or MyPy) can't determine the type of elements inside your list. For example, if you have:\n\n"
+            },
+            {
+              "code": "# If your list should contain strings:\nfrom typing import List\n\nmy_list: List[str] = []\nprint(len(my_list))\n",
+              "language": "python",
+              "markdownBeforeBlock": "\nThe type of `my_list` is `list[Unknown]` because Python can't infer what kind of objects are inside.\n\n### How to Fix\n\n**Explicitly type your list** when you create it, especially if it's empty or populated dynamically. Use type hints from the `typing` module:\n\n"
+            },
+            {
+              "code": "my_list: list[str] = []\nprint(len(my_list))\n",
+              "language": "python",
+              "markdownBeforeBlock": "\nOr, for Python 3.9+:\n\n"
+            }
+          ],
+          "toolCallRounds": [
+            {
+              "response": "This warning means that the type checker (like Pyright or MyPy) can't determine the type of elements inside your list. For example, if you have:\n\n```python\nmy_list = []\nprint(len(my_list))\n```\n\nThe type of `my_list` is `list[Unknown]` because Python can't infer what kind of objects are inside.\n\n### How to Fix\n\n**Explicitly type your list** when you create it, especially if it's empty or populated dynamically. Use type hints from the `typing` module:\n\n````python\n# If your list should contain strings:\nfrom typing import List\n\nmy_list: List[str] = []\nprint(len(my_list))\n````\n\nOr, for Python 3.9+:\n\n````python\nmy_list: list[str] = []\nprint(len(my_list))\n````\n\nReplace `str` with the actual type you expect (e.g., `int`, `dict`, etc.).\n\n---\n\n**Summary:**  \nAdd a type annotation to your list so the type checker knows what it contains. This will resolve the \"Argument type is partially unknown\" warning.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "6af4d36c-b40a-46fa-91cf-9cd2d8756851"
+            }
+          ],
+          "modelMessageId": "f58bd661-d216-4dbd-add6-db75884dbbf0",
+          "responseId": "19d6a6e8-2537-48ea-ac1b-0d4e8c5dc3ec",
+          "sessionId": "7e0a8867-7f71-468a-b9e4-12c5af3f21f2",
+          "agentId": "github.copilot.workspace",
+          "command": "explain"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [
+        {
+          "suggestionId": "sgt-3499f62f-85f2-438a-8138-0f08146bf71f"
+        },
+        {
+          "suggestionId": "sgt-8c80fc15-77bb-45c9-869a-f3cf5df7946f"
+        },
+        {
+          "suggestionId": "sgt-5d9c6c65-3c98-4387-901e-d1d6e48926a3"
+        }
+      ],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1767215021029
+      },
+      "slashCommand": {
+        "name": "explain",
+        "description": "Explain how the code in your active editor works"
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "uri": {
+              "$mid": 1,
+              "fsPath": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/tests/test_lockdown_notifications.py",
+              "external": "file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/Main-private-files/tests/test_lockdown_notifications.py",
+              "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/tests/test_lockdown_notifications.py",
+              "scheme": "file"
+            },
+            "range": {
+              "startLineNumber": 61,
+              "startColumn": 30,
+              "endLineNumber": 61,
+              "endColumn": 36
+            }
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "Space-LEAF-corp/Main-private-files"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    },
+    {
+      "requestId": "request_fc0d3eab-b3cf-47a2-b6f1-0a93eb0d2448",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 10
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 11
+            },
+            "agent": {
+              "extensionId": {
+                "value": "GitHub.copilot-chat",
+                "_lower": "github.copilot-chat"
+              },
+              "extensionVersion": "0.35.2",
+              "publisherDisplayName": "GitHub",
+              "extensionPublisherId": "GitHub",
+              "extensionDisplayName": "GitHub Copilot Chat",
+              "id": "github.copilot.workspace",
+              "description": "Ask about your workspace",
+              "when": "!github.copilot.interactiveSession.disabled",
+              "metadata": {
+                "sampleRequest": "How do I build this project?",
+                "themeIcon": {
+                  "id": "code"
+                },
+                "hasFollowups": false,
+                "supportIssueReporting": false
+              },
+              "name": "workspace",
+              "fullName": "Workspace",
+              "locations": [
+                "panel"
+              ],
+              "modes": [
+                "agent",
+                "ask",
+                "edit"
+              ],
+              "slashCommands": [
+                {
+                  "name": "explain",
+                  "description": "Explain how the code in your active editor works"
+                },
+                {
+                  "name": "tests",
+                  "description": "Generate unit tests for the selected code",
+                  "disambiguation": [
+                    {
+                      "category": "create_tests",
+                      "description": "The user wants to generate unit tests.",
+                      "examples": [
+                        "Generate tests for my selection using pytest."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "fix",
+                  "description": "Propose a fix for the problems in the selected code",
+                  "sampleRequest": "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                },
+                {
+                  "name": "new",
+                  "description": "Scaffold code for a new file or project in a workspace",
+                  "sampleRequest": "Create a RESTful API server using typescript",
+                  "isSticky": true,
+                  "disambiguation": [
+                    {
+                      "category": "create_new_workspace_or_extension",
+                      "description": "The user wants to create a complete Visual Studio Code workspace from scratch, such as a new application or a Visual Studio Code extension. Use this category only if the question relates to generating or creating new workspaces in Visual Studio Code. Do not use this category for updating existing code or generating sample code snippets",
+                      "examples": [
+                        "Scaffold a Node server.",
+                        "Create a sample project which uses the fileSystemProvider API.",
+                        "react application"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "newNotebook",
+                  "description": "Create a new Jupyter Notebook",
+                  "sampleRequest": "How do I create a notebook to load data from a csv file?",
+                  "disambiguation": [
+                    {
+                      "category": "create_jupyter_notebook",
+                      "description": "The user wants to create a new Jupyter notebook in Visual Studio Code.",
+                      "examples": [
+                        "Create a notebook to analyze this CSV file."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "setupTests",
+                  "description": "Set up tests in your project (Experimental)",
+                  "sampleRequest": "add playwright tests to my project",
+                  "when": "config.github.copilot.chat.setupTests.enabled",
+                  "disambiguation": [
+                    {
+                      "category": "set_up_tests",
+                      "description": "The user wants to configure project test setup, framework, or test runner. The user does not want to fix their existing tests.",
+                      "examples": [
+                        "Set up tests for this project."
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "disambiguation": [
+                {
+                  "category": "workspace_project_questions",
+                  "description": "The user wants to learn about or update the code or files in their current workspace. Questions in this category may be about understanding what the whole workspace does or locating the implementation of some code. This does not include generating or updating tests.",
+                  "examples": [
+                    "What does this project do?"
+                  ]
+                },
+                {
+                  "category": "find_code_in_workspace",
+                  "description": "The user wants to locate the implementation of some functionality in their current workspace.",
+                  "examples": [
+                    "Where is the tree widget implemented?"
+                  ]
+                },
+                {
+                  "category": "generate_with_workspace_context",
+                  "description": "The user wants to generate code based on multiple files in the workspace and did not specify which files to reference.",
+                  "examples": [
+                    "Create a README for this project."
+                  ]
+                }
+              ]
+            },
+            "kind": "agent"
+          },
+          {
+            "range": {
+              "start": 10,
+              "endExclusive": 11
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 11,
+              "endLineNumber": 1,
+              "endColumn": 12
+            },
+            "text": " ",
+            "kind": "text"
+          },
+          {
+            "range": {
+              "start": 11,
+              "endExclusive": 19
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 12,
+              "endLineNumber": 1,
+              "endColumn": 20
+            },
+            "command": {
+              "name": "explain",
+              "description": "Explain how the code in your active editor works"
+            },
+            "kind": "subcommand"
+          },
+          {
+            "range": {
+              "start": 19,
+              "endExclusive": 124
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 20,
+              "endLineNumber": 2,
+              "endColumn": 60
+            },
+            "text": " Type of \"tutorial_next\" is partially unknown\n  Type of \"tutorial_next\" is \"() -> Dict[Unknown, Unknown]\"",
+            "kind": "text"
+          }
+        ],
+        "text": "@workspace /explain Type of \"tutorial_next\" is partially unknown\n  Type of \"tutorial_next\" is \"() -> Dict[Unknown, Unknown]\""
+      },
+      "variableData": {
+        "variables": [
+          {
+            "value": "Repository name: Main-private-files\nOwner: Space-LEAF-corp\nCurrent branch: main\nDefault branch: main",
+            "name": "Space-LEAF-corp/Main-private-files",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "Space-LEAF-corp/Main-private-files",
+            "kind": "workspace"
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.file",
+            "name": "file:test_playground.py",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/tests/test_playground.py",
+              "external": "file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/Main-private-files/tests/test_playground.py",
+              "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/tests/test_playground.py",
+              "scheme": "file"
+            },
+            "modelDescription": "User's active file"
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "value": "This warning means the type checker can't determine what keys and values your ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "tutorial_next",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 230,
+                "startColumn": 9,
+                "endLineNumber": 230,
+                "endColumn": 9
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/playground.py",
+                "external": "file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/Main-private-files/playground.py",
+                "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/playground.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "71c643c2-2903-440c-9f22-3f22991d550b"
+        },
+        {
+          "value": " function returns in its `Dict`. For example, it sees:\n\n```python\ndef tutorial_next(self) -> dict:\n    ...\n```\nor\n```python\ndef tutorial_next(self) -> Dict:\n    ...\n```\nbut doesn't know the specific types.\n\n### How to Fix\n\n**Add explicit type annotations** to the function's return type. For example, if your function returns a dictionary with `str` keys and `int` values:\n\n````python\nfrom typing import Dict\n\ndef tutorial_next(self) -> Dict[str, int]:\n    ...\n````\n\nOr, for Python 3.9+:\n\n````python\ndef tutorial_next(self) -> dict[str, int]:\n    ...\n````\n\nReplace `str` and `int` with the actual types your function returns.\n\n---\n\n**Summary:**  \nUpdate the return type annotation of ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "tutorial_next",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 116,
+                "startColumn": 28,
+                "endLineNumber": 116,
+                "endColumn": 28
+              },
+              "uri": {
+                "$mid": 1,
+                "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/tests/test_playground.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "a0cfb867-0276-437c-b41b-95f259e9b093"
+        },
+        {
+          "value": " to specify the key and value types in the dictionary. This will resolve the \"partially unknown\" type warning.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.35.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.workspace",
+        "description": "Ask about your workspace",
+        "when": "!github.copilot.interactiveSession.disabled",
+        "metadata": {
+          "sampleRequest": "How do I build this project?",
+          "themeIcon": {
+            "id": "code"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "workspace",
+        "fullName": "Workspace",
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "agent",
+          "ask",
+          "edit"
+        ],
+        "slashCommands": [
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works"
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "create_tests",
+                "description": "The user wants to generate unit tests.",
+                "examples": [
+                  "Generate tests for my selection using pytest."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "sampleRequest": "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+          },
+          {
+            "name": "new",
+            "description": "Scaffold code for a new file or project in a workspace",
+            "sampleRequest": "Create a RESTful API server using typescript",
+            "isSticky": true,
+            "disambiguation": [
+              {
+                "category": "create_new_workspace_or_extension",
+                "description": "The user wants to create a complete Visual Studio Code workspace from scratch, such as a new application or a Visual Studio Code extension. Use this category only if the question relates to generating or creating new workspaces in Visual Studio Code. Do not use this category for updating existing code or generating sample code snippets",
+                "examples": [
+                  "Scaffold a Node server.",
+                  "Create a sample project which uses the fileSystemProvider API.",
+                  "react application"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "newNotebook",
+            "description": "Create a new Jupyter Notebook",
+            "sampleRequest": "How do I create a notebook to load data from a csv file?",
+            "disambiguation": [
+              {
+                "category": "create_jupyter_notebook",
+                "description": "The user wants to create a new Jupyter notebook in Visual Studio Code.",
+                "examples": [
+                  "Create a notebook to analyze this CSV file."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "setupTests",
+            "description": "Set up tests in your project (Experimental)",
+            "sampleRequest": "add playwright tests to my project",
+            "when": "config.github.copilot.chat.setupTests.enabled",
+            "disambiguation": [
+              {
+                "category": "set_up_tests",
+                "description": "The user wants to configure project test setup, framework, or test runner. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Set up tests for this project."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "workspace_project_questions",
+            "description": "The user wants to learn about or update the code or files in their current workspace. Questions in this category may be about understanding what the whole workspace does or locating the implementation of some code. This does not include generating or updating tests.",
+            "examples": [
+              "What does this project do?"
+            ]
+          },
+          {
+            "category": "find_code_in_workspace",
+            "description": "The user wants to locate the implementation of some functionality in their current workspace.",
+            "examples": [
+              "Where is the tree widget implemented?"
+            ]
+          },
+          {
+            "category": "generate_with_workspace_context",
+            "description": "The user wants to generate code based on multiple files in the workspace and did not specify which files to reference.",
+            "examples": [
+              "Create a README for this project."
+            ]
+          }
+        ]
+      },
+      "timestamp": 1767222953745,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_c6f32147-d155-4829-b923-71c0c8f0e951",
+      "result": {
+        "timings": {
+          "firstProgress": 3353,
+          "totalElapsed": 7317
+        },
+        "metadata": {
+          "codeBlocks": [
+            {
+              "code": "def tutorial_next(self) -> dict:\n    ...\n",
+              "language": "python",
+              "markdownBeforeBlock": "This warning means the type checker can't determine what keys and values your  function returns in its `Dict`. For example, it sees:\n\n"
+            },
+            {
+              "code": "def tutorial_next(self) -> Dict:\n    ...\n",
+              "language": "python",
+              "markdownBeforeBlock": "or\n"
+            },
+            {
+              "code": "from typing import Dict\n\ndef tutorial_next(self) -> Dict[str, int]:\n    ...\n",
+              "language": "python",
+              "markdownBeforeBlock": "but doesn't know the specific types.\n\n### How to Fix\n\n**Add explicit type annotations** to the function's return type. For example, if your function returns a dictionary with `str` keys and `int` values:\n\n"
+            },
+            {
+              "code": "def tutorial_next(self) -> dict[str, int]:\n    ...\n",
+              "language": "python",
+              "markdownBeforeBlock": "\nOr, for Python 3.9+:\n\n"
+            }
+          ],
+          "toolCallRounds": [
+            {
+              "response": "This warning means the type checker can't determine what keys and values your `tutorial_next` function returns in its `Dict`. For example, it sees:\n\n```python\ndef tutorial_next(self) -> dict:\n    ...\n```\nor\n```python\ndef tutorial_next(self) -> Dict:\n    ...\n```\nbut doesn't know the specific types.\n\n### How to Fix\n\n**Add explicit type annotations** to the function's return type. For example, if your function returns a dictionary with `str` keys and `int` values:\n\n````python\nfrom typing import Dict\n\ndef tutorial_next(self) -> Dict[str, int]:\n    ...\n````\n\nOr, for Python 3.9+:\n\n````python\ndef tutorial_next(self) -> dict[str, int]:\n    ...\n````\n\nReplace `str` and `int` with the actual types your function returns.\n\n---\n\n**Summary:**  \nUpdate the return type annotation of `tutorial_next` to specify the key and value types in the dictionary. This will resolve the \"partially unknown\" type warning.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "c64769fa-4386-4fd3-a67e-ea2688cd51b3"
+            }
+          ],
+          "modelMessageId": "e4998206-2320-47d8-901e-ceaeba860fa5",
+          "responseId": "fbafba1d-a6a9-4792-a5fe-10691ed00f5b",
+          "sessionId": "7e0a8867-7f71-468a-b9e4-12c5af3f21f2",
+          "agentId": "github.copilot.workspace",
+          "command": "explain"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [
+        {
+          "suggestionId": "sgt-a3339370-f95a-44b5-bb67-54b92e13a1fc"
+        },
+        {
+          "suggestionId": "sgt-525382b0-0150-4746-af13-0bc5d9becfaf"
+        },
+        {
+          "suggestionId": "sgt-1a4237f2-6dc6-4d34-aca5-cc69da5ebec9"
+        },
+        {
+          "suggestionId": "sgt-0038adaf-bafc-4380-9f29-80eb9d708c30"
+        }
+      ],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1767222963127
+      },
+      "slashCommand": {
+        "name": "explain",
+        "description": "Explain how the code in your active editor works"
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "uri": {
+              "$mid": 1,
+              "fsPath": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/tests/test_playground.py",
+              "external": "file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/Main-private-files/tests/test_playground.py",
+              "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/tests/test_playground.py",
+              "scheme": "file"
+            },
+            "range": {
+              "startLineNumber": 125,
+              "startColumn": 38,
+              "endLineNumber": 125,
+              "endColumn": 67
+            }
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "Space-LEAF-corp/Main-private-files"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    },
+    {
+      "requestId": "request_344027da-4417-434e-927b-b065a7b89337",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 10
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 11
+            },
+            "agent": {
+              "extensionId": {
+                "value": "GitHub.copilot-chat",
+                "_lower": "github.copilot-chat"
+              },
+              "extensionVersion": "0.35.2",
+              "publisherDisplayName": "GitHub",
+              "extensionPublisherId": "GitHub",
+              "extensionDisplayName": "GitHub Copilot Chat",
+              "id": "github.copilot.workspace",
+              "description": "Ask about your workspace",
+              "when": "!github.copilot.interactiveSession.disabled",
+              "metadata": {
+                "sampleRequest": "How do I build this project?",
+                "themeIcon": {
+                  "id": "code"
+                },
+                "hasFollowups": false,
+                "supportIssueReporting": false
+              },
+              "name": "workspace",
+              "fullName": "Workspace",
+              "locations": [
+                "panel"
+              ],
+              "modes": [
+                "agent",
+                "ask",
+                "edit"
+              ],
+              "slashCommands": [
+                {
+                  "name": "explain",
+                  "description": "Explain how the code in your active editor works"
+                },
+                {
+                  "name": "tests",
+                  "description": "Generate unit tests for the selected code",
+                  "disambiguation": [
+                    {
+                      "category": "create_tests",
+                      "description": "The user wants to generate unit tests.",
+                      "examples": [
+                        "Generate tests for my selection using pytest."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "fix",
+                  "description": "Propose a fix for the problems in the selected code",
+                  "sampleRequest": "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                },
+                {
+                  "name": "new",
+                  "description": "Scaffold code for a new file or project in a workspace",
+                  "sampleRequest": "Create a RESTful API server using typescript",
+                  "isSticky": true,
+                  "disambiguation": [
+                    {
+                      "category": "create_new_workspace_or_extension",
+                      "description": "The user wants to create a complete Visual Studio Code workspace from scratch, such as a new application or a Visual Studio Code extension. Use this category only if the question relates to generating or creating new workspaces in Visual Studio Code. Do not use this category for updating existing code or generating sample code snippets",
+                      "examples": [
+                        "Scaffold a Node server.",
+                        "Create a sample project which uses the fileSystemProvider API.",
+                        "react application"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "newNotebook",
+                  "description": "Create a new Jupyter Notebook",
+                  "sampleRequest": "How do I create a notebook to load data from a csv file?",
+                  "disambiguation": [
+                    {
+                      "category": "create_jupyter_notebook",
+                      "description": "The user wants to create a new Jupyter notebook in Visual Studio Code.",
+                      "examples": [
+                        "Create a notebook to analyze this CSV file."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "setupTests",
+                  "description": "Set up tests in your project (Experimental)",
+                  "sampleRequest": "add playwright tests to my project",
+                  "when": "config.github.copilot.chat.setupTests.enabled",
+                  "disambiguation": [
+                    {
+                      "category": "set_up_tests",
+                      "description": "The user wants to configure project test setup, framework, or test runner. The user does not want to fix their existing tests.",
+                      "examples": [
+                        "Set up tests for this project."
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "disambiguation": [
+                {
+                  "category": "workspace_project_questions",
+                  "description": "The user wants to learn about or update the code or files in their current workspace. Questions in this category may be about understanding what the whole workspace does or locating the implementation of some code. This does not include generating or updating tests.",
+                  "examples": [
+                    "What does this project do?"
+                  ]
+                },
+                {
+                  "category": "find_code_in_workspace",
+                  "description": "The user wants to locate the implementation of some functionality in their current workspace.",
+                  "examples": [
+                    "Where is the tree widget implemented?"
+                  ]
+                },
+                {
+                  "category": "generate_with_workspace_context",
+                  "description": "The user wants to generate code based on multiple files in the workspace and did not specify which files to reference.",
+                  "examples": [
+                    "Create a README for this project."
+                  ]
+                }
+              ]
+            },
+            "kind": "agent"
+          },
+          {
+            "range": {
+              "start": 10,
+              "endExclusive": 11
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 11,
+              "endLineNumber": 1,
+              "endColumn": 12
+            },
+            "text": " ",
+            "kind": "text"
+          },
+          {
+            "range": {
+              "start": 11,
+              "endExclusive": 19
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 12,
+              "endLineNumber": 1,
+              "endColumn": 20
+            },
+            "command": {
+              "name": "explain",
+              "description": "Explain how the code in your active editor works"
+            },
+            "kind": "subcommand"
+          },
+          {
+            "range": {
+              "start": 19,
+              "endExclusive": 51
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 20,
+              "endLineNumber": 1,
+              "endColumn": 52
+            },
+            "text": " Variable \"ease\" is not accessed",
+            "kind": "text"
+          }
+        ],
+        "text": "@workspace /explain Variable \"ease\" is not accessed"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "value": "Repository name: Main-private-files\nOwner: Space-LEAF-corp\nCurrent branch: main\nDefault branch: main",
+            "name": "Space-LEAF-corp/Main-private-files",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "Space-LEAF-corp/Main-private-files",
+            "kind": "workspace"
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.selection",
+            "name": "file:test_time_engine.py",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/tests/test_time_engine.py",
+                "external": "file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/Main-private-files/tests/test_time_engine.py",
+                "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/tests/test_time_engine.py",
+                "scheme": "file"
+              },
+              "range": {
+                "startLineNumber": 287,
+                "startColumn": 9,
+                "endLineNumber": 287,
+                "endColumn": 15,
+                "selectionStartLineNumber": 287,
+                "selectionStartColumn": 9,
+                "positionLineNumber": 287,
+                "positionColumn": 15
+              }
+            },
+            "modelDescription": "User's active selection"
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "value": "The warning \"Variable 'ease' is not accessed\" means you have a variable named ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "ease",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 57,
+                "startColumn": 19,
+                "endLineNumber": 57,
+                "endColumn": 19
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/tests/test_time_engine.py",
+                "external": "file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/Main-private-files/tests/test_time_engine.py",
+                "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/tests/test_time_engine.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "fca4c1c9-223e-4ab4-899b-1139643d4208"
+        },
+        {
+          "value": " that is defined but never used in your code. For example:\n\n```python\nease\n```\n\nor\n\n```python\nease = 5\n```\n\nbut you never use ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "ease",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 57,
+                "startColumn": 19,
+                "endLineNumber": 57,
+                "endColumn": 19
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/tests/test_time_engine.py",
+                "external": "file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/Main-private-files/tests/test_time_engine.py",
+                "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/tests/test_time_engine.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "930a3746-ff09-45a1-b39e-1b24619fd719"
+        },
+        {
+          "value": " anywhere else.\n\n### How to Fix\n\n- **If you need the variable:** Use it in your code.\n- **If you don't need it:** Remove the line to clean up your code.\n\n#### Example: Remove unused variable\n\n````python\n# Remove or comment out this line if not needed\n# ease\n````\n\n#### Example: Use the variable\n\n````python\nease = 5\nprint(ease)\n````\n\n---\n\n**Summary:**  \nRemove or use the ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "ease",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 57,
+                "startColumn": 19,
+                "endLineNumber": 57,
+                "endColumn": 19
+              },
+              "uri": {
+                "$mid": 1,
+                "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/tests/test_time_engine.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "09c2ccdf-b321-48ed-8eb8-5ab50795ec82"
+        },
+        {
+          "value": " variable to resolve the warning. Unused variables can clutter your code and may confuse readers or tools.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.35.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.workspace",
+        "description": "Ask about your workspace",
+        "when": "!github.copilot.interactiveSession.disabled",
+        "metadata": {
+          "sampleRequest": "How do I build this project?",
+          "themeIcon": {
+            "id": "code"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "workspace",
+        "fullName": "Workspace",
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "agent",
+          "ask",
+          "edit"
+        ],
+        "slashCommands": [
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works"
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "create_tests",
+                "description": "The user wants to generate unit tests.",
+                "examples": [
+                  "Generate tests for my selection using pytest."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "sampleRequest": "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+          },
+          {
+            "name": "new",
+            "description": "Scaffold code for a new file or project in a workspace",
+            "sampleRequest": "Create a RESTful API server using typescript",
+            "isSticky": true,
+            "disambiguation": [
+              {
+                "category": "create_new_workspace_or_extension",
+                "description": "The user wants to create a complete Visual Studio Code workspace from scratch, such as a new application or a Visual Studio Code extension. Use this category only if the question relates to generating or creating new workspaces in Visual Studio Code. Do not use this category for updating existing code or generating sample code snippets",
+                "examples": [
+                  "Scaffold a Node server.",
+                  "Create a sample project which uses the fileSystemProvider API.",
+                  "react application"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "newNotebook",
+            "description": "Create a new Jupyter Notebook",
+            "sampleRequest": "How do I create a notebook to load data from a csv file?",
+            "disambiguation": [
+              {
+                "category": "create_jupyter_notebook",
+                "description": "The user wants to create a new Jupyter notebook in Visual Studio Code.",
+                "examples": [
+                  "Create a notebook to analyze this CSV file."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "setupTests",
+            "description": "Set up tests in your project (Experimental)",
+            "sampleRequest": "add playwright tests to my project",
+            "when": "config.github.copilot.chat.setupTests.enabled",
+            "disambiguation": [
+              {
+                "category": "set_up_tests",
+                "description": "The user wants to configure project test setup, framework, or test runner. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Set up tests for this project."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "workspace_project_questions",
+            "description": "The user wants to learn about or update the code or files in their current workspace. Questions in this category may be about understanding what the whole workspace does or locating the implementation of some code. This does not include generating or updating tests.",
+            "examples": [
+              "What does this project do?"
+            ]
+          },
+          {
+            "category": "find_code_in_workspace",
+            "description": "The user wants to locate the implementation of some functionality in their current workspace.",
+            "examples": [
+              "Where is the tree widget implemented?"
+            ]
+          },
+          {
+            "category": "generate_with_workspace_context",
+            "description": "The user wants to generate code based on multiple files in the workspace and did not specify which files to reference.",
+            "examples": [
+              "Create a README for this project."
+            ]
+          }
+        ]
+      },
+      "timestamp": 1767228727198,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_e0d854c3-ccf5-4972-a359-2031a6261fa2",
+      "result": {
+        "timings": {
+          "firstProgress": 6992,
+          "totalElapsed": 8788
+        },
+        "metadata": {
+          "codeBlocks": [
+            {
+              "code": "ease\n",
+              "language": "python",
+              "markdownBeforeBlock": "The warning \"Variable 'ease' is not accessed\" means you have a variable named  that is defined but never used in your code. For example:\n\n"
+            },
+            {
+              "code": "ease = 5\n",
+              "language": "python",
+              "markdownBeforeBlock": "\nor\n\n"
+            },
+            {
+              "code": "# Remove or comment out this line if not needed\n# ease\n",
+              "language": "python",
+              "markdownBeforeBlock": "\nbut you never use  anywhere else.\n\n### How to Fix\n\n- **If you need the variable:** Use it in your code.\n- **If you don't need it:** Remove the line to clean up your code.\n\n#### Example: Remove unused variable\n\n"
+            },
+            {
+              "code": "ease = 5\nprint(ease)\n",
+              "language": "python",
+              "markdownBeforeBlock": "\n#### Example: Use the variable\n\n"
+            }
+          ],
+          "toolCallRounds": [
+            {
+              "response": "The warning \"Variable 'ease' is not accessed\" means you have a variable named `ease` that is defined but never used in your code. For example:\n\n```python\nease\n```\n\nor\n\n```python\nease = 5\n```\n\nbut you never use `ease` anywhere else.\n\n### How to Fix\n\n- **If you need the variable:** Use it in your code.\n- **If you don't need it:** Remove the line to clean up your code.\n\n#### Example: Remove unused variable\n\n````python\n# Remove or comment out this line if not needed\n# ease\n````\n\n#### Example: Use the variable\n\n````python\nease = 5\nprint(ease)\n````\n\n---\n\n**Summary:**  \nRemove or use the `ease` variable to resolve the warning. Unused variables can clutter your code and may confuse readers or tools.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "af034a2f-72a3-4cd2-94b9-939681ae8ea6"
+            }
+          ],
+          "modelMessageId": "b59573c4-1403-44d5-98b4-717f0d3fabbb",
+          "responseId": "710de45b-e2c8-43c1-b3d0-2caac04451f5",
+          "sessionId": "7e0a8867-7f71-468a-b9e4-12c5af3f21f2",
+          "agentId": "github.copilot.workspace",
+          "command": "explain"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [
+        {
+          "suggestionId": "sgt-b5a78626-8596-4a91-a895-18ae0284b080"
+        },
+        {
+          "suggestionId": "sgt-33f8f676-e809-434a-bb6f-3a18e476b799"
+        },
+        {
+          "suggestionId": "sgt-ed4438ba-7119-4f62-b2f8-e65095a59d20"
+        },
+        {
+          "suggestionId": "sgt-895c668d-c49c-4012-86bf-c296c741e163"
+        }
+      ],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1767228737065
+      },
+      "slashCommand": {
+        "name": "explain",
+        "description": "Explain how the code in your active editor works"
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "uri": {
+              "$mid": 1,
+              "fsPath": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/tests/test_time_engine.py",
+              "external": "file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/Main-private-files/tests/test_time_engine.py",
+              "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/tests/test_time_engine.py",
+              "scheme": "file"
+            },
+            "range": {
+              "startLineNumber": 57,
+              "startColumn": 19,
+              "endLineNumber": 57,
+              "endColumn": 23
+            }
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "Space-LEAF-corp/Main-private-files"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    },
+    {
+      "requestId": "request_990f38c0-3e76-47b9-813d-212168dc8ec8",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 10
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 11
+            },
+            "agent": {
+              "extensionId": {
+                "value": "GitHub.copilot-chat",
+                "_lower": "github.copilot-chat"
+              },
+              "extensionVersion": "0.35.2",
+              "publisherDisplayName": "GitHub",
+              "extensionPublisherId": "GitHub",
+              "extensionDisplayName": "GitHub Copilot Chat",
+              "id": "github.copilot.workspace",
+              "description": "Ask about your workspace",
+              "when": "!github.copilot.interactiveSession.disabled",
+              "metadata": {
+                "sampleRequest": "How do I build this project?",
+                "themeIcon": {
+                  "id": "code"
+                },
+                "hasFollowups": false,
+                "supportIssueReporting": false
+              },
+              "name": "workspace",
+              "fullName": "Workspace",
+              "locations": [
+                "panel"
+              ],
+              "modes": [
+                "agent",
+                "ask",
+                "edit"
+              ],
+              "slashCommands": [
+                {
+                  "name": "explain",
+                  "description": "Explain how the code in your active editor works"
+                },
+                {
+                  "name": "tests",
+                  "description": "Generate unit tests for the selected code",
+                  "disambiguation": [
+                    {
+                      "category": "create_tests",
+                      "description": "The user wants to generate unit tests.",
+                      "examples": [
+                        "Generate tests for my selection using pytest."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "fix",
+                  "description": "Propose a fix for the problems in the selected code",
+                  "sampleRequest": "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                },
+                {
+                  "name": "new",
+                  "description": "Scaffold code for a new file or project in a workspace",
+                  "sampleRequest": "Create a RESTful API server using typescript",
+                  "isSticky": true,
+                  "disambiguation": [
+                    {
+                      "category": "create_new_workspace_or_extension",
+                      "description": "The user wants to create a complete Visual Studio Code workspace from scratch, such as a new application or a Visual Studio Code extension. Use this category only if the question relates to generating or creating new workspaces in Visual Studio Code. Do not use this category for updating existing code or generating sample code snippets",
+                      "examples": [
+                        "Scaffold a Node server.",
+                        "Create a sample project which uses the fileSystemProvider API.",
+                        "react application"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "newNotebook",
+                  "description": "Create a new Jupyter Notebook",
+                  "sampleRequest": "How do I create a notebook to load data from a csv file?",
+                  "disambiguation": [
+                    {
+                      "category": "create_jupyter_notebook",
+                      "description": "The user wants to create a new Jupyter notebook in Visual Studio Code.",
+                      "examples": [
+                        "Create a notebook to analyze this CSV file."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "setupTests",
+                  "description": "Set up tests in your project (Experimental)",
+                  "sampleRequest": "add playwright tests to my project",
+                  "when": "config.github.copilot.chat.setupTests.enabled",
+                  "disambiguation": [
+                    {
+                      "category": "set_up_tests",
+                      "description": "The user wants to configure project test setup, framework, or test runner. The user does not want to fix their existing tests.",
+                      "examples": [
+                        "Set up tests for this project."
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "disambiguation": [
+                {
+                  "category": "workspace_project_questions",
+                  "description": "The user wants to learn about or update the code or files in their current workspace. Questions in this category may be about understanding what the whole workspace does or locating the implementation of some code. This does not include generating or updating tests.",
+                  "examples": [
+                    "What does this project do?"
+                  ]
+                },
+                {
+                  "category": "find_code_in_workspace",
+                  "description": "The user wants to locate the implementation of some functionality in their current workspace.",
+                  "examples": [
+                    "Where is the tree widget implemented?"
+                  ]
+                },
+                {
+                  "category": "generate_with_workspace_context",
+                  "description": "The user wants to generate code based on multiple files in the workspace and did not specify which files to reference.",
+                  "examples": [
+                    "Create a README for this project."
+                  ]
+                }
+              ]
+            },
+            "kind": "agent"
+          },
+          {
+            "range": {
+              "start": 10,
+              "endExclusive": 11
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 11,
+              "endLineNumber": 1,
+              "endColumn": 12
+            },
+            "text": " ",
+            "kind": "text"
+          },
+          {
+            "range": {
+              "start": 11,
+              "endExclusive": 19
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 12,
+              "endLineNumber": 1,
+              "endColumn": 20
+            },
+            "command": {
+              "name": "explain",
+              "description": "Explain how the code in your active editor works"
+            },
+            "kind": "subcommand"
+          },
+          {
+            "range": {
+              "start": 19,
+              "endExclusive": 103
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 20,
+              "endLineNumber": 1,
+              "endColumn": 104
+            },
+            "text": " MD012/no-multiple-blanks: Multiple consecutive blank lines [Expected: 1; Actual: 2]",
+            "kind": "text"
+          }
+        ],
+        "text": "@workspace /explain MD012/no-multiple-blanks: Multiple consecutive blank lines [Expected: 1; Actual: 2]"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "value": "Repository name: Main-private-files\nOwner: Space-LEAF-corp\nCurrent branch: main\nDefault branch: main",
+            "name": "Space-LEAF-corp/Main-private-files",
+            "modelDescription": "Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch",
+            "id": "Space-LEAF-corp/Main-private-files",
+            "kind": "workspace"
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.file",
+            "name": "file:LICENSE_SPACE_LEAF_CORP_TEMPLATE.md",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/tests/ceremonial-terrain-v1/LICENSE_SPACE_LEAF_CORP_TEMPLATE.md",
+              "external": "file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/Main-private-files/tests/ceremonial-terrain-v1/LICENSE_SPACE_LEAF_CORP_TEMPLATE.md",
+              "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/tests/ceremonial-terrain-v1/LICENSE_SPACE_LEAF_CORP_TEMPLATE.md",
+              "scheme": "file"
+            },
+            "modelDescription": "User's active file"
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "value": "You have two or more consecutive blank lines in your Markdown file, but only one is allowed according to the `MD012/no-multiple-blanks` rule.\n\n**How to fix:**  \nRemove extra blank lines so there is never more than one blank line in a row.\n\n**Example fix:**\n\n````markdown\n# Space Leaf Corp Ceremonial License (Template)\n---\n## 3. `LICENSE_SPACE_LEAF_CORP_TEMPLATE.md` (placeholder)\n```markdown\n# Space Leaf Corp Ceremonial License (Template)\nThis file is a **placeholder** for the Space Leaf Corp ceremonial licensing terms that apply to:\n\n> IMPORTANT: This is *not* legal advice.  \n> You should replace this file with the actual license text you intend to use.\n\nSuggested sections you may want to define:\n1. **Identity and stewardship**\n   - How \"Space Leaf Corp\" is defined.\n   - How stewardship and ceremonial use are recognized.\n2. **Permitted uses**\n   - Educational, non‑commercial, and/or commercial use.\n   - Requirements for attribution of ceremonial concepts.\n````\n\n**Tip:**  \nCheck your file for places with two or more blank lines in a row and reduce them to one. This will resolve the `MD012/no-multiple-blanks` warning.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.35.2",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.workspace",
+        "description": "Ask about your workspace",
+        "when": "!github.copilot.interactiveSession.disabled",
+        "metadata": {
+          "sampleRequest": "How do I build this project?",
+          "themeIcon": {
+            "id": "code"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "workspace",
+        "fullName": "Workspace",
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "agent",
+          "ask",
+          "edit"
+        ],
+        "slashCommands": [
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works"
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "create_tests",
+                "description": "The user wants to generate unit tests.",
+                "examples": [
+                  "Generate tests for my selection using pytest."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "sampleRequest": "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+          },
+          {
+            "name": "new",
+            "description": "Scaffold code for a new file or project in a workspace",
+            "sampleRequest": "Create a RESTful API server using typescript",
+            "isSticky": true,
+            "disambiguation": [
+              {
+                "category": "create_new_workspace_or_extension",
+                "description": "The user wants to create a complete Visual Studio Code workspace from scratch, such as a new application or a Visual Studio Code extension. Use this category only if the question relates to generating or creating new workspaces in Visual Studio Code. Do not use this category for updating existing code or generating sample code snippets",
+                "examples": [
+                  "Scaffold a Node server.",
+                  "Create a sample project which uses the fileSystemProvider API.",
+                  "react application"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "newNotebook",
+            "description": "Create a new Jupyter Notebook",
+            "sampleRequest": "How do I create a notebook to load data from a csv file?",
+            "disambiguation": [
+              {
+                "category": "create_jupyter_notebook",
+                "description": "The user wants to create a new Jupyter notebook in Visual Studio Code.",
+                "examples": [
+                  "Create a notebook to analyze this CSV file."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "setupTests",
+            "description": "Set up tests in your project (Experimental)",
+            "sampleRequest": "add playwright tests to my project",
+            "when": "config.github.copilot.chat.setupTests.enabled",
+            "disambiguation": [
+              {
+                "category": "set_up_tests",
+                "description": "The user wants to configure project test setup, framework, or test runner. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Set up tests for this project."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "workspace_project_questions",
+            "description": "The user wants to learn about or update the code or files in their current workspace. Questions in this category may be about understanding what the whole workspace does or locating the implementation of some code. This does not include generating or updating tests.",
+            "examples": [
+              "What does this project do?"
+            ]
+          },
+          {
+            "category": "find_code_in_workspace",
+            "description": "The user wants to locate the implementation of some functionality in their current workspace.",
+            "examples": [
+              "Where is the tree widget implemented?"
+            ]
+          },
+          {
+            "category": "generate_with_workspace_context",
+            "description": "The user wants to generate code based on multiple files in the workspace and did not specify which files to reference.",
+            "examples": [
+              "Create a README for this project."
+            ]
+          }
+        ]
+      },
+      "timestamp": 1767280607828,
+      "modelId": "copilot/gpt-4.1",
+      "responseId": "response_cb05c8a6-e778-46d9-9a78-757e307e162d",
+      "result": {
+        "timings": {
+          "firstProgress": 1735,
+          "totalElapsed": 3099
+        },
+        "metadata": {
+          "codeBlocks": [
+            {
+              "code": "# Space Leaf Corp Ceremonial License (Template)\n---\n## 3. `LICENSE_SPACE_LEAF_CORP_TEMPLATE.md` (placeholder)\n```markdown\n# Space Leaf Corp Ceremonial License (Template)\nThis file is a **placeholder** for the Space Leaf Corp ceremonial licensing terms that apply to:\n\n> IMPORTANT: This is *not* legal advice.  \n> You should replace this file with the actual license text you intend to use.\n\nSuggested sections you may want to define:\n1. **Identity and stewardship**\n   - How \"Space Leaf Corp\" is defined.\n   - How stewardship and ceremonial use are recognized.\n2. **Permitted uses**\n   - Educational, non‑commercial, and/or commercial use.\n   - Requirements for attribution of ceremonial concepts.\n",
+              "language": "markdown",
+              "markdownBeforeBlock": "You have two or more consecutive blank lines in your Markdown file, but only one is allowed according to the `MD012/no-multiple-blanks` rule.\n\n**How to fix:**  \nRemove extra blank lines so there is never more than one blank line in a row.\n\n**Example fix:**\n\n"
+            }
+          ],
+          "toolCallRounds": [
+            {
+              "response": "You have two or more consecutive blank lines in your Markdown file, but only one is allowed according to the `MD012/no-multiple-blanks` rule.\n\n**How to fix:**  \nRemove extra blank lines so there is never more than one blank line in a row.\n\n**Example fix:**\n\n````markdown\n# Space Leaf Corp Ceremonial License (Template)\n---\n## 3. `LICENSE_SPACE_LEAF_CORP_TEMPLATE.md` (placeholder)\n```markdown\n# Space Leaf Corp Ceremonial License (Template)\nThis file is a **placeholder** for the Space Leaf Corp ceremonial licensing terms that apply to:\n\n> IMPORTANT: This is *not* legal advice.  \n> You should replace this file with the actual license text you intend to use.\n\nSuggested sections you may want to define:\n1. **Identity and stewardship**\n   - How \"Space Leaf Corp\" is defined.\n   - How stewardship and ceremonial use are recognized.\n2. **Permitted uses**\n   - Educational, non‑commercial, and/or commercial use.\n   - Requirements for attribution of ceremonial concepts.\n````\n\n**Tip:**  \nCheck your file for places with two or more blank lines in a row and reduce them to one. This will resolve the `MD012/no-multiple-blanks` warning.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "8153a09b-994b-4660-b0a8-6f4f6c4b35a2"
+            }
+          ],
+          "modelMessageId": "6dfd7de3-8a92-4351-bb29-d5415dc1ea4d",
+          "responseId": "52e6337b-9993-41f5-870f-066882b087fc",
+          "sessionId": "7e0a8867-7f71-468a-b9e4-12c5af3f21f2",
+          "agentId": "github.copilot.workspace",
+          "command": "explain"
+        },
+        "details": "GPT-4.1 • 0x"
+      },
+      "responseMarkdownInfo": [
+        {
+          "suggestionId": "sgt-75d4c656-9912-49f6-880c-47bcbe61e576"
+        }
+      ],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1767280611015
+      },
+      "slashCommand": {
+        "name": "explain",
+        "description": "Explain how the code in your active editor works"
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "uri": {
+              "$mid": 1,
+              "fsPath": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/tests/ceremonial-terrain-v1/LICENSE_SPACE_LEAF_CORP_TEMPLATE.md",
+              "external": "file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/Main-private-files/tests/ceremonial-terrain-v1/LICENSE_SPACE_LEAF_CORP_TEMPLATE.md",
+              "path": "/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Main-private-files/tests/ceremonial-terrain-v1/LICENSE_SPACE_LEAF_CORP_TEMPLATE.md",
+              "scheme": "file"
+            },
+            "range": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 25,
+              "endColumn": 58
+            }
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "variableName": "Space-LEAF-corp/Main-private-files"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timeSpentWaiting": 0
+    }
+  ],
+  "sessionId": "3f1ffda3-8454-4ab4-9002-d3d3910c3388",
+  "creationDate": 1767213968719,
+  "lastMessageDate": 1767280607828,
+  "customTitle": "Cephalopod-inspired cloaking skin design details",
+  "hasPendingEdits": false,
+  "contrib": {
+    "chatDynamicVariableModel": []
+  },
+  "attachments": [],
+  "mode": {
+    "id": "ask",
+    "kind": "ask"
+  },
+  "selectedModel": {
+    "identifier": "copilot/gpt-4.1",
+    "metadata": {
+      "extension": {
+        "value": "GitHub.copilot-chat",
+        "_lower": "github.copilot-chat"
+      },
+      "id": "gpt-4.1",
+      "vendor": "copilot",
+      "name": "GPT-4.1",
+      "family": "gpt-4.1",
+      "detail": "0x",
+      "tooltip": "GPT-4.1 (gpt-4.1-2025-04-14) does not count towards your premium request limit. This model may be slowed during times of high congestion.",
+      "version": "gpt-4.1-2025-04-14",
+      "maxInputTokens": 111424,
+      "maxOutputTokens": 16384,
+      "auth": {
+        "providerLabel": "GitHub Copilot Chat",
+        "accountLabel": "GuardianNinja"
+      },
+      "isDefault": false,
+      "isUserSelectable": true,
+      "modelPickerCategory": {
+        "label": "Standard Models",
+        "order": 0
+      },
+      "capabilities": {
+        "vision": true,
+        "toolCalling": true,
+        "agentMode": true
+      }
+    }
+  },
+  "inputText": "",
+  "selections": [
+    {
+      "startLineNumber": 1,
+      "startColumn": 1,
+      "endLineNumber": 1,
+      "endColumn": 1,
+      "selectionStartLineNumber": 1,
+      "selectionStartColumn": 1,
+      "positionLineNumber": 1,
+      "positionColumn": 1
+    }
+  ]
+}

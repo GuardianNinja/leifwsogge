@@ -1,0 +1,83 @@
+2025-12-28 11:14:10.736 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-12-28 11:14:10.737 [error] Error getting a session: Canceled: Canceled
+2025-12-28 11:14:10.737 [error] Error getting a session: Canceled: Canceled
+2025-12-28 11:14:10.737 [error] Error getting a session: Canceled: Canceled
+2025-12-28 11:14:10.737 [error] Canceled: Canceled
+	at Yl (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:1394)
+	at file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121921
+	at Array.forEach (<anonymous>)
+	at l5.dispose (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121861)
+	at HX.terminate (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10208)
+	at yN.terminate (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:914)
+	at Us (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:11129)
+	at MessagePortMain.<anonymous> (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:7604)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949): [GitExtensionServiceImpl] Failed to activate the vscode.git extension.
+2025-12-28 11:14:12.160 [error] Copilot extension not found
+2025-12-28 11:14:12.226 [error] Canceled: Canceled
+	at new wU (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120470)
+	at l5.U (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:125080)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:122574)
+	at tee.getAccounts (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:14041)
+	at Object.getAccounts (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:101129)
+	at zzt (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:29991)
+	at tSe (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:30520)
+	at hH._auth (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31865)
+	at /Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:32958
+	at LQ.getOrCreate (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:20095)
+	at hH._authShowWarnings (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:32930)
+	at hH.getCopilotToken (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31528)
+	at YX.getCopilotToken (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2427)
+	at V1.waitForChatEnabled (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:5127)
+	at V1.run (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:4988)
+	at F7.askToUpgradeAuthPermissions (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:4523)
+	at new F7 (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:4390)
+	at n._createInstance (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:925:2150)
+	at n.createInstance (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:925:1590)
+	at create (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:936:2581)
+	at n.invokeFunction (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:925:944)
+	at new q2 (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:936:2715)
+	at n._createInstance (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:925:2150)
+	at n.createInstance (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:925:1590)
+	at /Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:936:3761
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async Skt (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:936:3688)
+	at async Ky.n (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:13398)
+	at async Ky.m (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:13361)
+	at async Ky.l (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:12817): Failed to get copilot token
+2025-12-28 11:14:12.227 [error] GitHub Copilot could not connect to server. Extension activation failed: "Canceled"
+2025-12-28 11:14:12.227 [info] Using the Electron fetcher.
+2025-12-28 11:14:12.227 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-12-28 11:14:12.227 [error] Canceled: Canceled
+	at new wU (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120470)
+	at l5.U (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:125080)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:122574)
+	at tee.getAccounts (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:14041)
+	at Object.getAccounts (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:101129)
+	at zzt (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:29991)
+	at tSe (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:30520)
+	at hH._auth (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31865)
+	at /Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:32958
+	at LQ.getOrCreate (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:20095)
+	at hH._authShowWarnings (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:32930)
+	at hH.getCopilotToken (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1909:31528)
+	at YX.getCopilotToken (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:2427)
+	at V1.waitForChatEnabled (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:5127)
+	at V1.run (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:4988)
+	at F7.askToUpgradeAuthPermissions (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:4523)
+	at new F7 (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:1054:4390)
+	at n._createInstance (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:925:2150)
+	at n.createInstance (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:925:1590)
+	at create (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:936:2581)
+	at n.invokeFunction (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:925:944)
+	at new q2 (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:936:2715)
+	at n._createInstance (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:925:2150)
+	at n.createInstance (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:925:1590)
+	at /Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:936:3761
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async Skt (/Users/leifwsogge/.vscode/extensions/github.copilot-chat-0.35.2/dist/extension.js:936:3688)
+	at async Ky.n (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:13398)
+	at async Ky.m (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:13361)
+	at async Ky.l (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:12817)
+2025-12-28 11:14:12.232 [info] activationBlocker from 'languageModelAccess' took for 324ms
+2025-12-28 11:14:12.232 [error] [CopilotCLISession] ImageStorage: Failed to initialize: Canceled (FileSystemError): Canceled

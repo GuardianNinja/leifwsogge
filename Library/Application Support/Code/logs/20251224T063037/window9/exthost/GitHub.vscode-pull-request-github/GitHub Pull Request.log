@@ -1,0 +1,43 @@
+2025-12-31 09:08:46.674 [warning] /Users/leifwsogge/.ssh/config: ENOENT: no such file or directory, open '/Users/leifwsogge/.ssh/config'
+2025-12-31 09:08:46.675 [info] [Activation] Extension version: 0.124.1
+2025-12-31 09:08:50.360 [info] [Authentication] Creating hub for .com
+2025-12-31 09:08:51.735 [info] [Activation] Registering built in git provider.
+2025-12-31 09:08:51.735 [info] [Activation] Looking for git repository
+2025-12-31 09:08:51.736 [info] [Activation] Found 0 repositories during activation
+2025-12-31 09:08:51.736 [info] [Activation] Git repository found, initializing review manager and pr tree view.
+2025-12-31 09:08:51.740 [info] [GitAPI] Registering git provider
+2025-12-31 09:08:51.740 [info] [Review+0] Validate state in progress
+2025-12-31 09:08:51.740 [info] [Review+0] Validating state...
+2025-12-31 09:08:51.741 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-12-31 09:08:51.741 [info] [FolderRepositoryManager+0] No GitHub remotes found for folder /Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system
+2025-12-31 09:08:51.745 [info] [FolderRepositoryManager+0] Trying to use globalState for assignableUsers.
+2025-12-31 09:08:51.965 [info] [FolderRepositoryManager+0] Using globalState assignableUsers for 0.
+2025-12-31 09:08:52.111 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2025-12-31 09:08:52.130 [info] [Activation] Repo state for file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system changed.
+2025-12-31 09:08:52.130 [info] [Activation] Repo file:///Users/leifwsogge/Library/Mobile%20Documents/com~apple~CloudDocs/Space%20LEAF%20Corp.global.secure.net/planetary-sensing-system has already been setup.
+2025-12-31 09:08:52.531 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2025-12-31 09:08:52.532 [info] [GitPostCommitCommands] Trying to register post commit commands.
+2025-12-31 15:01:51.622 [info] [Review+0] Validate state in progress
+2025-12-31 15:01:51.625 [info] [Review+0] Validating state...
+2025-12-31 15:01:51.971 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system
+2025-12-31 15:01:53.444 [info] [FolderRepositoryManager+0] Trying to use globalState for assignableUsers.
+2025-12-31 15:01:53.446 [info] [GitPostCommitCommands] Trying to register post commit commands.
+2025-12-31 15:01:53.446 [info] [GitPostCommitCommands] GitHub remote(s) found, registering post commit commands.
+2025-12-31 15:01:53.446 [info] [GitPostCommitCommands] Looking for remote. Comparing 1 local repo remotes with 1 GitHub repositories.
+2025-12-31 15:01:53.446 [info] [GitPostCommitCommands] Found a repo when getting post commit commands.
+2025-12-31 15:01:53.446 [info] [GitPostCommitCommands] Looking for remote. Comparing 1 local repo remotes with 1 GitHub repositories.
+2025-12-31 15:01:53.446 [info] [GitPostCommitCommands] Found a repo when getting post commit commands.
+2025-12-31 15:01:54.688 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2025-12-31 15:01:55.171 [info] [FolderRepositoryManager+0] No globalState for assignableUsers.
+2025-12-31 15:01:55.997 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2025-12-31 15:01:56.675 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2025-12-31 17:39:10.811 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2025-12-31 17:39:10.814 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2026-01-01 07:05:04.270 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2026-01-01 07:05:04.276 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2026-01-01 10:05:05.535 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2026-01-01 10:05:05.536 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2026-01-01 12:41:56.380 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2026-01-01 12:41:56.381 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+2026-01-01 21:06:22.301 [error] [GitHubRepository+0] Error querying GraphQL API (MaxPullRequest): Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com. 
+2026-01-01 21:06:22.308 [error] [GitHubRepository+0] Unable to fetch pull requests with query: Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com

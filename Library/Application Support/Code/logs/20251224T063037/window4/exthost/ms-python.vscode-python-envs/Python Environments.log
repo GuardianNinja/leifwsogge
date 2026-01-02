@@ -1,0 +1,18 @@
+2025-12-28 11:14:10.945 [info] 
+=== Python Envs Configuration Levels ===
+2025-12-28 11:14:10.945 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "ms-python.python:system",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2025-12-28 11:14:10.945 [info] [pet] Starting Python Locator /Users/leifwsogge/.vscode/extensions/ms-python.vscode-python-envs-1.14.0-darwin-x64/python-env-tools/bin/pet server

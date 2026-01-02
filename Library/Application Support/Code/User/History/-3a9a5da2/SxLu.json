@@ -1,0 +1,32 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python-envs.pythonProjects": [],
+    "python.analysis.typeCheckingMode": "strict",
+    "[rocket-mvbasic]": {
+        "editor.codeLens": false
+    },
+    "files.associations": {
+        ".fantomasignore": "ignore",
+        "**/.rmv/config/*.json": "jsonc"
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.rmv/catalog/**": true,
+        "*/_*": false
+    },
+    "python.analysis.extraPaths": [
+        "./pip install pycryptodome pynacl qrcode pillow ",
+        "./pip install kyber-py dilithium-py cryptography biopython qutip ",
+        "./pip install kyber-py dilithium-py cryptography biopython qutip ",
+        "./pip install kyber-py dilithium-py cryptography biopython qutip ",
+        "./pip install kyber-py dilithium-py cryptography biopython qutip ",
+        "./pip install kyber-py dilithium-py cryptography biopython qutip ",
+        "./pip install kyber-py dilithium-py cryptography biopython qutip ",
+        "./pip install kyber-py dilithium-py cryptography biopython qutip ",
+        "./pip install kyber-py dilithium-py cryptography biopython qutip "
+    ]
+}

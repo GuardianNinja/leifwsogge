@@ -1,0 +1,73 @@
+2025-12-30 08:45:48.740 [info] GitLens v17.8.1 activating in Visual Studio Code (1.107.0) on the desktop; mode=production, language='en', logLevel='warn', defaultDateLocale='null' (vscode|9a72a2f87ed3804aca8ac9ccc2c73fa141020bf9ad0a165e152ede82a06df1f6|7aa5ec6a-775d-4349-92de-2934a664eebf1767102304508)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+
+2025-12-30 08:45:48.740 [info] [2025-12-30 13:45:48.385] [GIT   *1081ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git rev-parse --show-toplevel [*1081ms] (slow)
+
+2025-12-30 08:45:54.294 [info] [2025-12-30 13:45:54.213] [GIT   *2251ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git remote -v [*2251ms] (slow)
+
+2025-12-30 08:48:27.293 [info] [2025-12-30 13:48:26.584] [GIT   *3134ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git ls-files -- main.py [*3134ms] (slow)
+
+2025-12-30 08:48:28.139 [info] [2025-12-30 13:48:27.526] [GIT    *747ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git config --get-regex ^branch\..*\.gk-last-(accessed|modified)$ [*747ms] (slow)
+[2025-12-30 13:48:27.526] [GIT    *748ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git rev-parse --git-dir --git-common-dir [*748ms] (slow)
+[2025-12-30 13:48:27.526] [GIT    *749ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ [*749ms] (slow)
+
+2025-12-30 08:48:29.712 [info] [2025-12-30 13:48:29.519] [GIT    *837ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git config --local branch.main.gk-last-modified 2025-12-30T13:48:27.528Z [*837ms] (slow)
+
+2025-12-30 08:50:03.780 [info] [2025-12-30 13:50:03.277] [GIT    *728ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git ls-files -- ocean_deposition.py [*728ms] (slow)
+
+2025-12-30 08:51:17.103 [info] [2025-12-30 13:51:16.599] [GIT  *17299ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git ls-files -- ash_distribution_plot.py [*17299ms] (slow)
+
+2025-12-30 08:53:20.635 [info] [2025-12-30 13:53:20.132] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git ls-files -- density_classifier.py • ABORTED after 60007ms (timeout)
+[2025-12-30 13:53:20.133] [GIT  *60009ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git ls-files -- density_classifier.py [*60009ms] (slow)
+
+2025-12-30 08:54:45.292 [info] [2025-12-30 13:54:44.786] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git ls-files -- ash_dispersion.py • ABORTED after 60013ms (timeout)
+[2025-12-30 13:54:44.805] [GIT  *60033ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git ls-files -- ash_dispersion.py [*60033ms] (slow)
+
+2025-12-30 09:07:51.634 [info] [2025-12-30 14:07:51.127] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ • ABORTED after 24ms (cancellation)
+[2025-12-30 14:07:51.131] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ • cancelled [26ms]
+[2025-12-30 14:07:51.272] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • ABORTED after 4ms (cancellation)
+[2025-12-30 14:07:51.272] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • cancelled [5ms]
+[2025-12-30 14:07:51.294] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git for-each-ref --format=%1E%(refname)%1D%(objectname)%1D%(*objectname)%1D%(creatordate:iso8601)%1D%(authordate:iso8601)%1D%(subject)%1D refs/tags/ • ABORTED after 18ms (cancellation)
+[2025-12-30 14:07:51.295] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git for-each-ref --format=%1E%(refname)%1D%(objectname)%1D%(*objectname)%1D%(creatordate:iso8601)%1D%(authordate:iso8601)%1D%(subject)%1D refs/tags/ • cancelled [18ms]
+[2025-12-30 14:07:51.296] Git.exec
+Canceled: Operation cancelled; command=/usr/bin/git -c core.quotepath=false -c color.ui=false for-each-ref --format=%1E%(refname)%1D%(objectname)%1D%(*objectname)%1D%(creatordate:iso8601)%1D%(authordate:iso8601)%1D%(subject)%1D refs/tags/
+[2025-12-30 14:07:51.457] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git for-each-ref --format=%1E%(refname)%1D%(objectname)%1D%(*objectname)%1D%(creatordate:iso8601)%1D%(authordate:iso8601)%1D%(subject)%1D refs/tags/ • ABORTED after 30ms (cancellation)
+[2025-12-30 14:07:51.457] [GIT          ] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git for-each-ref --format=%1E%(refname)%1D%(objectname)%1D%(*objectname)%1D%(creatordate:iso8601)%1D%(authordate:iso8601)%1D%(subject)%1D refs/tags/ • cancelled [30ms]
+[2025-12-30 14:07:51.457] Git.exec
+Canceled: Operation cancelled; command=/usr/bin/git -c core.quotepath=false -c color.ui=false for-each-ref --format=%1E%(refname)%1D%(objectname)%1D%(*objectname)%1D%(creatordate:iso8601)%1D%(authordate:iso8601)%1D%(subject)%1D refs/tags/
+
+2025-12-30 12:50:43.781 [info] [2025-12-30 17:50:42.587] [GIT    *509ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --summary -M --use-mailmap -m --no-min-parents -n1 e3f86fb306257216b53118536a9d3beabf5a5328 -- [*509ms] (slow)
+
+2025-12-30 12:55:31.841 [info] [2025-12-30 17:55:31.298] [GIT    *593ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git log --format=%x1E%H%x1D --summary -n1 e3f86fb306257216b53118536a9d3beabf5a5328^ -- ash_distribution_plot.py [*593ms] (slow)
+[2025-12-30 17:55:31.302] [GIT    *596ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --summary -M --use-mailmap -m --no-min-parents -n1 e3f86fb306257216b53118536a9d3beabf5a5328 -- [*596ms] (slow)
+
+2025-12-30 13:12:54.647 [info] [2025-12-30 18:12:54.142] [GIT    *624ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git log --format=%x1E%H%x1D --summary -n1 e3f86fb306257216b53118536a9d3beabf5a5328^ -- main.py [*624ms] (slow)
+
+2025-12-30 13:32:10.440 [info] [2025-12-30 18:32:09.933] [GIT    *848ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git ls-files -- main.py [*848ms] (slow)
+
+2025-12-30 13:32:10.938 [info] [2025-12-30 18:32:10.894] [GIT    *960ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git blame --root --incremental -- main.py [*960ms] (slow)
+
+2025-12-30 13:32:18.197 [info] [2025-12-30 18:32:17.697] [GIT    *521ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git config --get branch.main.gk-merge-target-user [*521ms] (slow)
+[2025-12-30 18:32:17.707] [GIT    *546ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git for-each-ref --format=%1E%(refname)%1D%(objectname)%1D%(*objectname)%1D%(creatordate:iso8601)%1D%(authordate:iso8601)%1D%(subject)%1D refs/tags/ [*546ms] (slow)
+[2025-12-30 18:32:17.745] [GIT:←1 *550ms] (spawn) [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --summary -M --use-mailmap --no-min-parents -n41 main -- [*550ms] (slow)
+
+2025-12-30 20:24:21.500 [info] [2025-12-31 01:24:20.949] [GIT    *548ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git config --get-regex ^branch\..*\.gk-last-(accessed|modified)$ [*548ms] (slow)
+[2025-12-31 01:24:21.175] [GIT    *793ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ [*793ms] (slow)
+
+2025-12-31 06:36:08.812 [info] [2025-12-31 11:36:08.307] [GIT   *1056ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git config --get-regex ^branch\..*\.gk-last-(accessed|modified)$ [*1056ms] (slow)
+[2025-12-31 11:36:08.321] [GIT   *1107ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(upstream)%1D%(upstream:track)%1D%(objectname)%1D%(committerdate:iso8601)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ [*1107ms] (slow)
+
+2025-12-31 06:45:14.331 [info] [2025-12-31 11:45:13.819] P
+HttpError: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+[2025-12-31 11:45:13.819] P
+HttpError: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+[2025-12-31 11:45:13.822] P
+HttpError: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+[2025-12-31 11:45:13.823] P — Failed to get pull requests
+HttpError: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+[2025-12-31 11:45:13.824] P — Failed to get pull requests with suggestion counts
+HttpError: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+
+2025-12-31 06:45:16.680 [info] [2025-12-31 11:45:16.167] [GIT   *2556ms] [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git remote -v [*2556ms] (slow)
+[2025-12-31 11:45:16.188] [GIT:←4*2782ms] (spawn) [/Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/Volcanic-Ash-Dispersion-Module] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --summary -M --use-mailmap --no-min-parents -n41 main -- [*2782ms] (slow)
+

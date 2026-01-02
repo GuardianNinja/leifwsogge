@@ -1,0 +1,230 @@
+2025-12-31 09:08:18.383 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 73ms.
+2025-12-31 09:08:18.730 [warning] Creation of workbench contribution 'workbench.contrib.notebook' took 25ms.
+2025-12-31 09:08:18.876 [warning] Creation of workbench contribution 'mcpContextKeys' took 105ms.
+2025-12-31 09:08:18.933 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 47ms.
+2025-12-31 09:08:19.915 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-12-31 09:08:20.975 [info] Started local extension host with pid 78283.
+2025-12-31 09:08:24.674 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.prettyPrint` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.675 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.toggleSkippingFile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.675 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.addCustomBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.675 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.removeAllCustomBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.675 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.addXHRBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.676 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.removeXHRBreakpoint` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.676 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.editXHRBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.676 [info] [ms-vscode.js-debug-nightly]: Command `extension.pwa-node-debug.attachNodeProcess` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.676 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.npmScript` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.677 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.createDebuggerTerminal` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.677 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.startProfile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.677 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.stopProfile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.677 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.revealPage` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.678 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.debugLink` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.678 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.createDiagnostics` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.678 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.getDiagnosticLogs` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.678 [info] [ms-vscode.js-debug-nightly]: Command `extension.node-debug.startWithStopOnEntry` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.679 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.openEdgeDevTools` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.679 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.add` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.679 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.remove` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.679 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.removeAll` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.680 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.goToCaller` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.680 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.gotToTarget` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.680 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.enableSourceMapStepping` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.680 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.disableSourceMapStepping` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.691 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.viewRequest` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.691 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.clear` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.692 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.openBody` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.692 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.openBodyInHex` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.692 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.replayXHR` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.693 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.copyUri` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-12-31 09:08:24.778 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.codelens.npmScripts'. This property is already registered.
+2025-12-31 09:08:24.779 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.terminalOptions'. This property is already registered.
+2025-12-31 09:08:24.779 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.automaticallyTunnelRemoteServer'. This property is already registered.
+2025-12-31 09:08:24.780 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.debugByLinkOptions'. This property is already registered.
+2025-12-31 09:08:24.780 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.pickAndAttachOptions'. This property is already registered.
+2025-12-31 09:08:24.782 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.autoAttachFilter'. This property is already registered.
+2025-12-31 09:08:24.782 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.autoAttachSmartPattern'. This property is already registered.
+2025-12-31 09:08:24.782 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.breakOnConditionalError'. This property is already registered.
+2025-12-31 09:08:24.785 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.unmapMissingSources'. This property is already registered.
+2025-12-31 09:08:24.786 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.defaultRuntimeExecutable'. This property is already registered.
+2025-12-31 09:08:24.786 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.resourceRequestOptions'. This property is already registered.
+2025-12-31 09:08:24.786 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.enableNetworkView'. This property is already registered.
+2025-12-31 09:08:24.793 [warning] [redhat.vscode-yaml]: Cannot register 'redhat.telemetry.enabled'. This property is already registered.
+2025-12-31 09:08:25.006 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsBrowserBreakpoints`
+2025-12-31 09:08:25.006 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsExcludedCallers`
+2025-12-31 09:08:25.007 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsDebugNetworkTree`
+2025-12-31 09:08:31.001 [warning] [DefaultAccount] Attempt 1 to get sessions failed: Timed out waiting for authentication provider 'github' to register.
+2025-12-31 09:08:31.330 [error] [EricSia.pythonsnippets3]: Unknown language in `contributes.pythonsnippets3.language`. Provided value: django-html
+2025-12-31 09:08:31.333 [error] [EricSia.pythonsnippets3]: Unknown language in `contributes.pythonsnippets3.language`. Provided value: django-txt
+2025-12-31 09:08:31.337 [error] [EricSia.pythonsnippets3pro]: Unknown language in `contributes.pythonsnippets3pro.language`. Provided value: django-html
+2025-12-31 09:08:31.339 [error] [EricSia.pythonsnippets3pro]: Unknown language in `contributes.pythonsnippets3pro.language`. Provided value: django-txt
+2025-12-31 09:08:31.576 [info] Extension host (LocalProcess pid: 78283) is unresponsive.
+2025-12-31 09:08:32.962 [info] MCP Registry configured: https://api.mcp.github.com
+2025-12-31 09:08:33.545 [error] [Extension Host] (node:78283) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `Code Helper (Plugin) --trace-deprecation ...` to show where the warning was created)
+2025-12-31 09:08:33.590 [error] [Extension Host] (node:78283) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-12-31 09:08:33.629 [info] Extension host (LocalProcess pid: 78283) is responsive.
+2025-12-31 09:08:35.610 [error] [Extension Host] Failed to load message bundle for file /Users/leifwsogge/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10/out/extension
+2025-12-31 09:08:35.960 [error] [Extension Host] Failed to load message bundle for file /Users/leifwsogge/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10/out/extension
+2025-12-31 09:08:35.963 [error] [Extension Host] Failed to load message bundle for file /Users/leifwsogge/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10/out/extension
+2025-12-31 09:08:35.966 [error] [Extension Host] Failed to load message bundle for file /Users/leifwsogge/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10/out/extension
+2025-12-31 09:08:35.968 [error] [Extension Host] Failed to load message bundle for file /Users/leifwsogge/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10/out/extension
+2025-12-31 09:08:35.969 [error] [Extension Host] Failed to load message bundle for file /Users/leifwsogge/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10/out/extension
+2025-12-31 09:08:35.971 [error] [Extension Host] Failed to load message bundle for file /Users/leifwsogge/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10/out/extension
+2025-12-31 09:08:35.973 [error] [Extension Host] Failed to load message bundle for file /Users/leifwsogge/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.10/out/extension
+2025-12-31 09:08:36.075 [error] Failed to fetch MCP registry providers Server returned 404
+2025-12-31 09:08:40.835 [info] [perf] Render performance baseline is 88ms
+2025-12-31 09:08:41.814 [error] chatParticipant must be declared in package.json: claude-code
+2025-12-31 09:08:44.606 [info] Settings Sync: Account status changed from uninitialized to available
+2025-12-31 09:08:44.703 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:572:11858
+2025-12-31 09:08:46.622 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 09:08:52.037 [error] Unknown agent: "copilot-swe-agent"
+2025-12-31 10:13:50.730 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 11:19:33.573 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 12:38:39.175 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 14:39:45.275 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 17:39:07.666 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 22:54:22.164 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-31 23:54:46.099 [info] Extension host (LocalProcess pid: 78283) is unresponsive.
+2025-12-31 23:54:46.121 [info] Extension host (LocalProcess pid: 78283) is responsive.
+2025-12-31 23:54:49.803 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 02:12:57.589 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 03:14:11.137 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 04:15:23.866 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 05:16:36.356 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 06:17:53.583 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 10:05:18.711 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 10:06:01.750 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 12:42:01.166 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 14:47:12.522 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 20:30:01.847 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 21:22:39.296 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:572:11858
+2026-01-01 21:27:27.073 [error] [LanguageModelToolsService#invokeTool] Error from tool copilot_applyPatch with parameters {"explanation":"Remove markdown and backtick expressions from the Python file to fix syntax errors and unused expressions.","input":"*** Begin Patch\n*** Update File: /Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system/reference/captains_secure_link_module_v0_1.py\n@@\n-````python\n----\n-\n-### `reference/captains_secure_link_module_v0_1.py`\n-\n-```python # pyright: ignore[reportUndefinedVariable]\n+\"\"\"Captain's Secure Link Module v0.1\n+Reference implementation for:\n+- SecureMessage format\n+- Signing and verification\n+- Basic routing policy abstraction\n+\"\"\"\n@@\n-```python # pyright: ignore[reportUndefinedVariable]\n+ \n*** End Patch\n"}:
+Canceled: Canceled: Canceled
+	at vQ.$invokeTool (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:194:3261)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-01-01 21:32:13.236 [error] [LanguageModelToolsService#invokeTool] Error from tool copilot_applyPatch with parameters {"explanation":"Remove markdown-style code block and inline backticks from the Python file to fix syntax errors.","input":"*** Begin Patch\n*** Update File: /Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system/reference/captains_secure_link_module_v0_1.py\n@@\n-````python\n---- # pyright: ignore[reportUnusedExpression]\n-\n-### `reference/captains_secure_link_module_v0_1.py`\n-\n-```python # pyright: ignore[reportUnusedExpression, reportUndefinedVariable]\n-\"\"\"\n-Captain's Secure Link Module v0.1\n-Reference implementation for:\n-- SecureMessage format\n-- Signing and verification\n-- Basic routing policy abstraction\n-\"\"\"\n+\n+# pyright: ignore[reportUnusedExpression]\n+\n+# reference/captains_secure_link_module_v0_1.py\n+\n+\"\"\"\n+Captain's Secure Link Module v0.1\n+Reference implementation for:\n+- SecureMessage format\n+- Signing and verification\n+- Basic routing policy abstraction\n+\"\"\"\n@@\n-````\n+\n*** End Patch"}:
+Tool called for unknown chat session: Error: Tool called for unknown chat session
+    at Mft.invokeTool (vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2257:3889)
+    at $Xt.$invokeTool (vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:517:17824)
+    at zRt.S (vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3894:40815)
+    at zRt.Q (vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3894:40593)
+    at zRt.M (vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3894:39643)
+    at zRt.L (vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3894:38782)
+    at Sce.value (vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3894:37574)
+    at E.C (vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:29:2349)
+    at E.fire (vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:29:2568)
+    at Bj.fire (vscode-file://vscode-app/private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:567:10350)
+2026-01-01 21:33:28.672 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 22:19:17.248 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 23:06:05.985 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 23:11:09.522 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 00:30:58.201 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 01:31:47.134 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 01:31:52.370 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 02:33:12.260 [info] Extension host (LocalProcess pid: 78283) is unresponsive.
+2026-01-02 02:33:12.903 [info] Extension host (LocalProcess pid: 78283) is responsive.
+2026-01-02 02:33:12.904 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-01-02 02:33:22.726 [info] Extension host (LocalProcess pid: 78283) is unresponsive.
+2026-01-02 03:34:20.622 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-01-02 03:34:20.683 [info] Extension host (LocalProcess pid: 78283) is responsive.
+2026-01-02 03:34:20.690 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-01-02 03:34:25.949 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 04:35:18.850 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 05:36:32.265 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 06:34:29.644 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 06:39:33.311 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 06:44:36.553 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 06:49:39.836 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 07:02:53.392 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 07:07:57.186 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 07:13:00.521 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 07:18:04.175 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 07:23:07.602 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 07:28:11.265 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 07:33:15.168 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 07:38:18.642 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 07:43:21.737 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 07:48:24.972 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 07:53:28.416 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 07:58:32.006 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 08:03:35.381 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 08:08:40.093 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 08:13:43.284 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 08:18:47.417 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 08:23:52.127 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 08:28:59.193 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 08:30:59.683 [info] Extension host (LocalProcess pid: 78283) is unresponsive.
+2026-01-02 08:31:00.046 [info] Extension host (LocalProcess pid: 78283) is responsive.
+2026-01-02 08:31:00.136 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-01-02 08:31:04.781 [info] Extension host (LocalProcess pid: 78283) is unresponsive.
+2026-01-02 08:31:24.854 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-01-02 08:31:25.368 [info] Extension host (LocalProcess pid: 78283) is responsive.
+2026-01-02 08:34:45.520 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 08:39:53.168 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 08:44:56.592 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 08:50:01.403 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 08:55:05.901 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 09:00:08.917 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 09:05:13.092 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 09:10:17.342 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 09:15:23.061 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 09:20:29.230 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 09:25:33.206 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 09:30:42.127 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 09:35:51.946 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 09:41:01.499 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 09:46:08.811 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 09:51:14.792 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 09:56:19.995 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 10:01:25.090 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 10:06:29.544 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 10:11:34.139 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 10:16:40.357 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 10:21:44.683 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 10:26:49.326 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 10:32:08.364 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 10:37:13.272 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 10:42:18.399 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 10:47:23.752 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 10:52:28.969 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 10:57:34.009 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 11:02:37.053 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 11:07:41.941 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 11:12:46.326 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 11:17:50.705 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 11:22:55.196 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 11:27:59.799 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 11:33:04.419 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 11:38:08.781 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 11:43:13.273 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 11:48:17.839 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 11:53:22.426 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 11:58:25.692 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 12:03:30.327 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 12:08:35.111 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 12:13:39.852 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 12:18:44.586 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 12:23:48.845 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 12:28:53.171 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 12:33:57.693 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 12:39:02.246 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 12:44:06.544 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 12:49:11.021 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 12:54:14.660 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 12:59:18.855 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 13:04:22.814 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 13:09:27.118 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 13:14:31.937 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 13:19:37.022 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 13:24:45.618 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 13:29:49.232 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 13:34:53.594 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 13:39:58.729 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 13:45:03.986 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 13:50:08.002 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 13:55:11.595 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 14:00:16.761 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 14:15:39.962 [error] [LanguageModelToolsService#invokeTool] Error from tool copilot_applyPatch with parameters {"explanation":"Remove invalid markdown and code block syntax at the top of the file to fix 'Expected expression' error.","input":"*** Begin Patch\n*** Update File: /Users/leifwsogge/Library/Mobile Documents/com~apple~CloudDocs/Space LEAF Corp.global.secure.net/planetary-sensing-system/reference/captains_secure_link_module_v0_1.py\n@@\n---- # pyright: ignore[reportUnusedExpression]\n-\n-### `reference/captains_secure_link_module_v0_1.py`\n-\n-```python # pyright: ignore[reportUnusedExpression, reportUndefinedVariable]\n+\n@@\n-````\n+\n*** End Patch"}:
+Canceled: Canceled: Canceled
+	at vQ.$invokeTool (file:///private/var/folders/lg/wzwvdbzx2d764vxmppcknqrm0000gn/T/AppTranslocation/05ED27A4-F436-43CF-809E-C43A2354BBA4/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:194:3261)
